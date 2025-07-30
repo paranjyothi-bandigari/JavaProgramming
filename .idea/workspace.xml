@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f27df139-dd01-4a24-923f-3be607a4f539" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Strings/FindLastuniqueCharacter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Strings/FirstNonRepeatedCharacter.java" afterDir="false" />
+    <list default="true" id="f27df139-dd01-4a24-923f-3be607a4f539" name="Changes" comment="new files added">
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Strings/PrintDuplicateCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Strings/PrintduplicateCharacterswithCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Strings/RemoveDuplicateCharactersFromString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Strings/countOccuranceOfEachCharacterInString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JavaProgramming/Strings/RevString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Strings/RevString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JavaProgramming/Strings/ReverseOfString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Strings/ReverseOfString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +53,12 @@
   "keyToString": {
     "Application.FindLastuniqueCharacter.executor": "Run",
     "Application.FirstNonRepeatedCharacter.executor": "Run",
+    "Application.PrintDuplicateCharacters.executor": "Run",
+    "Application.PrintduplicateCharacterswithCount.executor": "Run",
+    "Application.RemoveDuplicateCharactersFromString.executor": "Run",
     "Application.RevString.executor": "Run",
     "Application.ReverseOfString.executor": "Run",
+    "Application.countOccuranceOfEachCharacterInString.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -63,7 +66,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FindLastuniqueCharacter">
+  <component name="RunManager" selected="Application.PrintduplicateCharacterswithCount">
     <configuration name="FindLastuniqueCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaProgramming.Strings.FindLastuniqueCharacter" />
       <module name="JavaProgramming" />
@@ -77,8 +80,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstNonRepeatedCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Strings.FirstNonRepeatedCharacter" />
+    <configuration name="PrintDuplicateCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Strings.PrintDuplicateCharacters" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -90,8 +93,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RevString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Strings.RevString" />
+    <configuration name="PrintduplicateCharacterswithCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Strings.PrintduplicateCharacterswithCount" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -103,8 +106,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseOfString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Strings.ReverseOfString" />
+    <configuration name="RemoveDuplicateCharactersFromString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Strings.RemoveDuplicateCharactersFromString" />
+      <module name="JavaProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaProgramming.Strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="countOccuranceOfEachCharacterInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Strings.countOccuranceOfEachCharacterInString" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -118,10 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrintduplicateCharacterswithCount" />
+        <item itemvalue="Application.PrintDuplicateCharacters" />
+        <item itemvalue="Application.RemoveDuplicateCharactersFromString" />
+        <item itemvalue="Application.countOccuranceOfEachCharacterInString" />
         <item itemvalue="Application.FindLastuniqueCharacter" />
-        <item itemvalue="Application.FirstNonRepeatedCharacter" />
-        <item itemvalue="Application.RevString" />
-        <item itemvalue="Application.ReverseOfString" />
       </list>
     </recent_temporary>
   </component>
@@ -134,6 +151,19 @@
       <option name="presentableId" value="Default" />
       <updated>1753131299283</updated>
     </task>
+    <task id="LOCAL-00001" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1753830469147</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1753830469147</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new files added" />
+    <option name="LAST_COMMIT_MESSAGE" value="new files added" />
   </component>
 </project>

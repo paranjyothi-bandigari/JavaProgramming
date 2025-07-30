@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f27df139-dd01-4a24-923f-3be607a4f539" name="Changes" comment="new files added">
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Strings/CountWordsInString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Strings/FirstLetterOfEachWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Strings/HighestOccuranceOfCharacter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Strings/RemoveCharacterfromString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Strings/RemoveSpecialCharactersfromString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Strings/RemoveWhiteSpacesFromString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Strings/FactorialOfNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Strings/FizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Strings/Palandrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Strings/RemoveallLeadingZeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Strings/VowelsConsonents.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,18 +53,23 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.CountWordsInString.executor": "Run",
+    "Application.FactorialOfNumber.executor": "Run",
     "Application.FindLastuniqueCharacter.executor": "Run",
     "Application.FirstLetterOfEachWord.executor": "Run",
     "Application.FirstNonRepeatedCharacter.executor": "Run",
+    "Application.FizzBuzz.executor": "Run",
     "Application.HighestOccuranceOfCharacter.executor": "Run",
+    "Application.Palandrome.executor": "Run",
     "Application.PrintDuplicateCharacters.executor": "Run",
     "Application.PrintduplicateCharacterswithCount.executor": "Run",
     "Application.RemoveCharacterfromString.executor": "Run",
     "Application.RemoveDuplicateCharactersFromString.executor": "Run",
     "Application.RemoveSpecialCharactersfromString.executor": "Run",
     "Application.RemoveWhiteSpacesFromString.executor": "Run",
+    "Application.RemoveallLeadingZeros.executor": "Run",
     "Application.RevString.executor": "Run",
     "Application.ReverseOfString.executor": "Run",
+    "Application.VowelsConsonents.executor": "Run",
     "Application.countOccuranceOfEachCharacterInString.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -74,9 +78,9 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FirstLetterOfEachWord">
-    <configuration name="CountWordsInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Strings.CountWordsInString" />
+  <component name="RunManager" selected="Application.FizzBuzz">
+    <configuration name="FactorialOfNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Strings.FactorialOfNumber" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -88,8 +92,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstLetterOfEachWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Strings.FirstLetterOfEachWord" />
+    <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Strings.FizzBuzz" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -101,8 +105,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintDuplicateCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Strings.PrintDuplicateCharacters" />
+    <configuration name="Palandrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Strings.Palandrome" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -114,8 +118,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveSpecialCharactersfromString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Strings.RemoveSpecialCharactersfromString" />
+    <configuration name="RemoveallLeadingZeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Strings.RemoveallLeadingZeros" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -127,8 +131,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveWhiteSpacesFromString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Strings.RemoveWhiteSpacesFromString" />
+    <configuration name="VowelsConsonents" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Strings.VowelsConsonents" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -142,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FirstLetterOfEachWord" />
-        <item itemvalue="Application.PrintDuplicateCharacters" />
-        <item itemvalue="Application.CountWordsInString" />
-        <item itemvalue="Application.RemoveSpecialCharactersfromString" />
-        <item itemvalue="Application.RemoveWhiteSpacesFromString" />
+        <item itemvalue="Application.FizzBuzz" />
+        <item itemvalue="Application.FactorialOfNumber" />
+        <item itemvalue="Application.VowelsConsonents" />
+        <item itemvalue="Application.RemoveallLeadingZeros" />
+        <item itemvalue="Application.Palandrome" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +179,23 @@
       <option name="project" value="LOCAL" />
       <updated>1753909639830</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1753912620669</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1753912620669</updated>
+    </task>
+    <task id="LOCAL-00004" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1753912684330</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1753912684330</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

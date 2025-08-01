@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f27df139-dd01-4a24-923f-3be607a4f539" name="Changes" comment="new files added">
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Strings/PalandromeString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Strings/ReverseEachWordOfString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Strings/ReverseWordsInString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Strings/ConcatTwoStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Strings/CopyStringtoAnother.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Strings/SwapFirstandLastCharOfString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JavaProgramming/Strings/ReplaceCharacterInString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Strings/ReplaceCharacterInString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +53,8 @@
     "Application.Anagram.executor": "Run",
     "Application.CheckStringContainDigits.executor": "Run",
     "Application.CheckStringContainSpecialCharacter.executor": "Run",
+    "Application.ConcatTwoStrings.executor": "Run",
+    "Application.CopyStringtoAnother.executor": "Run",
     "Application.CountCapitalSmallLetters.executor": "Run",
     "Application.CountWordsInString.executor": "Run",
     "Application.FactorialOfNumber.executor": "Run",
@@ -85,14 +86,26 @@
     "Application.reverseStringwithWords.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ReverseWordsInString">
-    <configuration name="OccuranceofGivenCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Strings.OccuranceofGivenCharacter" />
+  <component name="RunManager" selected="Application.ConcatTwoStrings">
+    <configuration name="ConcatTwoStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Strings.ConcatTwoStrings" />
+      <module name="JavaProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaProgramming.Strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CopyStringtoAnother" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Strings.CopyStringtoAnother" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -106,19 +119,6 @@
     </configuration>
     <configuration name="PalandromeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaProgramming.Strings.PalandromeString" />
-      <module name="JavaProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaProgramming.Strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReplaceCharacterInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Strings.ReplaceCharacterInString" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -158,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConcatTwoStrings" />
+        <item itemvalue="Application.CopyStringtoAnother" />
         <item itemvalue="Application.ReverseWordsInString" />
         <item itemvalue="Application.ReverseEachWordOfString" />
         <item itemvalue="Application.PalandromeString" />
-        <item itemvalue="Application.ReplaceCharacterInString" />
-        <item itemvalue="Application.OccuranceofGivenCharacter" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +247,23 @@
       <option name="project" value="LOCAL" />
       <updated>1754072487122</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1754074854634</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1754074854634</updated>
+    </task>
+    <task id="LOCAL-00011" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1754074922843</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1754074922843</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

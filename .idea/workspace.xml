@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f27df139-dd01-4a24-923f-3be607a4f539" name="Changes" comment="new files added">
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Arrays/Anagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Strings/ReplaceCharacterInString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JavaProgramming/Strings/Sortstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Strings/Sortstring.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +59,7 @@
     "Application.FirstNonRepeatedCharacter.executor": "Run",
     "Application.FizzBuzz.executor": "Run",
     "Application.HighestOccuranceOfCharacter.executor": "Run",
+    "Application.OccuranceofGivenCharacter.executor": "Run",
     "Application.Palandrome.executor": "Run",
     "Application.PercentageOfVowelsConsonents.executor": "Run",
     "Application.PrintDuplicateCharacters.executor": "Run",
@@ -69,6 +69,7 @@
     "Application.RemoveSpecialCharactersfromString.executor": "Run",
     "Application.RemoveWhiteSpacesFromString.executor": "Run",
     "Application.RemoveallLeadingZeros.executor": "Run",
+    "Application.ReplaceCharacterInString.executor": "Run",
     "Application.RevString.executor": "Run",
     "Application.ReverseOfString.executor": "Run",
     "Application.Sortstring.executor": "Run",
@@ -83,7 +84,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.OccuranceofGivenCharacter">
+  <component name="RunManager" selected="Application.ReplaceCharacterInString">
     <configuration name="Anagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaProgramming.Arrays.Anagram" />
       <module name="JavaProgramming" />
@@ -110,8 +111,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PercentageOfVowelsConsonents" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Strings.PercentageOfVowelsConsonents" />
+    <configuration name="ReplaceCharacterInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Strings.ReplaceCharacterInString" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -151,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReplaceCharacterInString" />
         <item itemvalue="Application.OccuranceofGivenCharacter" />
         <item itemvalue="Application.countOccuranceOfEachCharacterInString" />
         <item itemvalue="Application.Anagram" />
         <item itemvalue="Application.Sortstring" />
-        <item itemvalue="Application.PercentageOfVowelsConsonents" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +225,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754002717913</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1754005324380</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1754005324380</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

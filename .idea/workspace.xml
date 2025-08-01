@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f27df139-dd01-4a24-923f-3be607a4f539" name="Changes" comment="new files added">
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Strings/ConcatTwoStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Strings/CopyStringtoAnother.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Strings/SwapFirstandLastCharOfString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Arrays/FirstHighestNumberInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Arrays/PermutationProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Arrays/SecondHighestNumberInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Arrays/secondLowestnumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Strings/RemoveDuplicateElementsChar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JavaProgramming/Strings/SwapFirstandLastCharOfString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Strings/SwapFirstandLastCharOfString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,21 +28,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "paranjyothi-bandigari"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;paranjyothi-bandigari&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/paranjyothi-bandigari/JavaProgramming.git",
-    "accountId": "da015dfe-dbe5-48f3-b9bb-47d7f67e0556"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/paranjyothi-bandigari/JavaProgramming.git&quot;,
+    &quot;accountId&quot;: &quot;da015dfe-dbe5-48f3-b9bb-47d7f67e0556&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="30CUxpKSWA2moESyIICVLpmVVzr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -59,6 +62,7 @@
     "Application.CountWordsInString.executor": "Run",
     "Application.FactorialOfNumber.executor": "Run",
     "Application.FindLastuniqueCharacter.executor": "Run",
+    "Application.FirstHighestNumberInArray.executor": "Run",
     "Application.FirstLetterOfEachWord.executor": "Run",
     "Application.FirstNonRepeatedCharacter.executor": "Run",
     "Application.FizzBuzz.executor": "Run",
@@ -71,6 +75,7 @@
     "Application.PrintduplicateCharacterswithCount.executor": "Run",
     "Application.RemoveCharacterfromString.executor": "Run",
     "Application.RemoveDuplicateCharactersFromString.executor": "Run",
+    "Application.RemoveDuplicateElementsChar.executor": "Run",
     "Application.RemoveSpecialCharactersfromString.executor": "Run",
     "Application.RemoveWhiteSpacesFromString.executor": "Run",
     "Application.RemoveallLeadingZeros.executor": "Run",
@@ -78,21 +83,37 @@
     "Application.RevString.executor": "Run",
     "Application.ReverseOfString.executor": "Run",
     "Application.ReverseWordsInString.executor": "Run",
+    "Application.SecondHighestNumberInArray.executor": "Run",
     "Application.Sortstring.executor": "Run",
+    "Application.SwapFirstandLastCharOfString.executor": "Run",
     "Application.VowelsConsonents.executor": "Run",
     "Application.countCharactersDigitsSpecialChars.executor": "Run",
     "Application.countConsonentsVowels.executor": "Run",
     "Application.countOccuranceOfEachCharacterInString.executor": "Run",
     "Application.reverseStringwithWords.executor": "Run",
+    "Application.secondLowestnumber.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ConcatTwoStrings">
-    <configuration name="ConcatTwoStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Strings.ConcatTwoStrings" />
+  <component name="RunManager" selected="Application.secondLowestnumber">
+    <configuration name="FirstHighestNumberInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Arrays.FirstHighestNumberInArray" />
+      <module name="JavaProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaProgramming.Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveDuplicateCharactersFromString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Strings.RemoveDuplicateCharactersFromString" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -104,8 +125,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CopyStringtoAnother" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Strings.CopyStringtoAnother" />
+    <configuration name="RemoveDuplicateElementsChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Strings.RemoveDuplicateElementsChar" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -117,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalandromeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Strings.PalandromeString" />
+    <configuration name="SecondHighestNumberInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Arrays.SecondHighestNumberInArray" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaProgramming.Strings.*" />
+          <option name="PATTERN" value="JavaProgramming.Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,25 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseEachWordOfString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Strings.ReverseEachWordOfString" />
+    <configuration name="secondLowestnumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Arrays.secondLowestnumber" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaProgramming.Strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseWordsInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Strings.ReverseWordsInString" />
-      <module name="JavaProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaProgramming.Strings.*" />
+          <option name="PATTERN" value="JavaProgramming.Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConcatTwoStrings" />
-        <item itemvalue="Application.CopyStringtoAnother" />
-        <item itemvalue="Application.ReverseWordsInString" />
-        <item itemvalue="Application.ReverseEachWordOfString" />
-        <item itemvalue="Application.PalandromeString" />
+        <item itemvalue="Application.secondLowestnumber" />
+        <item itemvalue="Application.FirstHighestNumberInArray" />
+        <item itemvalue="Application.SecondHighestNumberInArray" />
+        <item itemvalue="Application.RemoveDuplicateCharactersFromString" />
+        <item itemvalue="Application.RemoveDuplicateElementsChar" />
       </list>
     </recent_temporary>
   </component>
@@ -263,7 +271,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754074922843</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1754078764360</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1754078764360</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

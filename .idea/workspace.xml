@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f27df139-dd01-4a24-923f-3be607a4f539" name="Changes" comment="new files added">
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Strings/ReplaceCharacterInString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Strings/PalandromeString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Strings/ReverseEachWordOfString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Strings/ReverseWordsInString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JavaProgramming/Strings/ReplaceCharacterInString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Strings/ReplaceCharacterInString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +64,7 @@
     "Application.HighestOccuranceOfCharacter.executor": "Run",
     "Application.OccuranceofGivenCharacter.executor": "Run",
     "Application.Palandrome.executor": "Run",
+    "Application.PalandromeString.executor": "Run",
     "Application.PercentageOfVowelsConsonents.executor": "Run",
     "Application.PrintDuplicateCharacters.executor": "Run",
     "Application.PrintduplicateCharacterswithCount.executor": "Run",
@@ -72,11 +76,13 @@
     "Application.ReplaceCharacterInString.executor": "Run",
     "Application.RevString.executor": "Run",
     "Application.ReverseOfString.executor": "Run",
+    "Application.ReverseWordsInString.executor": "Run",
     "Application.Sortstring.executor": "Run",
     "Application.VowelsConsonents.executor": "Run",
     "Application.countCharactersDigitsSpecialChars.executor": "Run",
     "Application.countConsonentsVowels.executor": "Run",
     "Application.countOccuranceOfEachCharacterInString.executor": "Run",
+    "Application.reverseStringwithWords.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -84,13 +90,13 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ReplaceCharacterInString">
-    <configuration name="Anagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Arrays.Anagram" />
+  <component name="RunManager" selected="Application.ReverseEachWordOfString">
+    <configuration name="OccuranceofGivenCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Strings.OccuranceofGivenCharacter" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaProgramming.Arrays.*" />
+          <option name="PATTERN" value="JavaProgramming.Strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,8 +104,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OccuranceofGivenCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Strings.OccuranceofGivenCharacter" />
+    <configuration name="PalandromeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Strings.PalandromeString" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -124,8 +130,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sortstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Strings.Sortstring" />
+    <configuration name="ReverseEachWordOfString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Strings.ReverseEachWordOfString" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -137,8 +143,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="countOccuranceOfEachCharacterInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Strings.countOccuranceOfEachCharacterInString" />
+    <configuration name="ReverseWordsInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Strings.ReverseWordsInString" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -152,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseEachWordOfString" />
+        <item itemvalue="Application.ReverseWordsInString" />
+        <item itemvalue="Application.PalandromeString" />
         <item itemvalue="Application.ReplaceCharacterInString" />
         <item itemvalue="Application.OccuranceofGivenCharacter" />
-        <item itemvalue="Application.countOccuranceOfEachCharacterInString" />
-        <item itemvalue="Application.Anagram" />
-        <item itemvalue="Application.Sortstring" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +239,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754005324380</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1754072487122</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1754072487122</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

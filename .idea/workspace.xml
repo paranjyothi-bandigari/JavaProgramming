@@ -90,7 +90,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ReverseEachWordOfString">
+  <component name="RunManager" selected="Application.ReverseWordsInString">
     <configuration name="OccuranceofGivenCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaProgramming.Strings.OccuranceofGivenCharacter" />
       <module name="JavaProgramming" />
@@ -158,8 +158,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReverseEachWordOfString" />
         <item itemvalue="Application.ReverseWordsInString" />
+        <item itemvalue="Application.ReverseEachWordOfString" />
         <item itemvalue="Application.PalandromeString" />
         <item itemvalue="Application.ReplaceCharacterInString" />
         <item itemvalue="Application.OccuranceofGivenCharacter" />

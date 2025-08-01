@@ -11,6 +11,7 @@ public class ReverseWordsInString {
                 reversed+=" ";
             }
         }
+        System.out.println(input);
         System.out.println(reversed);
     }
 }

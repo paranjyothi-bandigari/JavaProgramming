@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f27df139-dd01-4a24-923f-3be607a4f539" name="Changes" comment="new files added" />
+    <list default="true" id="f27df139-dd01-4a24-923f-3be607a4f539" name="Changes" comment="new files added">
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Arrays/ArrayInReverseOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Arrays/AssendingOrderOfArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Arrays/DuplicateElementsInArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,12 +51,15 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Anagram.executor": "Run",
+    "Application.ArrayInReverseOrder.executor": "Run",
+    "Application.AssendingOrderOfArray.executor": "Run",
     "Application.CheckStringContainDigits.executor": "Run",
     "Application.CheckStringContainSpecialCharacter.executor": "Run",
     "Application.ConcatTwoStrings.executor": "Run",
     "Application.CopyStringtoAnother.executor": "Run",
     "Application.CountCapitalSmallLetters.executor": "Run",
     "Application.CountWordsInString.executor": "Run",
+    "Application.DuplicateElementsInArray.executor": "Run",
     "Application.FactorialOfNumber.executor": "Run",
     "Application.FindLastuniqueCharacter.executor": "Run",
     "Application.FirstHighestNumberInArray.executor": "Run",
@@ -77,6 +85,7 @@
     "Application.ReverseWordsInString.executor": "Run",
     "Application.SecondHighestNumberInArray.executor": "Run",
     "Application.Sortstring.executor": "Run",
+    "Application.SumOfArrayElements.executor": "Run",
     "Application.SwapFirstandLastCharOfString.executor": "Run",
     "Application.VowelsConsonents.executor": "Run",
     "Application.countCharactersDigitsSpecialChars.executor": "Run",
@@ -90,9 +99,9 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SumOfArrayElements">
-    <configuration name="FirstHighestNumberInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Arrays.FirstHighestNumberInArray" />
+  <component name="RunManager" selected="Application.DuplicateElementsInArray">
+    <configuration name="ArrayInReverseOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Arrays.ArrayInReverseOrder" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -104,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicateCharactersFromString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Strings.RemoveDuplicateCharactersFromString" />
+    <configuration name="AssendingOrderOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Arrays.AssendingOrderOfArray" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaProgramming.Strings.*" />
+          <option name="PATTERN" value="JavaProgramming.Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,8 +126,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondHighestNumberInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Arrays.SecondHighestNumberInArray" />
+    <configuration name="DuplicateElementsInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Arrays.DuplicateElementsInArray" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -158,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DuplicateElementsInArray" />
+        <item itemvalue="Application.ArrayInReverseOrder" />
+        <item itemvalue="Application.AssendingOrderOfArray" />
         <item itemvalue="Application.SumOfArrayElements" />
         <item itemvalue="Application.secondLowestnumber" />
-        <item itemvalue="Application.FirstHighestNumberInArray" />
-        <item itemvalue="Application.SecondHighestNumberInArray" />
-        <item itemvalue="Application.RemoveDuplicateCharactersFromString" />
       </list>
     </recent_temporary>
   </component>
@@ -287,7 +296,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754425737900</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1754428727819</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1754428727819</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

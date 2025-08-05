@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f27df139-dd01-4a24-923f-3be607a4f539" name="Changes" comment="new files added">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JavaProgramming/Arrays/secondLowestnumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Arrays/secondLowestnumber.java" afterDir="false" />
-    </list>
+    <list default="true" id="f27df139-dd01-4a24-923f-3be607a4f539" name="Changes" comment="new files added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,7 +90,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.secondLowestnumber">
+  <component name="RunManager" selected="Application.SumOfArrayElements">
     <configuration name="FirstHighestNumberInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaProgramming.Arrays.FirstHighestNumberInArray" />
       <module name="JavaProgramming" />
@@ -120,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicateElementsChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Strings.RemoveDuplicateElementsChar" />
+    <configuration name="SecondHighestNumberInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Arrays.SecondHighestNumberInArray" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaProgramming.Strings.*" />
+          <option name="PATTERN" value="JavaProgramming.Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,8 +130,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondHighestNumberInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Arrays.SecondHighestNumberInArray" />
+    <configuration name="SumOfArrayElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Arrays.SumOfArrayElements" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -161,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SumOfArrayElements" />
         <item itemvalue="Application.secondLowestnumber" />
         <item itemvalue="Application.FirstHighestNumberInArray" />
         <item itemvalue="Application.SecondHighestNumberInArray" />
         <item itemvalue="Application.RemoveDuplicateCharactersFromString" />
-        <item itemvalue="Application.RemoveDuplicateElementsChar" />
       </list>
     </recent_temporary>
   </component>
@@ -282,7 +279,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754080370674</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1754425737899</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1754425737900</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

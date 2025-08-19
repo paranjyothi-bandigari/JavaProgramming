@@ -1,5 +1,5 @@
 package JavaProgramming.Arrays;
-//sorting
+//sorting numbers
 public class ArrayInReverseOrder {
     public static void main(String[] args) {
         int[] numbers = {12, 34, 10, 1};

@@ -1,7 +1,7 @@
 package JavaProgramming.Arrays;
 
 import java.util.Arrays;
-
+//assending order od array
 public class AssendingOrderOfArray {
     public static void main(String[] args) {
         int[] numbers = {12, 34, 10, 1};

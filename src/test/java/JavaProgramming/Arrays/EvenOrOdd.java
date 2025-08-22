@@ -1,5 +1,5 @@
 package JavaProgramming.Arrays;
-
+//Even ar odd
 public class EvenOrOdd {
     public static void main(String[] args) {
         int[] numbers = {1, 2, 3, 4, 5};

@@ -5,12 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f27df139-dd01-4a24-923f-3be607a4f539" name="Changes" comment="new files added">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JavaProgramming/Arrays/Anagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Arrays/Anagram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JavaProgramming/Arrays/ArrayInReverseOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Arrays/ArrayInReverseOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JavaProgramming/Arrays/AssendingOrderOfArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Arrays/AssendingOrderOfArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JavaProgramming/Arrays/DuplicateElementsInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Arrays/DuplicateElementsInArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JavaProgramming/Arrays/EvenOrOdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Arrays/EvenOrOdd.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/JavaProgramming/Arrays/FirstHighestNumberInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Arrays/FirstHighestNumberInArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -380,7 +374,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755803582426</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1755899409405</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1755899409405</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

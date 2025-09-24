@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f27df139-dd01-4a24-923f-3be607a4f539" name="Changes" comment="new files added">
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Lists/IntList2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Lists/IntList3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JavaProgramming/Lists/IntList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Lists/IntList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JavaProgramming/Lists/revList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Lists/revList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +93,7 @@
     "Application.countCharactersDigitsSpecialChars.executor": "Run",
     "Application.countConsonentsVowels.executor": "Run",
     "Application.countOccuranceOfEachCharacterInString.executor": "Run",
+    "Application.revList.executor": "Run",
     "Application.reverseStringwithWords.executor": "Run",
     "Application.secondLowestnumber.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
@@ -103,22 +102,9 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.IntList3">
+  <component name="RunManager" selected="Application.revList">
     <configuration name="ArrayInReverseOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaProgramming.Arrays.ArrayInReverseOrder" />
-      <module name="JavaProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaProgramming.Arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EvenOrOdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Arrays.EvenOrOdd" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -169,13 +155,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="revList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Lists.revList" />
+      <module name="JavaProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaProgramming.Lists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.revList" />
         <item itemvalue="Application.IntList3" />
         <item itemvalue="Application.IntList2" />
         <item itemvalue="Application.IntList" />
         <item itemvalue="Application.ArrayInReverseOrder" />
-        <item itemvalue="Application.EvenOrOdd" />
       </list>
     </recent_temporary>
   </component>
@@ -452,7 +451,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758747350930</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1758749825666</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1758749825666</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

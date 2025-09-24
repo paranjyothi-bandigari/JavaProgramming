@@ -26,12 +26,5 @@ public class IntList {
                 System.out.println(num+"is either equal to 2 or odd");
             }
         }
-
-
-
-
-
-
-
     }
 }

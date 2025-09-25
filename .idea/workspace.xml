@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f27df139-dd01-4a24-923f-3be607a4f539" name="Changes" comment="new files added">
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/regexPatternMatch/RegexwithMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/regexPatternMatch/StringPatternMatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/regexPatternMatch/Stringmatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/regexPatternMatch/onelineMatcher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JavaProgramming/regexPatternMatch/RegexwithMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/regexPatternMatch/RegexwithMethod.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +81,7 @@
     "Application.PercentageOfVowelsConsonents.executor": "Run",
     "Application.PrintDuplicateCharacters.executor": "Run",
     "Application.PrintduplicateCharacterswithCount.executor": "Run",
+    "Application.RegexwithMethod.executor": "Run",
     "Application.RemoveCharacterfromString.executor": "Run",
     "Application.RemoveDuplicateCharactersFromString.executor": "Run",
     "Application.RemoveDuplicateElementsChar.executor": "Run",
@@ -519,7 +517,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758829489546</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1758832478173</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1758832478173</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

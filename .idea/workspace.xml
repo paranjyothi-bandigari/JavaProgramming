@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f27df139-dd01-4a24-923f-3be607a4f539" name="Changes" comment="new files added">
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Collections/MapLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Collections/MapHashmap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JavaProgramming/Collections/MapLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Collections/MapLoop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +70,8 @@
     "Application.IntList.executor": "Run",
     "Application.IntList2.executor": "Run",
     "Application.IntList3.executor": "Run",
+    "Application.MapHashmap.executor": "Run",
+    "Application.MapLoop.executor": "Run",
     "Application.OccuranceofGivenCharacter.executor": "Run",
     "Application.Palandrome.executor": "Run",
     "Application.PalandromeString.executor": "Run",
@@ -101,20 +105,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MapLoop">
-    <configuration name="IntList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Lists.IntList" />
-      <module name="JavaProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaProgramming.Lists.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MapHashmap">
     <configuration name="IntList2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaProgramming.Lists.IntList2" />
       <module name="JavaProgramming" />
@@ -134,6 +125,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="JavaProgramming.Lists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapHashmap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Collections.MapHashmap" />
+      <module name="JavaProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaProgramming.Collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MapHashmap" />
         <item itemvalue="Application.MapLoop" />
         <item itemvalue="Application.revList" />
         <item itemvalue="Application.IntList3" />
         <item itemvalue="Application.IntList2" />
-        <item itemvalue="Application.IntList" />
       </list>
     </recent_temporary>
   </component>
@@ -466,7 +470,23 @@
       <option name="project" value="LOCAL" />
       <updated>1758750356735</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1758826727460</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1758826727460</updated>
+    </task>
+    <task id="LOCAL-00037" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1758826783646</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1758826783647</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

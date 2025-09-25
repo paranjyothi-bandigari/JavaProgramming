@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f27df139-dd01-4a24-923f-3be607a4f539" name="Changes" comment="new files added">
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Collections/KeySet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Collections/Map_EvenValues.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Collections/Map_ValueUpdate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Collections/Maps_ConditionValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/regexPatternMatch/RegexwithMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/regexPatternMatch/StringPatternMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/regexPatternMatch/Stringmatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/regexPatternMatch/onelineMatcher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,6 +72,7 @@
     "Application.IntList.executor": "Run",
     "Application.IntList2.executor": "Run",
     "Application.IntList3.executor": "Run",
+    "Application.KeySet.executor": "Run",
     "Application.MapHashmap.executor": "Run",
     "Application.MapLoop.executor": "Run",
     "Application.Map_EvenValues.executor": "Run",
@@ -95,8 +96,11 @@
     "Application.ReverseWordsInString.executor": "Run",
     "Application.SecondHighestNumberInArray.executor": "Run",
     "Application.Sortstring.executor": "Run",
+    "Application.StringPatternMatch.executor": "Run",
+    "Application.Stringmatch.executor": "Run",
     "Application.SumOfArrayElements.executor": "Run",
     "Application.SwapFirstandLastCharOfString.executor": "Run",
+    "Application.ValueSet.executor": "Run",
     "Application.VowelsConsonents.executor": "Run",
     "Application.countCharactersDigitsSpecialChars.executor": "Run",
     "Application.countConsonentsVowels.executor": "Run",
@@ -110,7 +114,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ValueSet">
+  <component name="RunManager" selected="Application.RegexwithMethod">
     <configuration name="KeySet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaProgramming.Collections.KeySet" />
       <module name="JavaProgramming" />
@@ -124,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Map_EvenValues" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Collections.Map_EvenValues" />
+    <configuration name="RegexwithMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.regexPatternMatch.RegexwithMethod" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaProgramming.Collections.*" />
+          <option name="PATTERN" value="JavaProgramming.regexPatternMatch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Map_ValueUpdate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Collections.Map_ValueUpdate" />
+    <configuration name="StringPatternMatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.regexPatternMatch.StringPatternMatch" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaProgramming.Collections.*" />
+          <option name="PATTERN" value="JavaProgramming.regexPatternMatch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,12 +154,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Maps_ConditionValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Collections.Maps_ConditionValue" />
+    <configuration name="Stringmatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.regexPatternMatch.Stringmatch" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaProgramming.Collections.*" />
+          <option name="PATTERN" value="JavaProgramming.regexPatternMatch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RegexwithMethod" />
+        <item itemvalue="Application.Stringmatch" />
+        <item itemvalue="Application.StringPatternMatch" />
         <item itemvalue="Application.ValueSet" />
         <item itemvalue="Application.KeySet" />
-        <item itemvalue="Application.Maps_ConditionValue" />
-        <item itemvalue="Application.Map_ValueUpdate" />
-        <item itemvalue="Application.Map_EvenValues" />
       </list>
     </recent_temporary>
   </component>
@@ -499,7 +503,23 @@
       <option name="project" value="LOCAL" />
       <updated>1758828634902</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1758829405360</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1758829405360</updated>
+    </task>
+    <task id="LOCAL-00040" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1758829489546</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1758829489546</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

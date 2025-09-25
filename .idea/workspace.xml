@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f27df139-dd01-4a24-923f-3be607a4f539" name="Changes" comment="new files added">
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Collections/MapHashmap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Collections/KeySet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Collections/Map_EvenValues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Collections/Map_ValueUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Collections/Maps_ConditionValue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JavaProgramming/Collections/MapLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Collections/MapLoop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +74,9 @@
     "Application.IntList3.executor": "Run",
     "Application.MapHashmap.executor": "Run",
     "Application.MapLoop.executor": "Run",
+    "Application.Map_EvenValues.executor": "Run",
+    "Application.Map_ValueUpdate.executor": "Run",
+    "Application.Maps_ConditionValue.executor": "Run",
     "Application.OccuranceofGivenCharacter.executor": "Run",
     "Application.Palandrome.executor": "Run",
     "Application.PalandromeString.executor": "Run",
@@ -105,26 +110,13 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MapHashmap">
-    <configuration name="IntList2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Lists.IntList2" />
+  <component name="RunManager" selected="Application.KeySet">
+    <configuration name="KeySet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Collections.KeySet" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaProgramming.Lists.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IntList3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Lists.IntList3" />
-      <module name="JavaProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaProgramming.Lists.*" />
+          <option name="PATTERN" value="JavaProgramming.Collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,8 +137,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Collections.MapLoop" />
+    <configuration name="Map_EvenValues" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Collections.Map_EvenValues" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -158,12 +150,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="revList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Lists.revList" />
+    <configuration name="Map_ValueUpdate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Collections.Map_ValueUpdate" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaProgramming.Lists.*" />
+          <option name="PATTERN" value="JavaProgramming.Collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Maps_ConditionValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Collections.Maps_ConditionValue" />
+      <module name="JavaProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaProgramming.Collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KeySet" />
+        <item itemvalue="Application.Maps_ConditionValue" />
+        <item itemvalue="Application.Map_ValueUpdate" />
+        <item itemvalue="Application.Map_EvenValues" />
         <item itemvalue="Application.MapHashmap" />
-        <item itemvalue="Application.MapLoop" />
-        <item itemvalue="Application.revList" />
-        <item itemvalue="Application.IntList3" />
-        <item itemvalue="Application.IntList2" />
       </list>
     </recent_temporary>
   </component>
@@ -486,7 +491,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758826783647</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1758828634902</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1758828634902</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

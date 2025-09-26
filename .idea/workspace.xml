@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f27df139-dd01-4a24-923f-3be607a4f539" name="Changes" comment="new files added">
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/regexPatternMatch/EmailIDMatching.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/regexPatternMatch/StringContainDigit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Imp/EvenorOdd.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JavaProgramming/regexPatternMatch/RegexwithMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/regexPatternMatch/RegexwithMethod.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +60,7 @@
     "Application.DuplicateElementsInArray.executor": "Run",
     "Application.EmailIDMatching.executor": "Run",
     "Application.EvenOrOdd.executor": "Run",
+    "Application.EvenorOdd.executor": "Run",
     "Application.FactorialOfNumber.executor": "Run",
     "Application.FindLastuniqueCharacter.executor": "Run",
     "Application.FirstHighestNumberInArray.executor": "Run",
@@ -116,13 +115,26 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.EmailIDMatching">
+  <component name="RunManager" selected="Application.EvenorOdd">
     <configuration name="EmailIDMatching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaProgramming.regexPatternMatch.EmailIDMatching" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="JavaProgramming.regexPatternMatch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EvenorOdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Imp.EvenorOdd" />
+      <module name="JavaProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaProgramming.Imp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,19 +168,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringPatternMatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.regexPatternMatch.StringPatternMatch" />
-      <module name="JavaProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaProgramming.regexPatternMatch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Stringmatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaProgramming.regexPatternMatch.Stringmatch" />
       <module name="JavaProgramming" />
@@ -184,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EvenorOdd" />
         <item itemvalue="Application.EmailIDMatching" />
         <item itemvalue="Application.RegexwithMethod" />
         <item itemvalue="Application.StringContainDigit" />
         <item itemvalue="Application.Stringmatch" />
-        <item itemvalue="Application.StringPatternMatch" />
       </list>
     </recent_temporary>
   </component>
@@ -537,7 +536,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758833011315</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1758914781401</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1758914781402</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

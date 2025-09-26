@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f27df139-dd01-4a24-923f-3be607a4f539" name="Changes" comment="new files added">
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Imp/EvenorOdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Imp/IsPrime.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,6 +71,7 @@
     "Application.IntList.executor": "Run",
     "Application.IntList2.executor": "Run",
     "Application.IntList3.executor": "Run",
+    "Application.IsPrime.executor": "Run",
     "Application.KeySet.executor": "Run",
     "Application.MapHashmap.executor": "Run",
     "Application.MapLoop.executor": "Run",
@@ -115,7 +116,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.EvenorOdd">
+  <component name="RunManager" selected="Application.IsPrime">
     <configuration name="EmailIDMatching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaProgramming.regexPatternMatch.EmailIDMatching" />
       <module name="JavaProgramming" />
@@ -131,6 +132,19 @@
     </configuration>
     <configuration name="EvenorOdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaProgramming.Imp.EvenorOdd" />
+      <module name="JavaProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaProgramming.Imp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IsPrime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Imp.IsPrime" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -168,26 +182,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Stringmatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.regexPatternMatch.Stringmatch" />
-      <module name="JavaProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaProgramming.regexPatternMatch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IsPrime" />
         <item itemvalue="Application.EvenorOdd" />
         <item itemvalue="Application.EmailIDMatching" />
         <item itemvalue="Application.RegexwithMethod" />
         <item itemvalue="Application.StringContainDigit" />
-        <item itemvalue="Application.Stringmatch" />
       </list>
     </recent_temporary>
   </component>
@@ -544,7 +545,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758914781402</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1758917938050</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1758917938050</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f27df139-dd01-4a24-923f-3be607a4f539" name="Changes" comment="new files added">
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Imp/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Imp/ReverseANumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Imp/ReverseString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +62,7 @@
     "Application.EmailIDMatching.executor": "Run",
     "Application.EvenOrOdd.executor": "Run",
     "Application.EvenorOdd.executor": "Run",
+    "Application.Factorial.executor": "Run",
     "Application.FactorialOfNumber.executor": "Run",
     "Application.Fibonacci.executor": "Run",
     "Application.FindLastuniqueCharacter.executor": "Run",
@@ -94,6 +97,7 @@
     "Application.ReplaceCharacterInString.executor": "Run",
     "Application.RevString.executor": "Run",
     "Application.ReverseOfString.executor": "Run",
+    "Application.ReverseString.executor": "Run",
     "Application.ReverseWordsInString.executor": "Run",
     "Application.SecondHighestNumberInArray.executor": "Run",
     "Application.Sortstring.executor": "Run",
@@ -117,20 +121,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Factorial">
-    <configuration name="EvenorOdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Imp.EvenorOdd" />
-      <module name="JavaProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaProgramming.Imp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ReverseString">
     <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaProgramming.Imp.Factorial" />
       <module name="JavaProgramming" />
@@ -157,8 +148,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsPrime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Imp.IsPrime" />
+    <configuration name="RevString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Strings.RevString" />
+      <module name="JavaProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaProgramming.Strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Imp.ReverseString" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -185,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseString" />
+        <item itemvalue="Application.RevString" />
         <item itemvalue="Application.Factorial" />
         <item itemvalue="Application.swap2NumbersWithoutThird" />
         <item itemvalue="Application.Fibonacci" />
-        <item itemvalue="Application.IsPrime" />
-        <item itemvalue="Application.EvenorOdd" />
       </list>
     </recent_temporary>
   </component>
@@ -578,7 +582,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758919979148</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1758920503809</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1758920503809</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

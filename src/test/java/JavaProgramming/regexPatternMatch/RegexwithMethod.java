@@ -11,9 +11,10 @@ public class RegexwithMethod {
         System.out.println(isPresent("Java is fun","i+")); // 1 or more
         System.out.println(isPresent("Java is fun","J*")); // 0 or more
         System.out.println(isPresent("Java is fun","fu.")); //any 1 character
-        //System.out.println(isPresent("Java is fun","\s"));
-
-
+        System.out.println(isPresent("J2","J\\d")); //\d any digit
+        System.out.println(isPresent("gJ4 ","[a-z][A-Z]\\d\\s"));
+        System.out.println(isPresent("ogJ4 ","[aeiou][a-z][A-Z]\\d\\s"));
+        System.out.println(isPresent("AOgJ4 z","^A[AEIOUaeiou][a-z][A-Z]\\d\\sz$"));
 
 
     }

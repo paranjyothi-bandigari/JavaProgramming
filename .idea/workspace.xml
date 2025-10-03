@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f27df139-dd01-4a24-923f-3be607a4f539" name="Changes" comment="new files added" />
+    <list default="true" id="f27df139-dd01-4a24-923f-3be607a4f539" name="Changes" comment="new files added">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JavaProgramming/Imp22Java/Anagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Imp22Java/Anagram.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,82 +46,95 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Anagram.executor": "Run",
-    "Application.ArrayInReverseOrder.executor": "Run",
-    "Application.AssendingOrderOfArray.executor": "Run",
-    "Application.CheckStringContainDigits.executor": "Run",
-    "Application.CheckStringContainSpecialCharacter.executor": "Run",
-    "Application.ConcatTwoStrings.executor": "Run",
-    "Application.CopyStringtoAnother.executor": "Run",
-    "Application.CountCapitalSmallLetters.executor": "Run",
-    "Application.CountWordsInString.executor": "Run",
-    "Application.DuplicateElementsInArray.executor": "Run",
-    "Application.EmailIDMatching.executor": "Run",
-    "Application.EvenOrOdd.executor": "Run",
-    "Application.EvenorOdd.executor": "Run",
-    "Application.Factorial.executor": "Run",
-    "Application.FactorialOfNumber.executor": "Run",
-    "Application.Fibonacci.executor": "Run",
-    "Application.FindLastuniqueCharacter.executor": "Run",
-    "Application.FirstHighestNumberInArray.executor": "Run",
-    "Application.FirstLetterOfEachWord.executor": "Run",
-    "Application.FirstNonRepeatedCharacter.executor": "Run",
-    "Application.FizzBuzz.executor": "Run",
-    "Application.HighestOccuranceOfCharacter.executor": "Run",
-    "Application.IntList.executor": "Run",
-    "Application.IntList2.executor": "Run",
-    "Application.IntList3.executor": "Run",
-    "Application.IsPrime.executor": "Run",
-    "Application.KeySet.executor": "Run",
-    "Application.MapHashmap.executor": "Run",
-    "Application.MapLoop.executor": "Run",
-    "Application.Map_EvenValues.executor": "Run",
-    "Application.Map_ValueUpdate.executor": "Run",
-    "Application.Maps_ConditionValue.executor": "Run",
-    "Application.OccuranceofGivenCharacter.executor": "Run",
-    "Application.Palandrome.executor": "Run",
-    "Application.PalandromeString.executor": "Run",
-    "Application.PercentageOfVowelsConsonents.executor": "Run",
-    "Application.PrintDuplicateCharacters.executor": "Run",
-    "Application.PrintduplicateCharacterswithCount.executor": "Run",
-    "Application.RegexwithMethod.executor": "Run",
-    "Application.RemoveCharacterfromString.executor": "Run",
-    "Application.RemoveDuplicateCharactersFromString.executor": "Run",
-    "Application.RemoveDuplicateElementsChar.executor": "Run",
-    "Application.RemoveSpecialCharactersfromString.executor": "Run",
-    "Application.RemoveWhiteSpacesFromString.executor": "Run",
-    "Application.RemoveallLeadingZeros.executor": "Run",
-    "Application.ReplaceCharacterInString.executor": "Run",
-    "Application.RevString.executor": "Run",
-    "Application.ReverseANumber.executor": "Run",
-    "Application.ReverseOfString.executor": "Run",
-    "Application.ReverseString.executor": "Run",
-    "Application.ReverseWordsInString.executor": "Run",
-    "Application.SecondHighestNumberInArray.executor": "Run",
-    "Application.Sortstring.executor": "Run",
-    "Application.StringContainDigit.executor": "Run",
-    "Application.StringPatternMatch.executor": "Run",
-    "Application.Stringmatch.executor": "Run",
-    "Application.SumOfArrayElements.executor": "Run",
-    "Application.SwapFirstandLastCharOfString.executor": "Run",
-    "Application.ValueSet.executor": "Run",
-    "Application.VowelsConsonents.executor": "Run",
-    "Application.countCharactersDigitsSpecialChars.executor": "Run",
-    "Application.countConsonentsVowels.executor": "Run",
-    "Application.countOccuranceOfEachCharacterInString.executor": "Run",
-    "Application.revList.executor": "Run",
-    "Application.reverseStringwithWords.executor": "Run",
-    "Application.secondLowestnumber.executor": "Run",
-    "Application.swap2NumbersWithoutThird.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Anagram.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayInReverseOrder.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AssendingOrderOfArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CheckStringContainDigits.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CheckStringContainSpecialCharacter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConcatTwoStrings.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CopyStringtoAnother.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountCapitalSmallLetters.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountWordsInString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DuplicateElementsInArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EmailIDMatching.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EvenOrOdd.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EvenorOdd.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Factorial.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FactorialOfNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Fibonacci.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindLastuniqueCharacter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FirstHighestNumberInArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FirstLetterOfEachWord.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FirstNonRepeatedCharacter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FizzBuzz.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HighestOccuranceOfCharacter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IntList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IntList2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IntList3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IsPrime.executor&quot;: &quot;Run&quot;,
+    &quot;Application.KeySet.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MapHashmap.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MapLoop.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Map_EvenValues.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Map_ValueUpdate.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Maps_ConditionValue.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OccuranceofGivenCharacter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Palandrome.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PalandromeString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PercentageOfVowelsConsonents.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrintDuplicateCharacters.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrintduplicateCharacterswithCount.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RegexwithMethod.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveCharacterfromString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveDuplicateCharactersFromString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveDuplicateElementsChar.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveSpecialCharactersfromString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveWhiteSpacesFromString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveallLeadingZeros.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReplaceCharacterInString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RevString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseANumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseOfString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseWordsInString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SecondHighestNumberInArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sortstring.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringContainDigit.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringPatternMatch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Stringmatch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumOfArrayElements.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SwapFirstandLastCharOfString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ValueSet.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VowelsConsonents.executor&quot;: &quot;Run&quot;,
+    &quot;Application.countCharactersDigitsSpecialChars.executor&quot;: &quot;Run&quot;,
+    &quot;Application.countConsonentsVowels.executor&quot;: &quot;Run&quot;,
+    &quot;Application.countOccuranceOfEachCharacterInString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.revList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.reverseStringwithWords.executor&quot;: &quot;Run&quot;,
+    &quot;Application.secondLowestnumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.swap2NumbersWithoutThird.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.ReverseANumber">
+}</component>
+  <component name="RunManager" selected="Application.Anagram">
+    <configuration name="Anagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Imp22Java.Anagram" />
+      <module name="JavaProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaProgramming.Imp22Java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaProgramming.Imp.Factorial" />
       <module name="JavaProgramming" />
@@ -171,26 +187,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="swap2NumbersWithoutThird" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Imp.swap2NumbersWithoutThird" />
-      <module name="JavaProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaProgramming.Imp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Anagram" />
         <item itemvalue="Application.ReverseANumber" />
         <item itemvalue="Application.ReverseString" />
         <item itemvalue="Application.RevString" />
         <item itemvalue="Application.Factorial" />
-        <item itemvalue="Application.swap2NumbersWithoutThird" />
       </list>
     </recent_temporary>
   </component>
@@ -202,14 +205,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753131299283</updated>
-    </task>
-    <task id="LOCAL-00002" summary="new files added">
-      <option name="closed" value="true" />
-      <created>1753909639830</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1753909639830</updated>
     </task>
     <task id="LOCAL-00003" summary="new files added">
       <option name="closed" value="true" />
@@ -595,7 +590,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758924454681</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1759530822020</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1759530822022</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

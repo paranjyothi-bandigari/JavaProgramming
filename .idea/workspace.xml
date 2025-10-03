@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f27df139-dd01-4a24-923f-3be607a4f539" name="Changes" comment="new files added">
-      <change beforePath="$PROJECT_DIR$/src/test/java/JavaProgramming/Imp/ReverseANumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Imp/ReverseANumber.java" afterDir="false" />
-    </list>
+    <list default="true" id="f27df139-dd01-4a24-923f-3be607a4f539" name="Changes" comment="new files added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,6 +92,7 @@
     "Application.RemoveallLeadingZeros.executor": "Run",
     "Application.ReplaceCharacterInString.executor": "Run",
     "Application.RevString.executor": "Run",
+    "Application.ReverseANumber.executor": "Run",
     "Application.ReverseOfString.executor": "Run",
     "Application.ReverseString.executor": "Run",
     "Application.ReverseWordsInString.executor": "Run",
@@ -203,14 +202,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753131299283</updated>
-    </task>
-    <task id="LOCAL-00001" summary="new files added">
-      <option name="closed" value="true" />
-      <created>1753830469147</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1753830469147</updated>
     </task>
     <task id="LOCAL-00002" summary="new files added">
       <option name="closed" value="true" />
@@ -596,7 +587,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758922696691</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1758924454679</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1758924454681</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

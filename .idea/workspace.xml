@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f27df139-dd01-4a24-923f-3be607a4f539" name="Changes" comment="new files added">
-      <change beforePath="$PROJECT_DIR$/src/test/java/JavaProgramming/Imp22Java/CountVowels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Imp22Java/CountVowels.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JavaProgramming/Imp22Java/secondSmallestElementInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Imp22Java/secondSmallestElementInArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JavaProgramming/Imp22Java/secondSmallestElementInArrayWithoutSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Imp22Java/secondSmallestElementInArrayWithoutSorting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JavaProgramming/Imp22Java/secondlargestinArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Imp22Java/secondlargestinArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,6 +117,9 @@
     "Application.revList.executor": "Run",
     "Application.reverseStringwithWords.executor": "Run",
     "Application.secondLowestnumber.executor": "Run",
+    "Application.secondSmallestElementInArray.executor": "Run",
+    "Application.secondSmallestElementInArrayWithoutSorting.executor": "Run",
+    "Application.secondlargestinArray.executor": "Run",
     "Application.swap2NumbersWithoutThird.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -121,7 +127,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CountVowels">
+  <component name="RunManager" selected="Application.secondSmallestElementInArrayWithoutSorting">
     <configuration name="Anagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaProgramming.Imp22Java.Anagram" />
       <module name="JavaProgramming" />
@@ -148,12 +154,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RevString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Strings.RevString" />
+    <configuration name="secondSmallestElementInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Imp22Java.secondSmallestElementInArray" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaProgramming.Strings.*" />
+          <option name="PATTERN" value="JavaProgramming.Imp22Java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,12 +167,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseANumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Imp.ReverseANumber" />
+    <configuration name="secondSmallestElementInArrayWithoutSorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Imp22Java.secondSmallestElementInArrayWithoutSorting" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaProgramming.Imp.*" />
+          <option name="PATTERN" value="JavaProgramming.Imp22Java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,12 +180,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Imp.ReverseString" />
+    <configuration name="secondlargestinArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Imp22Java.secondlargestinArray" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaProgramming.Imp.*" />
+          <option name="PATTERN" value="JavaProgramming.Imp22Java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.secondSmallestElementInArrayWithoutSorting" />
+        <item itemvalue="Application.secondSmallestElementInArray" />
+        <item itemvalue="Application.secondlargestinArray" />
         <item itemvalue="Application.CountVowels" />
         <item itemvalue="Application.Anagram" />
-        <item itemvalue="Application.ReverseANumber" />
-        <item itemvalue="Application.ReverseString" />
-        <item itemvalue="Application.RevString" />
       </list>
     </recent_temporary>
   </component>
@@ -205,14 +211,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753131299283</updated>
-    </task>
-    <task id="LOCAL-00006" summary="new files added">
-      <option name="closed" value="true" />
-      <created>1753994242227</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1753994242227</updated>
     </task>
     <task id="LOCAL-00007" summary="new files added">
       <option name="closed" value="true" />
@@ -598,7 +596,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759867214937</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1759867624569</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1759867624570</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

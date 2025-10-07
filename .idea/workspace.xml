@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f27df139-dd01-4a24-923f-3be607a4f539" name="Changes" comment="new files added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JavaProgramming/Imp22Java/firstRepeatingElementInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Imp22Java/firstRepeatingElementInArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JavaProgramming/Imp22Java/CountPair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Imp22Java/CountPair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JavaProgramming/Imp22Java/MergeTwoSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Imp22Java/MergeTwoSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JavaProgramming/Imp22Java/maxProductArrayOfposnegInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Imp22Java/maxProductArrayOfposnegInteger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +59,7 @@
     "Application.ConcatTwoStrings.executor": "Run",
     "Application.CopyStringtoAnother.executor": "Run",
     "Application.CountCapitalSmallLetters.executor": "Run",
+    "Application.CountPair.executor": "Run",
     "Application.CountVowels.executor": "Run",
     "Application.CountWordsInString.executor": "Run",
     "Application.DuplicateElementsInArray.executor": "Run",
@@ -115,6 +118,7 @@
     "Application.countOccuranceOfEachCharacterInString.executor": "Run",
     "Application.elementStartDecrease.executor": "Run",
     "Application.firstRepeatingElementInArray.executor": "Run",
+    "Application.maxProductArrayOfposnegInteger.executor": "Run",
     "Application.revList.executor": "Run",
     "Application.reverseStringwithWords.executor": "Run",
     "Application.secondLowestnumber.executor": "Run",
@@ -128,9 +132,22 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.firstRepeatingElementInArray">
+  <component name="RunManager" selected="Application.maxProductArrayOfposnegInteger">
     <configuration name="CommonInTwoArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaProgramming.Imp22Java.CommonInTwoArrays" />
+      <module name="JavaProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaProgramming.Imp22Java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountPair" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Imp22Java.CountPair" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -168,21 +185,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="secondSmallestElementInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Imp22Java.secondSmallestElementInArray" />
-      <module name="JavaProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaProgramming.Imp22Java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="secondSmallestElementInArrayWithoutSorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Imp22Java.secondSmallestElementInArrayWithoutSorting" />
+    <configuration name="maxProductArrayOfposnegInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Imp22Java.maxProductArrayOfposnegInteger" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -196,11 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.maxProductArrayOfposnegInteger" />
+        <item itemvalue="Application.CountPair" />
         <item itemvalue="Application.firstRepeatingElementInArray" />
         <item itemvalue="Application.elementStartDecrease" />
         <item itemvalue="Application.CommonInTwoArrays" />
-        <item itemvalue="Application.secondSmallestElementInArrayWithoutSorting" />
-        <item itemvalue="Application.secondSmallestElementInArray" />
       </list>
     </recent_temporary>
   </component>
@@ -212,14 +216,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753131299283</updated>
-    </task>
-    <task id="LOCAL-00010" summary="new files added">
-      <option name="closed" value="true" />
-      <created>1754074854634</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1754074854634</updated>
     </task>
     <task id="LOCAL-00011" summary="new files added">
       <option name="closed" value="true" />
@@ -605,7 +601,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759870214560</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1759874846645</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1759874846645</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

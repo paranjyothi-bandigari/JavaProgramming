@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f27df139-dd01-4a24-923f-3be607a4f539" name="Changes" comment="new files added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JavaProgramming/Imp22Java/MergeTwoSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Imp22Java/MergeTwoSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JavaProgramming/Imp22Java/PalindromeExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Imp22Java/PalindromeExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +87,7 @@
     "Application.OccuranceofGivenCharacter.executor": "Run",
     "Application.Palandrome.executor": "Run",
     "Application.PalandromeString.executor": "Run",
+    "Application.PalindromeExample.executor": "Run",
     "Application.PercentageOfVowelsConsonents.executor": "Run",
     "Application.PrintDuplicateCharacters.executor": "Run",
     "Application.PrintduplicateCharacterswithCount.executor": "Run",
@@ -131,7 +132,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MergeTwoSortedArray">
+  <component name="RunManager" selected="Application.PalindromeExample">
     <configuration name="CountPair" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaProgramming.Imp22Java.CountPair" />
       <module name="JavaProgramming" />
@@ -158,8 +159,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="elementStartDecrease" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Imp22Java.elementStartDecrease" />
+    <configuration name="PalindromeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Imp22Java.PalindromeExample" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -199,11 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PalindromeExample" />
         <item itemvalue="Application.MergeTwoSortedArray" />
         <item itemvalue="Application.maxProductArrayOfposnegInteger" />
         <item itemvalue="Application.CountPair" />
         <item itemvalue="Application.firstRepeatingElementInArray" />
-        <item itemvalue="Application.elementStartDecrease" />
       </list>
     </recent_temporary>
   </component>
@@ -215,14 +216,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753131299283</updated>
-    </task>
-    <task id="LOCAL-00012" summary="new files added">
-      <option name="closed" value="true" />
-      <created>1754078764360</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1754078764360</updated>
     </task>
     <task id="LOCAL-00013" summary="new files added">
       <option name="closed" value="true" />
@@ -608,7 +601,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759878270393</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1759878928778</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1759878928778</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

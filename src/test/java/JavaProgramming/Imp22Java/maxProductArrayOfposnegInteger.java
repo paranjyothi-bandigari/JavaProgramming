@@ -16,6 +16,6 @@ public class maxProductArrayOfposnegInteger {
             }
             }
         }
-        System.out.println(a+","+b+","+c);
+        System.out.println(a+","+b+","+c+" Product is : "+a*b*c);
     }
 }

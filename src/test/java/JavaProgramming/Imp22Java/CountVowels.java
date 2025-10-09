@@ -9,7 +9,10 @@ public class CountVowels {
         int vowerls = 0;
         for (int i = 0; i < stri.length(); i++) {
             char str=stri.charAt(i);
-            if (str == 'a' || str == 'e' || str == 'i' || str == 'o' || str == 'u' || str == 'A' || str == 'E' || str == 'I' || str == 'O' || str == 'U') {
+            if (str == 'a' || str == 'e' || str == 'i' || str == 'o' ||
+                    str == 'u' || str == 'A' || str == 'E' || str == 'I'
+                    || str == 'O' || str == 'U')
+            {
                 vowerls++;
             }
         }

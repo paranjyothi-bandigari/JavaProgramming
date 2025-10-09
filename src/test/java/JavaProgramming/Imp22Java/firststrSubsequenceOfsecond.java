@@ -11,24 +11,17 @@ public class firststrSubsequenceOfsecond {
     }
 
     private static boolean IsSubString(String str1, String str2) {
-        int m = str1.length();
-        int n = str2.length();
         int i=0;
         int j=0;
-        while(i<m && j<n)
+        while(i<str1.length() && j<str2.length())
         {
             if(str1.charAt(i)==str2.charAt(j)){
                 i++;
-                j++;
-            }
-            else{
-                j++;
-            }
+                j++; }
+            else{ j++; }
         }
-        if(i==m){
-return true;
-        }
-        else
-            return false;
+        if(i==str1.length()){
+            return true; }
+        else  return false;
     }
 }

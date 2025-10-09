@@ -9,7 +9,7 @@ import java.util.Arrays;
 // of the order of characters.
 public class Anagram {
     public static void main(String[] args) {
-        String s1="Paranjyothi";
+        String s1="paranjyothi";
         String s2="paranjyoith";
         s1.toLowerCase();
         s2.toLowerCase();
@@ -18,8 +18,11 @@ public class Anagram {
             char[] c2 = s2.toCharArray();
             Arrays.sort(c1);
             Arrays.sort(c2);
-            if(c1.equals(c2)){}
-            System.out.println("Anagram");
+            if(Arrays.equals(c1, c2)){
+            System.out.println("Anagram");}
+            else {
+                System.out.println("Not Anagram");
+            }
         }
         else {
             System.out.println("Not Anagram");

@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f27df139-dd01-4a24-923f-3be607a4f539" name="Changes" comment="new files added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JavaProgramming/Imp22Java/firststrSubsequenceOfsecond.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Imp22Java/firststrSubsequenceOfsecond.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JavaProgramming/Imp22Java/RevWordInSentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Imp22Java/RevWordInSentence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JavaProgramming/Imp22Java/pairElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Imp22Java/pairElements.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +103,7 @@
     "Application.RemoveallLeadingZeros.executor": "Run",
     "Application.ReplaceCharacterInString.executor": "Run",
     "Application.RevString.executor": "Run",
+    "Application.RevWordInSentence.executor": "Run",
     "Application.ReverseANumber.executor": "Run",
     "Application.ReverseOfString.executor": "Run",
     "Application.ReverseString.executor": "Run",
@@ -122,6 +124,7 @@
     "Application.firstRepeatingElementInArray.executor": "Run",
     "Application.firststrSubsequenceOfsecond.executor": "Run",
     "Application.maxProductArrayOfposnegInteger.executor": "Run",
+    "Application.pairElements.executor": "Run",
     "Application.revList.executor": "Run",
     "Application.reverseStringwithWords.executor": "Run",
     "Application.secondLowestnumber.executor": "Run",
@@ -135,20 +138,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MergeTwoSortedArray">
-    <configuration name="FirstandLastOccurance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Imp22Java.FirstandLastOccurance" />
-      <module name="JavaProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaProgramming.Imp22Java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.RevWordInSentence">
     <configuration name="MergeTwoSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaProgramming.Imp22Java.MergeTwoSortedArray" />
       <module name="JavaProgramming" />
@@ -162,8 +152,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="firstRepeatingElementInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Imp22Java.firstRepeatingElementInArray" />
+    <configuration name="RearrangePosNegNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Imp22Java.RearrangePosNegNumber" />
+      <module name="JavaProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaProgramming.Imp22Java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RevWordInSentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Imp22Java.RevWordInSentence" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -188,8 +191,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="maxProductArrayOfposnegInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Imp22Java.maxProductArrayOfposnegInteger" />
+    <configuration name="pairElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Imp22Java.pairElements" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -203,11 +206,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RevWordInSentence" />
+        <item itemvalue="Application.pairElements" />
+        <item itemvalue="Application.RearrangePosNegNumber" />
         <item itemvalue="Application.MergeTwoSortedArray" />
         <item itemvalue="Application.firststrSubsequenceOfsecond" />
-        <item itemvalue="Application.maxProductArrayOfposnegInteger" />
-        <item itemvalue="Application.firstRepeatingElementInArray" />
-        <item itemvalue="Application.FirstandLastOccurance" />
       </list>
     </recent_temporary>
   </component>
@@ -219,14 +222,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753131299283</updated>
-    </task>
-    <task id="LOCAL-00022" summary="new files added">
-      <option name="closed" value="true" />
-      <created>1755639216400</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1755639216400</updated>
     </task>
     <task id="LOCAL-00023" summary="new files added">
       <option name="closed" value="true" />
@@ -612,7 +607,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760041906189</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1760042028536</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1760042028536</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

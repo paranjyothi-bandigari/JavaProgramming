@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f27df139-dd01-4a24-923f-3be607a4f539" name="Changes" comment="new files added">
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Imp/ArraySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Imp/ReverseWordsinSentense.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Imp/subString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Imp/duplicateelementsinArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,6 +122,7 @@
     "Application.countCharactersDigitsSpecialChars.executor": "Run",
     "Application.countConsonentsVowels.executor": "Run",
     "Application.countOccuranceOfEachCharacterInString.executor": "Run",
+    "Application.duplicateelementsinArray.executor": "Run",
     "Application.elementStartDecrease.executor": "Run",
     "Application.firstRepeatingElementInArray.executor": "Run",
     "Application.firststrSubsequenceOfsecond.executor": "Run",
@@ -144,13 +143,26 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ArraySearch">
+  <component name="RunManager" selected="Application.MergeTwoSortedArray">
     <configuration name="ArraySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaProgramming.Imp.ArraySearch" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="JavaProgramming.Imp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeTwoSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Imp22Java.MergeTwoSortedArray" />
+      <module name="JavaProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaProgramming.Imp22Java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,25 +183,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumUntilSingleDigit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Imp22Java.SumUntilSingleDigit" />
+    <configuration name="duplicateelementsinArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Imp.duplicateelementsinArray" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaProgramming.Imp22Java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="segreggatearray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Imp22Java.segreggatearray" />
-      <module name="JavaProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaProgramming.Imp22Java.*" />
+          <option name="PATTERN" value="JavaProgramming.Imp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeTwoSortedArray" />
+        <item itemvalue="Application.duplicateelementsinArray" />
         <item itemvalue="Application.ArraySearch" />
         <item itemvalue="Application.ReverseWordsinSentense" />
         <item itemvalue="Application.subString" />
-        <item itemvalue="Application.segreggatearray" />
-        <item itemvalue="Application.SumUntilSingleDigit" />
       </list>
     </recent_temporary>
   </component>
@@ -228,14 +227,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753131299283</updated>
-    </task>
-    <task id="LOCAL-00025" summary="new files added">
-      <option name="closed" value="true" />
-      <created>1755899409405</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1755899409405</updated>
     </task>
     <task id="LOCAL-00026" summary="new files added">
       <option name="closed" value="true" />
@@ -621,7 +612,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760044149503</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1760111702791</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1760111702792</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

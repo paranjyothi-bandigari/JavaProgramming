@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f27df139-dd01-4a24-923f-3be607a4f539" name="Changes" comment="new files added">
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Imp/duplicateelementsinArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Imp/newJavaProgram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -127,6 +127,7 @@
     "Application.firstRepeatingElementInArray.executor": "Run",
     "Application.firststrSubsequenceOfsecond.executor": "Run",
     "Application.maxProductArrayOfposnegInteger.executor": "Run",
+    "Application.newJavaProgram.executor": "Run",
     "Application.pairElements.executor": "Run",
     "Application.revList.executor": "Run",
     "Application.reverseStringwithWords.executor": "Run",
@@ -143,7 +144,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MergeTwoSortedArray">
+  <component name="RunManager" selected="Application.newJavaProgram">
     <configuration name="ArraySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaProgramming.Imp.ArraySearch" />
       <module name="JavaProgramming" />
@@ -196,8 +197,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="subString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Imp.subString" />
+    <configuration name="newJavaProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Imp.newJavaProgram" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -211,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.newJavaProgram" />
         <item itemvalue="Application.MergeTwoSortedArray" />
         <item itemvalue="Application.duplicateelementsinArray" />
         <item itemvalue="Application.ArraySearch" />
         <item itemvalue="Application.ReverseWordsinSentense" />
-        <item itemvalue="Application.subString" />
       </list>
     </recent_temporary>
   </component>
@@ -227,14 +228,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753131299283</updated>
-    </task>
-    <task id="LOCAL-00026" summary="new files added">
-      <option name="closed" value="true" />
-      <created>1756074717483</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1756074717484</updated>
     </task>
     <task id="LOCAL-00027" summary="new files added">
       <option name="closed" value="true" />
@@ -620,7 +613,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760111702792</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1760124125921</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1760124125921</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

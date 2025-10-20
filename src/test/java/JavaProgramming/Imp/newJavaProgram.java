@@ -12,16 +12,18 @@ public class newJavaProgram {
     for(int i=0;i<arraynum.length;i++){
       if(lowest>arraynum[i]){
         lowest=arraynum[i];
-        System.out.println("Lowest number is : "+lowest);
-      }
-    }
-    for(int i=0;i<arraynum.length;i++){
-      if(seclowest>arraynum[i] && arraynum[i]!=lowest){
-        seclowest=arraynum[i];
-        System.out.println("Second Lowest Number is : " +seclowest);
 
       }
     }
+    System.out.println("Lowest number is : "+lowest);
+    for(int i=0;i<arraynum.length;i++){
+      if(seclowest>arraynum[i] && arraynum[i]!=lowest){
+        seclowest=arraynum[i];
+
+      }
+    }
+    System.out.println("Second Lowest Number is : " +seclowest);
+
 
   }
 

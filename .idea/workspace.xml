@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f27df139-dd01-4a24-923f-3be607a4f539" name="Changes" comment="new files added">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/Strings/stringBuilder_stringBuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/Strings/stringImmutable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/Strings/stringMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/Strings/stringsPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/test001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/testPractise.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JavaProgramming/Imp/newJavaProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Imp/newJavaProgram.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,21 +142,28 @@
     "Application.secondSmallestElementInArrayWithoutSorting.executor": "Run",
     "Application.secondlargestinArray.executor": "Run",
     "Application.segreggatearray.executor": "Run",
+    "Application.stringBuilder_stringBuffer.executor": "Run",
+    "Application.stringImmutable.executor": "Run",
+    "Application.stringMethods.executor": "Run",
+    "Application.stringsPractice.executor": "Run",
     "Application.subString.executor": "Run",
     "Application.swap2NumbersWithoutThird.executor": "Run",
+    "Application.test.executor": "Run",
+    "Application.test001.executor": "Run",
+    "Application.testPractise.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.newJavaProgram">
-    <configuration name="ArraySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Imp.ArraySearch" />
+  <component name="RunManager" selected="Application.stringMethods">
+    <configuration name="stringBuilder_stringBuffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Practise.Strings.stringBuilder_stringBuffer" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaProgramming.Imp.*" />
+          <option name="PATTERN" value="Java_Practise.Strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,12 +171,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeTwoSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Imp22Java.MergeTwoSortedArray" />
+    <configuration name="stringImmutable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Practise.Strings.stringImmutable" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaProgramming.Imp22Java.*" />
+          <option name="PATTERN" value="Java_Practise.Strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,12 +184,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseWordsinSentense" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Imp.ReverseWordsinSentense" />
+    <configuration name="stringMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Practise.Strings.stringMethods" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaProgramming.Imp.*" />
+          <option name="PATTERN" value="Java_Practise.Strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,12 +197,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="duplicateelementsinArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Imp.duplicateelementsinArray" />
+    <configuration name="stringsPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Practise.Strings.stringsPractice" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaProgramming.Imp.*" />
+          <option name="PATTERN" value="Java_Practise.Strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,12 +210,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="newJavaProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Imp.newJavaProgram" />
+    <configuration name="testPractise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Practise.testPractise" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaProgramming.Imp.*" />
+          <option name="PATTERN" value="Java_Practise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,11 +225,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.newJavaProgram" />
-        <item itemvalue="Application.MergeTwoSortedArray" />
-        <item itemvalue="Application.duplicateelementsinArray" />
-        <item itemvalue="Application.ArraySearch" />
-        <item itemvalue="Application.ReverseWordsinSentense" />
+        <item itemvalue="Application.stringMethods" />
+        <item itemvalue="Application.stringBuilder_stringBuffer" />
+        <item itemvalue="Application.stringImmutable" />
+        <item itemvalue="Application.stringsPractice" />
+        <item itemvalue="Application.testPractise" />
       </list>
     </recent_temporary>
   </component>
@@ -228,14 +241,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753131299283</updated>
-    </task>
-    <task id="LOCAL-00028" summary="new files added">
-      <option name="closed" value="true" />
-      <created>1758074727597</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1758074727597</updated>
     </task>
     <task id="LOCAL-00029" summary="new files added">
       <option name="closed" value="true" />
@@ -621,7 +626,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760838142567</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1760994274276</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1760994274276</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

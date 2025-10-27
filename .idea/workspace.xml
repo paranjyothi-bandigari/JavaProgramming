@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f27df139-dd01-4a24-923f-3be607a4f539" name="Changes" comment="new files added">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/Strings/stringBuilder_stringBuffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/Strings/stringImmutable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/Strings/stringMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/Strings/stringsPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/test001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/testPractise.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Java_Practise/testPractise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/testPractise.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -241,14 +235,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753131299283</updated>
-    </task>
-    <task id="LOCAL-00029" summary="new files added">
-      <option name="closed" value="true" />
-      <created>1758136436203</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1758136436203</updated>
     </task>
     <task id="LOCAL-00030" summary="new files added">
       <option name="closed" value="true" />
@@ -634,7 +620,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760994274276</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1761348126957</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1761348126957</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

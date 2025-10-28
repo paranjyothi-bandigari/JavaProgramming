@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f27df139-dd01-4a24-923f-3be607a4f539" name="Changes" comment="new files added" />
+    <list default="true" id="f27df139-dd01-4a24-923f-3be607a4f539" name="Changes" comment="new files added">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/Strings/subString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -148,7 +151,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.stringMethods">
+  <component name="RunManager" selected="Application.subString">
     <configuration name="stringBuilder_stringBuffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java_Practise.Strings.stringBuilder_stringBuffer" />
       <module name="JavaProgramming" />
@@ -201,12 +204,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testPractise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Practise.testPractise" />
+    <configuration name="subString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Practise.Strings.subString" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Practise.*" />
+          <option name="PATTERN" value="Java_Practise.Strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -216,11 +219,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.subString" />
         <item itemvalue="Application.stringMethods" />
         <item itemvalue="Application.stringBuilder_stringBuffer" />
         <item itemvalue="Application.stringImmutable" />
         <item itemvalue="Application.stringsPractice" />
-        <item itemvalue="Application.testPractise" />
       </list>
     </recent_temporary>
   </component>
@@ -232,14 +235,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753131299283</updated>
-    </task>
-    <task id="LOCAL-00031" summary="new files added">
-      <option name="closed" value="true" />
-      <created>1758740405887</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1758740405887</updated>
     </task>
     <task id="LOCAL-00032" summary="new files added">
       <option name="closed" value="true" />
@@ -625,7 +620,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761590730153</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1761617113275</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1761617113276</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

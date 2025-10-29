@@ -147,41 +147,19 @@
     "Application.testPractise.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.subString.assertthat.executor": "Run",
     "TestNG.subString.executor": "Run",
+    "TestNG.subString.palandrome.executor": "Run",
     "TestNG.subString.revString.executor": "Run",
+    "TestNG.subString.subString.executor": "Run",
+    "TestNG.subString.subStringOccurance.executor": "Run",
     "TestNG.subString.subdomain.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.subString">
-    <configuration name="stringMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Practise.Strings.stringMethods" />
-      <module name="JavaProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_Practise.Strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="subString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Practise.Strings.subString" />
-      <module name="JavaProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_Practise.Strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="subString" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.subString.assertthat">
+    <configuration name="subString.assertthat" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -191,7 +169,26 @@
       </extension>
       <option name="PACKAGE_NAME" value="Java_Practise.Strings" />
       <option name="MAIN_CLASS_NAME" value="Java_Practise.Strings.subString" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="METHOD_NAME" value="assertthat" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="subString.palandrome" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_Practise.Strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Java_Practise.Strings" />
+      <option name="MAIN_CLASS_NAME" value="Java_Practise.Strings.subString" />
+      <option name="METHOD_NAME" value="palandrome" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -209,6 +206,24 @@
       <option name="PACKAGE_NAME" value="Java_Practise.Strings" />
       <option name="MAIN_CLASS_NAME" value="Java_Practise.Strings.subString" />
       <option name="METHOD_NAME" value="revString" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="subString.subStringOccurance" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_Practise.Strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Java_Practise.Strings" />
+      <option name="MAIN_CLASS_NAME" value="Java_Practise.Strings.subString" />
+      <option name="METHOD_NAME" value="subStringOccurance" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -236,11 +251,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.subString" />
-        <item itemvalue="TestNG.subString.subdomain" />
+        <item itemvalue="TestNG.subString.assertthat" />
+        <item itemvalue="TestNG.subString.palandrome" />
         <item itemvalue="TestNG.subString.revString" />
-        <item itemvalue="Application.subString" />
-        <item itemvalue="Application.stringMethods" />
+        <item itemvalue="TestNG.subString.subdomain" />
+        <item itemvalue="TestNG.subString.subStringOccurance" />
       </list>
     </recent_temporary>
   </component>
@@ -252,14 +267,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753131299283</updated>
-    </task>
-    <task id="LOCAL-00033" summary="new files added">
-      <option name="closed" value="true" />
-      <created>1758747350930</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1758747350930</updated>
     </task>
     <task id="LOCAL-00034" summary="new files added">
       <option name="closed" value="true" />
@@ -645,7 +652,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761674001665</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1761682126090</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1761682126091</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

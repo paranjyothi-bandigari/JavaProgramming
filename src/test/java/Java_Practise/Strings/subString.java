@@ -109,6 +109,14 @@ public void subStringOccurance(){
          public void ReverseWordSent() {
             //10.ReverseWordsInSentence
             String sw = "my name is java";
+            String[] swa=sw.toString().split(" ");
+            int l=swa.length;
+            String revWords="";
+            for(int i=0;i<=l-1;i++){
+                StringBuilder sb=new StringBuilder(swa[i]);
+                System.out.print(sb.reverse() +" ");
+               // System.out.print(swa[i] +" ");
+            }
 
         }
 //11.String Interning:

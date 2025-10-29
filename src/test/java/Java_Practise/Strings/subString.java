@@ -54,12 +54,14 @@ public void subStringOccurance(){
 }
         System.out.println(revName);
 // c.Using Character Array
-        String revName1="";
         char[] revN=name.toCharArray();
-        for(int i=revN.length-1;i>=0;i--) {
-            revName1 = revName1 + name.charAt(i);
+        for(int i=0,j=revN.length-1;i<j;i++,j--) {
+            char temp=revN[i];
+            revN[i]=revN[j];
+            revN[j]=temp;
         }
-        System.out.println(revName1);
+        String reversed=new String(revN);
+        System.out.println(reversed);
 // d.Using Java 8 Streams
 // e.Using Recursion
         }
@@ -77,8 +79,6 @@ public void subStringOccurance(){
                         if (p1.charAt(i) == p2.charAt(j)) {
                         continue;
                         }
-                        else
-                            System.out.println("not palandrome");
                     }
                 }
                 System.out.println("Palandrome");
@@ -108,16 +108,16 @@ public void subStringOccurance(){
          @Test()
          public void ReverseWordSent() {
             //10.ReverseWordsInSentence
-            String sw = "my name is java";
-            String[] swa=sw.toString().split(" ");
-            int l=swa.length;
-            String revWords="";
-            for(int i=0;i<=l-1;i++){
-                StringBuilder sb=new StringBuilder(swa[i]);
-                System.out.print(sb.reverse() +" ");
+            String sentence = "my name is java";
+            String[] words=sentence.split(" ");
+            int l=sentence.length();
+            StringBuilder reversedSentence=new StringBuilder();
+            for(String word:words){
+                StringBuilder reversedWord= new StringBuilder(word).reverse();
+              reversedSentence.append(reversedWord).append(" ");
                // System.out.print(swa[i] +" ");
             }
-
+        System.out.println(reversedSentence.toString().trim());
         }
 //11.String Interning:
 //Java uses a unique feature called "string interning" to optimize memory usage.

@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f27df139-dd01-4a24-923f-3be607a4f539" name="Changes" comment="new files added">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/Arrays/arraysPractice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Java_Practise/Strings/subString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/Strings/subString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Java_Practise/Arrays/arraysPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/Arrays/arraysPractice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,6 +147,10 @@
     "Application.testPractise.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.arraysPractice.duplicateElementsInArray.executor": "Run",
+    "TestNG.arraysPractice.revArray.executor": "Run",
+    "TestNG.arraysPractice.sortedArray.executor": "Run",
+    "TestNG.arraysPractice.starPyramid.executor": "Debug",
     "TestNG.subString.ReverseWordSent.executor": "Run",
     "TestNG.subString.assertthat.executor": "Run",
     "TestNG.subString.executor": "Run",
@@ -160,18 +163,73 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.subString.ReverseWordSent">
-    <configuration name="subString" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.arraysPractice.starPyramid">
+    <configuration name="arraysPractice.duplicateElementsInArray" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Practise.Strings.*" />
+          <option name="PATTERN" value="Java_Practise.Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Java_Practise.Strings" />
-      <option name="MAIN_CLASS_NAME" value="Java_Practise.Strings.subString" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="Java_Practise.Arrays" />
+      <option name="MAIN_CLASS_NAME" value="Java_Practise.Arrays.arraysPractice" />
+      <option name="METHOD_NAME" value="duplicateElementsInArray" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="arraysPractice.revArray" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_Practise.Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Java_Practise.Arrays" />
+      <option name="MAIN_CLASS_NAME" value="Java_Practise.Arrays.arraysPractice" />
+      <option name="METHOD_NAME" value="revArray" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="arraysPractice.sortedArray" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_Practise.Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Java_Practise.Arrays" />
+      <option name="MAIN_CLASS_NAME" value="Java_Practise.Arrays.arraysPractice" />
+      <option name="METHOD_NAME" value="sortedArray" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="arraysPractice.starPyramid" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_Practise.Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Java_Practise.Arrays" />
+      <option name="MAIN_CLASS_NAME" value="Java_Practise.Arrays.arraysPractice" />
+      <option name="METHOD_NAME" value="starPyramid" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -196,67 +254,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="subString.assertthat" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="JavaProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_Practise.Strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Java_Practise.Strings" />
-      <option name="MAIN_CLASS_NAME" value="Java_Practise.Strings.subString" />
-      <option name="METHOD_NAME" value="assertthat" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="subString.palandrome" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="JavaProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_Practise.Strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Java_Practise.Strings" />
-      <option name="MAIN_CLASS_NAME" value="Java_Practise.Strings.subString" />
-      <option name="METHOD_NAME" value="palandrome" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="subString.revString" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="JavaProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_Practise.Strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Java_Practise.Strings" />
-      <option name="MAIN_CLASS_NAME" value="Java_Practise.Strings.subString" />
-      <option name="METHOD_NAME" value="revString" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.arraysPractice.starPyramid" />
+        <item itemvalue="TestNG.arraysPractice.sortedArray" />
+        <item itemvalue="TestNG.arraysPractice.duplicateElementsInArray" />
+        <item itemvalue="TestNG.arraysPractice.revArray" />
         <item itemvalue="TestNG.subString.ReverseWordSent" />
-        <item itemvalue="TestNG.subString.assertthat" />
-        <item itemvalue="TestNG.subString.revString" />
-        <item itemvalue="TestNG.subString.palandrome" />
-        <item itemvalue="TestNG.subString" />
       </list>
     </recent_temporary>
   </component>
@@ -268,14 +272,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753131299283</updated>
-    </task>
-    <task id="LOCAL-00036" summary="new files added">
-      <option name="closed" value="true" />
-      <created>1758826727460</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1758826727460</updated>
     </task>
     <task id="LOCAL-00037" summary="new files added">
       <option name="closed" value="true" />
@@ -661,11 +657,30 @@
       <option name="project" value="LOCAL" />
       <updated>1761779470217</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1761781804626</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1761781804626</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new files added" />
     <option name="LAST_COMMIT_MESSAGE" value="new files added" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Java_Practise/Arrays/arraysPractice.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

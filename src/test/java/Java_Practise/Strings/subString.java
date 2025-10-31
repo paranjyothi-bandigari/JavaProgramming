@@ -8,11 +8,9 @@ public class subString {
    @Test()
    public void subString() {
        //1. Write a Java method to check if a given substring exists within a string. string "Hello world" substring="Hello".
-
        String str = "Hello world";
        String substr = "world";
        System.out.println(str.contains(substr));
-
    }
 //2. Write a Java method to count the number of times a substring occurs in a given string
 @Test()
@@ -110,7 +108,7 @@ public void subStringOccurance(){
             //10.ReverseWordsInSentence
             String sentence = "my name is java";
             String[] words=sentence.split(" ");
-            int l=sentence.length();
+            //int l=sentence.length();
             StringBuilder reversedSentence=new StringBuilder();
             for(String word:words){
                 StringBuilder reversedWord= new StringBuilder(word).reverse();

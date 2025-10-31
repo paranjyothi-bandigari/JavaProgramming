@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f27df139-dd01-4a24-923f-3be607a4f539" name="Changes" comment="new files added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Java_Practise/Arrays/arraysPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/Arrays/arraysPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Java_Practise/Strings/subString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/Strings/subString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +164,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.arraysPractice.missingNumberInArray">
+  <component name="RunManager" selected="TestNG.subString.ReverseWordSent">
     <configuration name="arraysPractice.duplicateElementsInArray" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaProgramming" />
       <extension name="coverage">
@@ -194,24 +194,6 @@
       <option name="PACKAGE_NAME" value="Java_Practise.Arrays" />
       <option name="MAIN_CLASS_NAME" value="Java_Practise.Arrays.arraysPractice" />
       <option name="METHOD_NAME" value="missingNumberInArray" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="arraysPractice.revArray" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="JavaProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_Practise.Arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Java_Practise.Arrays" />
-      <option name="MAIN_CLASS_NAME" value="Java_Practise.Arrays.arraysPractice" />
-      <option name="METHOD_NAME" value="revArray" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -255,13 +237,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="subString.ReverseWordSent" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_Practise.Strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Java_Practise.Strings" />
+      <option name="MAIN_CLASS_NAME" value="Java_Practise.Strings.subString" />
+      <option name="METHOD_NAME" value="ReverseWordSent" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.subString.ReverseWordSent" />
         <item itemvalue="TestNG.arraysPractice.missingNumberInArray" />
         <item itemvalue="TestNG.arraysPractice.starPyramid" />
         <item itemvalue="TestNG.arraysPractice.sortedArray" />
         <item itemvalue="TestNG.arraysPractice.duplicateElementsInArray" />
-        <item itemvalue="TestNG.arraysPractice.revArray" />
       </list>
     </recent_temporary>
   </component>
@@ -273,22 +273,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753131299283</updated>
-    </task>
-    <task id="LOCAL-00038" summary="new files added">
-      <option name="closed" value="true" />
-      <created>1758828634902</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1758828634902</updated>
-    </task>
-    <task id="LOCAL-00039" summary="new files added">
-      <option name="closed" value="true" />
-      <created>1758829405360</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1758829405360</updated>
     </task>
     <task id="LOCAL-00040" summary="new files added">
       <option name="closed" value="true" />
@@ -666,7 +650,23 @@
       <option name="project" value="LOCAL" />
       <updated>1761856089442</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1761924694760</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1761924694760</updated>
+    </task>
+    <task id="LOCAL-00088" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1761933529309</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1761933529309</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

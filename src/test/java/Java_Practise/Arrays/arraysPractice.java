@@ -22,13 +22,15 @@ public class arraysPractice {
     //Find the Missing Number
     @Test
     public void missingNumberInArray(){
-        int[] arr = {1, 2, 4, 5, 6};
-               int n=0;
-        int sum=n*(n+1)/2;
-        for(int numbers: arr){
+        int[] arr = {2,3,5,6,7,8};
+        int missing=0;
 
+for(int i=0;i<arr.length-1;i++){
+    if(arr[i+1]!=arr[i]+1){
+        System.out.println(arr[i]+1);
+    }
 
-        }
+}
 
     }
     //Find Duplicate Elements

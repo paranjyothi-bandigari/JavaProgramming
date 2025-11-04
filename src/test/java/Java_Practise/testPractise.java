@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 import org.testng.asserts.Assertion;
 
 import java.util.*;
+import java.util.stream.IntStream;
 
 //1. Write a Java method to check if a given substring exists within a string. string "Hello world" substring="Hello".
 //2. Write a Java method to count the number of times a substring occurs in a given string
@@ -25,7 +26,7 @@ import java.util.*;
 //Find Duplicate Elements  int[] num={1,5,6,4,1,5};
 // Merge Two Sorted Arrays
 //Draw star pyramid using java
-//Java Array Problem Using Two For Loops
+//Java Array Problem Using Two For Loops  //find the pair whose sum is 10
 //@Test
 public class testPractise{
     public static void main(String[] args) {
@@ -170,6 +171,13 @@ public class testPractise{
             reverseSent.append(revWord).append(" ");
         }
         System.out.println(reverseSent.toString().trim());
+
+        int[] unsortedA1={1,2,6,8};
+        int[] unsortedA2={9,5,7,0};
+        int[] mergedA={unsortedA1.length+unsortedA2.length};
+        mergedA= IntStream.concat(Arrays.stream(unsortedA1), Arrays.stream(unsortedA2)).sorted().toArray();
+        System.out.println(mergedA);
+
     }
     }
 

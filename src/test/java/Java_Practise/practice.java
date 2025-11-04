@@ -1,7 +1,10 @@
 package Java_Practise;
 
-public class practice {
+import org.testng.annotations.Test;
 
+public class practice {
+@Test
+    public void strings() {
 //1. Write a Java method to check if a given substring exists within a string. string "Hello world" substring="Hello".
 //2. Write a Java method to count the number of times a substring occurs in a given string
 //3. Extracting a Subdomain from a URL: String url = "https://subdomain.example.com";
@@ -15,11 +18,15 @@ public class practice {
 //Answer: String manipulation is necessary when dealing with dynamic data. For example, extracting specific parts of a URL to verify its correctness or formatting dates and times for input fields.
 //10.ReverseWordsInSentence
 //Concatenating strings using the + operator inside a loop can lead to performance issues because each concatenation creates a new string object. Instead, using StringBuilder or StringBuffer is recommended for efficient string manipulation.
-//Reverse an Array
+    }
+    @Test
+    public void arrays() {
+        //Reverse an Array
 //Find the Missing Number {2,3,5,6,7,8};
 //Find Duplicate Elements  int[] num={1,5,6,4,1,5};
 // Merge Two Sorted Arrays
 //Draw star pyramid using java
 //Java Array Problem Using Two For Loops  //find the pair whose sum is 10
 
+    }
 }

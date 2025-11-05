@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f27df139-dd01-4a24-923f-3be607a4f539" name="Changes" comment="new files added">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/practice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Java_Practise/testPractise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/testPractise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Java_Practise/practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/practice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,6 +152,9 @@
     "TestNG.arraysPractice.revArray.executor": "Run",
     "TestNG.arraysPractice.sortedArray.executor": "Run",
     "TestNG.arraysPractice.starPyramid.executor": "Debug",
+    "TestNG.practice.arrays.executor": "Run",
+    "TestNG.practice.executor": "Run",
+    "TestNG.practice.strings.executor": "Run",
     "TestNG.subString.ReverseWordSent.executor": "Run",
     "TestNG.subString.assertthat.executor": "Run",
     "TestNG.subString.executor": "Run",
@@ -165,7 +167,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.testPractise">
+  <component name="RunManager" selected="TestNG.practice.arrays">
     <configuration name="testPractise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java_Practise.testPractise" />
       <module name="JavaProgramming" />
@@ -179,17 +181,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="arraysPractice.missingNumberInArray" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="practice" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Practise.Arrays.*" />
+          <option name="PATTERN" value="Java_Practise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Java_Practise.Arrays" />
-      <option name="MAIN_CLASS_NAME" value="Java_Practise.Arrays.arraysPractice" />
-      <option name="METHOD_NAME" value="missingNumberInArray" />
+      <option name="PACKAGE_NAME" value="Java_Practise" />
+      <option name="MAIN_CLASS_NAME" value="Java_Practise.practice" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="practice.arrays" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_Practise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Java_Practise" />
+      <option name="MAIN_CLASS_NAME" value="Java_Practise.practice" />
+      <option name="METHOD_NAME" value="arrays" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -197,35 +216,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="arraysPractice.sortedArray" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="practice.strings" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Practise.Arrays.*" />
+          <option name="PATTERN" value="Java_Practise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Java_Practise.Arrays" />
-      <option name="MAIN_CLASS_NAME" value="Java_Practise.Arrays.arraysPractice" />
-      <option name="METHOD_NAME" value="sortedArray" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="arraysPractice.starPyramid" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="JavaProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_Practise.Arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Java_Practise.Arrays" />
-      <option name="MAIN_CLASS_NAME" value="Java_Practise.Arrays.arraysPractice" />
-      <option name="METHOD_NAME" value="starPyramid" />
+      <option name="PACKAGE_NAME" value="Java_Practise" />
+      <option name="MAIN_CLASS_NAME" value="Java_Practise.practice" />
+      <option name="METHOD_NAME" value="strings" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -253,11 +254,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.practice.arrays" />
+        <item itemvalue="TestNG.practice.strings" />
+        <item itemvalue="TestNG.practice" />
         <item itemvalue="Application.testPractise" />
         <item itemvalue="TestNG.subString.ReverseWordSent" />
-        <item itemvalue="TestNG.arraysPractice.missingNumberInArray" />
-        <item itemvalue="TestNG.arraysPractice.starPyramid" />
-        <item itemvalue="TestNG.arraysPractice.sortedArray" />
       </list>
     </recent_temporary>
   </component>
@@ -269,22 +270,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753131299283</updated>
-    </task>
-    <task id="LOCAL-00042" summary="new files added">
-      <option name="closed" value="true" />
-      <created>1758833011315</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1758833011315</updated>
-    </task>
-    <task id="LOCAL-00043" summary="new files added">
-      <option name="closed" value="true" />
-      <created>1758914781401</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1758914781402</updated>
     </task>
     <task id="LOCAL-00044" summary="new files added">
       <option name="closed" value="true" />
@@ -662,7 +647,23 @@
       <option name="project" value="LOCAL" />
       <updated>1762206433206</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1762300109266</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1762300109267</updated>
+    </task>
+    <task id="LOCAL-00092" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1762300206805</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1762300206805</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

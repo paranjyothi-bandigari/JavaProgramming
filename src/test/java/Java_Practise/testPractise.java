@@ -27,6 +27,13 @@ import java.util.stream.IntStream;
 // Merge Two Sorted Arrays
 //Draw star pyramid using java
 //Java Array Problem Using Two For Loops  //find the pair whose sum is 10
+//Anagram
+//Array in Assending order
+//Even or odd
+//first highest number
+//Secondhighest number
+//second lowest number
+//sum of array
 //@Test
 public class testPractise{
     public static void main(String[] args) {

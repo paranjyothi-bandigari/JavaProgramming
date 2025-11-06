@@ -3,10 +3,7 @@ package Java_Practise;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 public class practice {
 @Test
@@ -133,4 +130,75 @@ for(int j=i+1;j<d.length;j++){
 //Java Array Problem Using Two For Loops  //find the pair whose sum is 10
 
     }
+    @Test
+    public void newArray(){
+    //Anagram String arr1="Listen"; String arr2="Silent";
+        String arra1="Listen";
+        String arra2="Silent";
+
+        char[] s1=arra1.toCharArray();
+        char[] s2=arra2.toCharArray();
+        if(arra1.length()==arra2.length()){
+       for(int i=0;i<arra1.length();i++){
+
+       }
+
+        System.out.println(s1);
+        System.out.println(s2);
+
+//Array in Assending order
+        int[] ne={2,3,5,7,9,1,4};
+        Set<Integer> setnum=new HashSet<>();
+        for(int i=0;i<ne.length-1;i++){
+            setnum.add(ne[i]);
+        }
+        System.out.println(setnum);
+//Even or odd
+            for(int i=0;i<ne.length-1;i++){
+               if(ne[i]%2==0){
+                   System.out.println(ne[i]+" : is even");
+               }
+               else
+                   System.out.println(ne[i]+" : is odd");
+            }
+
+//first highest number
+            int firstHighest=ne[0];
+        for(int i=0;i<ne.length-1;i++){
+            if (ne[i]>ne[i+1]) {
+                ne[i]=firstHighest;
+            }
+
+        }
+            System.out.println(firstHighest+ " : first highest number");
+//Secondhighest number
+            int secondHighest=ne[0];
+            int oneHighest=ne[0];
+        for(int i=0;i<ne.length-1;i++) {
+            if (ne[i]>ne[i+1]) {
+                // System.out.println(ne[i]+"$$$$$$$$$$");
+                oneHighest = ne[i];
+            }
+            for(int j=0;j<ne.length-1;j++) {
+            if (ne[j]>ne[j+1] && ne[j]!=oneHighest) {
+                secondHighest=ne[j];
+            }
+            }
+            }
+            System.out.println(secondHighest+ " : second highest number");
+
+
+
+            //int[] ne={2,3,5,7,9,1,4};
+            int firstlowest=ne[0];
+//second lowest number
+            for(int i=0;i<ne.length-1;i++) {
+                    if (ne[i]<ne[i+1]) {
+                       firstlowest=ne[i];
+                    }
+            }
+            System.out.println(firstlowest+ " : first lowest number");
+//sum of array
 }
+    }}
+

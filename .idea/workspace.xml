@@ -7,6 +7,7 @@
     <list default="true" id="f27df139-dd01-4a24-923f-3be607a4f539" name="Changes" comment="new files added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Java_Practise/practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/practice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Java_Practise/testPractise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/testPractise.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,6 +155,8 @@
     "TestNG.arraysPractice.starPyramid.executor": "Debug",
     "TestNG.practice.arrays.executor": "Run",
     "TestNG.practice.executor": "Run",
+    "TestNG.practice.newArray.executor": "Run",
+    "TestNG.practice.newArray1.executor": "Run",
     "TestNG.practice.strings.executor": "Run",
     "TestNG.subString.ReverseWordSent.executor": "Run",
     "TestNG.subString.assertthat.executor": "Run",
@@ -167,7 +170,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.practice.arrays">
+  <component name="RunManager" selected="TestNG.practice.newArray">
     <configuration name="testPractise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java_Practise.testPractise" />
       <module name="JavaProgramming" />
@@ -177,23 +180,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="practice" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="JavaProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_Practise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Java_Practise" />
-      <option name="MAIN_CLASS_NAME" value="Java_Practise.practice" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -209,6 +195,42 @@
       <option name="PACKAGE_NAME" value="Java_Practise" />
       <option name="MAIN_CLASS_NAME" value="Java_Practise.practice" />
       <option name="METHOD_NAME" value="arrays" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="practice.newArray" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_Practise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Java_Practise" />
+      <option name="MAIN_CLASS_NAME" value="Java_Practise.practice" />
+      <option name="METHOD_NAME" value="newArray" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="practice.newArray1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_Practise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Java_Practise" />
+      <option name="MAIN_CLASS_NAME" value="Java_Practise.practice" />
+      <option name="METHOD_NAME" value="newArray1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -234,31 +256,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="subString.ReverseWordSent" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="JavaProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_Practise.Strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Java_Practise.Strings" />
-      <option name="MAIN_CLASS_NAME" value="Java_Practise.Strings.subString" />
-      <option name="METHOD_NAME" value="ReverseWordSent" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.practice.newArray" />
+        <item itemvalue="Application.testPractise" />
+        <item itemvalue="TestNG.practice.newArray1" />
         <item itemvalue="TestNG.practice.arrays" />
         <item itemvalue="TestNG.practice.strings" />
-        <item itemvalue="TestNG.practice" />
-        <item itemvalue="Application.testPractise" />
-        <item itemvalue="TestNG.subString.ReverseWordSent" />
       </list>
     </recent_temporary>
   </component>
@@ -270,14 +274,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753131299283</updated>
-    </task>
-    <task id="LOCAL-00044" summary="new files added">
-      <option name="closed" value="true" />
-      <created>1758917938050</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1758917938050</updated>
     </task>
     <task id="LOCAL-00045" summary="new files added">
       <option name="closed" value="true" />
@@ -663,7 +659,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762300206805</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1762302545025</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1762302545026</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

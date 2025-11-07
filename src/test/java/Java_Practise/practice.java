@@ -202,7 +202,7 @@ for(int j=i+1;j<d.length;j++){
             }
             System.out.println("sum is : " +sum);
 }
-
+//firstRepeatingElementInArray
     }
     @Test
     public void strings1() {
@@ -289,24 +289,84 @@ String Word="my name is eesha"; //eesha is name my
     @Test
     public void strings2() {
 //Anagram
-//CommonInTwoArrays
-//CountPair
+      String anna1="evil";
+      String anna2="live";
+//      StringBuilder sba1=new StringBuilder(anna1);
+//      StringBuilder sba2=new StringBuilder(anna2);
+        //PalindromeExample
+        String pal="madam";
+        String rev=new StringBuilder(pal).reverse().toString();
+
+                if(pal.equals(rev)){
+                    System.out.println("Palandrome");
+                }
+                else{
+                System.out.println("not palandrome");}
+
 //CountVowels
+        String VCName="Orange"; //v=3 c=3
+        int countV=0;
+        int countC=0;
+        for(int i=0;i<VCName.length();i++){
+            if(VCName.charAt(i)=='A' || VCName.charAt(i)=='a' || VCName.charAt(i)=='E'||
+                    VCName.charAt(i)=='e'||VCName.charAt(i)=='I'||VCName.charAt(i)=='i'||
+                    VCName.charAt(i)=='O'||VCName.charAt(i)=='o'||VCName.charAt(i)=='U'||
+                    VCName.charAt(i)=='u')
+            {
+            countV++;
+            }
+            else{
+                countC++;
+            }
+        }
+        System.out.println(countV+" is Vowels count in "+VCName);
+        System.out.println(countC+" is Consonents count in "+VCName);
+        ////RearrangePosNegNumber
+        int[] rearrangenum={2,3,-1,0,-5};
+        Arrays.sort(rearrangenum);
+        for(int numrearrange:rearrangenum){
+            System.out.println(numrearrange);
+        }
+
+        //CountPair
 //elementStartDecrease
+        int[] ESD={1,3,5,7,9,8,6,2};
+        int desc=0;
+        for(int i=0;i<ESD.length;i++){
+            if(ESD[i]>ESD[i+1]){
+                desc=i;
+                break;
+            }
+        } System.out.println(desc+" is the element start Decreasing");
 //ExpressionEvaluationRED
 //FirstandLastOccurance
-//firstRepeatingElementInArray
+        int arr[]={1, 2, 2, 2, 2, 1, 4, 7 ,8 ,8 };
+        int value=2;
+        for(int i=0;i<arr.length;i++){
+            if(arr[i]==value){
+                System.out.println(arr[i]+" is at first index : "+i);
+                break;
+            }
+        }
+        for(int i=arr.length-1;i>=0;i--){
+            if(arr[i]==value){
+                System.out.println(arr[i]+" is at last index : "+i);
+                break;
+            }
+        }
 //firststrSubsequenceOfsecond
-//maxProductArrayOfposnegInteger
-//MergeTwoSortedArray
 //pairElements
-//PalindromeExample
-//RearrangePosNegNumber
 //RemoveConsecutiveDuplicate
 //RevWordInSentence
 //rotatebyN
+
     }
 
+      }
 
-}
+
+
+
+
+
 

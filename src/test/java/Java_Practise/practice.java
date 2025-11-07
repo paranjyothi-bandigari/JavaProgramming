@@ -196,6 +196,117 @@ for(int j=i+1;j<d.length;j++){
             }
             System.out.println(seclowest+ " : sec lowest number");
 //sum of array
+            int sum=0;
+            for(int i=0;i<ne.length;i++) {
+               sum=sum+ne[i];
+            }
+            System.out.println("sum is : " +sum);
 }
-    }}
+
+    }
+    @Test
+    public void strings1() {
+
+        //factorial,
+        int n=6;
+        int fact=1;
+        for(int i=1;i<=n;i++){
+            fact=fact*i;
+        }
+        System.out.println(fact);
+        //febonacci
+        int firstnumber=0;
+        int secondnumber=1;
+        int sum=0;
+        int nu=10;
+        System.out.println(firstnumber);
+        //System.out.println(secondnumber);
+        for(int i=1;i<=nu;i++){
+            firstnumber=secondnumber;
+            secondnumber=sum;
+            sum=firstnumber+secondnumber;
+            System.out.println(sum);
+        }
+         //isPrime
+         n=5;
+           if(n<=1){
+               System.out.println("not prime");
+           }else{
+               for(int i=2;i<=Math.sqrt(n);i++){
+                   if(n%i==0){
+                       System.out.println("Not Prime");
+                       break;
+                   } else
+                       System.out.println("Prime");
+               }
+
+        }
+        //rev a number
+        int num=123;
+        int rev=0;
+      while(num!=0){
+           int digit=num%10; //digit=123%10=3 -->//rev=0*10+3=3 -->//num=123/10=12
+           rev=rev*10+digit; //digit=12%10=2 -->//rev=3*10+2=32 -->//num=12/10=1
+           num=num/10;       //digit=1%10=1 -->//rev=32*10+1=321 -->//num=1/10=
+       }
+        System.out.println("reverse of 123 is : "+rev);
+
+        //rev a string
+        String r="";
+        String Wor="my name is eesha";
+        for(int i=Wor.length()-1;i>=0;i--){
+           r=r+Wor.charAt(i);
+        }
+        System.out.println(r);
+        //  rev words in sentence
+String Word="my name is eesha"; //eesha is name my
+      String re="";
+        StringBuilder sb=null;
+     String[] word=Word.split(" ") ;
+     for(int i=word.length-1;i>=0;i--){
+        re=re+word[i]+" ";
+          sb=new StringBuilder(re);
+
+     }
+        System.out.println(sb.toString());
+
+        //  sub string
+        String fullname="Eesha koppala";
+        String firstname="Eesha";
+        if(fullname.contains(firstname)){
+            System.out.println(firstname+" is substring of "+fullname);
+        }
+
+        //  swap2 numbers without third
+        int a=5;
+        int b=6;
+        a=a+b;
+        b=a-b;
+        a=a-b;
+        System.out.println(a+" ; "+b);
+
+    }
+    @Test
+    public void strings2() {
+//Anagram
+//CommonInTwoArrays
+//CountPair
+//CountVowels
+//elementStartDecrease
+//ExpressionEvaluationRED
+//FirstandLastOccurance
+//firstRepeatingElementInArray
+//firststrSubsequenceOfsecond
+//maxProductArrayOfposnegInteger
+//MergeTwoSortedArray
+//pairElements
+//PalindromeExample
+//RearrangePosNegNumber
+//RemoveConsecutiveDuplicate
+//RevWordInSentence
+//rotatebyN
+    }
+
+
+}
 

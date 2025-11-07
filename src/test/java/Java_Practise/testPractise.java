@@ -21,6 +21,54 @@ import java.util.stream.IntStream;
 //Answer: String manipulation is necessary when dealing with dynamic data. For example, extracting specific parts of a URL to verify its correctness or formatting dates and times for input fields.
 //10.ReverseWordsInSentence
 //Concatenating strings using the + operator inside a loop can lead to performance issues because each concatenation creates a new string object. Instead, using StringBuilder or StringBuffer is recommended for efficient string manipulation.
+//************************
+//factorial, febonacci, is prime, rev a number, rev string, rev words in sentence, sub string, swap2 numbers without third
+
+//Anagram
+//CountVowels
+//elementStartDecrease
+//ExpressionEvaluationRED
+//FirstandLastOccurance
+//firststrSubsequenceOfsecond
+//pairElements
+//PalindromeExample
+//RearrangePosNegNumber
+//RemoveConsecutiveDuplicate
+//RevWordInSentence
+//rotatebyN
+//************************
+//check string contains digits
+//check string contains special characters
+//concat 2 strings
+//count capital and small letters
+//countcharactersDigitsSepecial chars
+//count consonets vowels
+//count occurance of each character string
+//count wordsin string
+//factorial of num
+//find last unique char
+//first letter of each word
+//first non repeated character
+//fizzbuzz
+//highest occurance of char
+//occuranceof given char
+//palandrome and palandrome string
+//percentage of vowels and consonents
+//print duplicate characters with count
+//remove all leading zeros
+//remove characters from string
+//remove duplicate characters from string
+//remove duplicates elemets char
+//remove special chars from string
+//remove white spaces from string
+//replace charactersin String
+//reverse each word of string
+//reverse string
+//reverse words in string
+//rev string ad sort string
+//swap first and last char of string
+
+//**************************************
 //Reverse an Array
 //Find the Missing Number {2,3,5,6,7,8};
 //Find Duplicate Elements  int[] num={1,5,6,4,1,5};

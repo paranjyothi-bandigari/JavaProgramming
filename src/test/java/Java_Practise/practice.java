@@ -149,17 +149,17 @@ for(int j=i+1;j<d.length;j++){
 //Array in Assending order
         int[] ne={2,3,5,7,9,1,4};
         Set<Integer> setnum=new HashSet<>();
-        for(int i=0;i<ne.length-1;i++){
+        for(int i=0;i<ne.length;i++){
             setnum.add(ne[i]);}
         System.out.println(setnum);
 //Even or odd
-            for(int i=0;i<ne.length-1;i++){
+            for(int i=0;i<ne.length;i++){
                if(ne[i]%2==0){
                    System.out.println(ne[i]+" : is even");}
                else System.out.println(ne[i]+" : is odd");}
 //first highest number
             int firstHighest=ne[0];
-        for(int i=0;i<ne.length-1;i++){
+        for(int i=0;i<ne.length;i++){
             if (ne[i]>firstHighest) {
                 firstHighest=ne[i]; }
         }
@@ -167,13 +167,13 @@ for(int j=i+1;j<d.length;j++){
 //Secondhighest number
             int secondHighest=ne[0];
             int oneHighest=ne[0];
-        for(int i=0;i<ne.length-1;i++) {
+        for(int i=0;i<ne.length;i++) {
             if (ne[i] >oneHighest) {
                 oneHighest = ne[i];
             }
         }
            // System.out.println(oneHighest+" is first highest");
-            for(int j=0;j<ne.length-1;j++) {
+            for(int j=0;j<ne.length;j++) {
             if (ne[j]>secondHighest && ne[j]!=oneHighest) {
                 secondHighest=ne[j];
             }
@@ -183,13 +183,13 @@ for(int j=i+1;j<d.length;j++){
             int firstlowest=ne[0];
             int seclowest=ne[0];
 //second lowest number
-            for(int i=0;i<ne.length-1;i++) {
+            for(int i=0;i<ne.length;i++) {
                     if (ne[i]<firstlowest) {
                        firstlowest=ne[i];
                     }
             }
             //System.out.println(firstlowest+ " : first lowest number");
-            for(int i=0;i<ne.length-1;i++) {
+            for(int i=0;i<ne.length;i++) {
                 if (ne[i]<seclowest && ne[i]!=firstlowest) {
                     seclowest=ne[i];
                 }

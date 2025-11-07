@@ -171,13 +171,26 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.practice.strings2">
+  <component name="RunManager" selected="Application.RevWordInSentence">
     <configuration name="ArraySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaProgramming.Imp.ArraySearch" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="JavaProgramming.Imp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RevWordInSentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Imp22Java.RevWordInSentence" />
+      <module name="JavaProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaProgramming.Imp22Java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -194,24 +207,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="practice.newArray" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="JavaProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_Practise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Java_Practise" />
-      <option name="MAIN_CLASS_NAME" value="Java_Practise.practice" />
-      <option name="METHOD_NAME" value="newArray" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -254,11 +249,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RevWordInSentence" />
         <item itemvalue="TestNG.practice.strings2" />
         <item itemvalue="Application.elementStartDecrease" />
         <item itemvalue="TestNG.practice.strings1" />
         <item itemvalue="Application.ArraySearch" />
-        <item itemvalue="TestNG.practice.newArray" />
       </list>
     </recent_temporary>
   </component>
@@ -270,14 +265,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753131299283</updated>
-    </task>
-    <task id="LOCAL-00049" summary="new files added">
-      <option name="closed" value="true" />
-      <created>1758922696690</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1758922696691</updated>
     </task>
     <task id="LOCAL-00050" summary="new files added">
       <option name="closed" value="true" />
@@ -663,7 +650,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762543856953</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1762553201191</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1762553201193</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

@@ -356,12 +356,57 @@ String Word="my name is eesha"; //eesha is name my
         }
 //firststrSubsequenceOfsecond
 //pairElements
+        int[] arraa = {1, 5, 7, -1, 5};
+        int targetSum = 6;
+        for(int i=0;i<arraa.length;i++){
+            for(int j=i+1;j<arraa.length;j++){
+                if(arraa[i]+arraa[j]==targetSum){
+                System.out.println("{"+arraa[i]+","+arraa[j]+"}");
+                }
+                else{
+                    continue;
+                }
+            }
+
+        }
 //RemoveConsecutiveDuplicate
 //RevWordInSentence
 //rotatebyN
 
     }
-
+    @Test
+    public void stringsArrays(){
+        //check string contains digits
+//check string contains special characters
+//concat 2 strings
+//count capital and small letters
+//countcharactersDigitsSepecial chars
+//count consonets vowels
+//count occurance of each character string
+//count wordsin string
+//factorial of num
+//find last unique char
+//first letter of each word
+//first non repeated character
+//fizzbuzz
+//highest occurance of char
+//occuranceof given char
+//palandrome and palandrome string
+//percentage of vowels and consonents
+//print duplicate characters with count
+//remove all leading zeros
+//remove characters from string
+//remove duplicate characters from string
+//remove duplicates elemets char
+//remove special chars from string
+//remove white spaces from string
+//replace charactersin String
+//reverse each word of string
+//reverse string
+//reverse words in string
+//rev string ad sort string
+//swap first and last char of string
+    }
       }
 
 

@@ -30,10 +30,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.Assertion;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Set;
-import java.util.TreeSet;
+import java.util.*;
 
 import static org.testng.Assert.assertEquals;
 
@@ -98,6 +95,16 @@ public class ttt {
             Senten=Senten+sbWords;
         }
         System.out.println(Senten.toString().trim());
+        //Anagram
+        String arr1="Listen"; String arr2="Silent";
+        char[] arr11=arr1.toCharArray();
+        char[] arr22=arr2.toCharArray();
+        Arrays.sort(arr11);
+        Arrays.sort(arr22);
+        if(arr11.equals(arr22)){
+            System.out.println("Anagram");
+        }else
+            System.out.println("Not Anagram");
     }
     //Reverse an Array
 //Find the Missing Number {2,3,5,6,7,8};
@@ -166,11 +173,30 @@ public class ttt {
                 System.out.println(arr[i]+" : is odd number");
         }
 //Find the Missing Number {2,3,5,6,7,8};
+        int[] numbers={2,3,5,6,7,8};
+        for(int i=1;i<numbers.length-1;i++){
+            if(numbers[i]+1!=numbers[i+1]){
+                System.out.println("Missing number is: "+numbers[i]+1);
+                break;
+            }
+        }
 //Find Duplicate Elements  int[] num={1,5,6,4,1,5};
+        int[] num={1,5,6,4,1,5};
+        List nu=new ArrayList();
+        Set<Integer> duplicates=new TreeSet<>();
+        for(int i=0;i<num.length-1;i++){
+           if(!nu.contains(num[i])){
+               nu.add(num[i]);
+               continue;
+           }else
+               duplicates.add(num[i]);
+
+        }
+        System.out.println(duplicates);
 // Merge Two Sorted Arrays
 //Draw star pyramid using java
 //Java Array Problem Using Two For Loops  //find the pair whose sum is 10
-//Anagram
+
 
 
 

@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f27df139-dd01-4a24-923f-3be607a4f539" name="Changes" comment="new files added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Java_Practise/practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/practice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Java_Practise/ttt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/ttt.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,15 +188,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="elementStartDecrease" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Imp22Java.elementStartDecrease" />
+    <configuration name="practice.newArray" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaProgramming.Imp22Java.*" />
+          <option name="PATTERN" value="Java_Practise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Java_Practise" />
+      <option name="MAIN_CLASS_NAME" value="Java_Practise.practice" />
+      <option name="METHOD_NAME" value="newArray" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -258,9 +264,9 @@
       <list>
         <item itemvalue="TestNG.ttt.test002" />
         <item itemvalue="TestNG.ttt.testing001" />
+        <item itemvalue="TestNG.practice.newArray" />
         <item itemvalue="Application.RevWordInSentence" />
         <item itemvalue="TestNG.practice.strings2" />
-        <item itemvalue="Application.elementStartDecrease" />
       </list>
     </recent_temporary>
   </component>
@@ -272,14 +278,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753131299283</updated>
-    </task>
-    <task id="LOCAL-00052" summary="new files added">
-      <option name="closed" value="true" />
-      <created>1759532332856</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1759532332856</updated>
     </task>
     <task id="LOCAL-00053" summary="new files added">
       <option name="closed" value="true" />
@@ -665,7 +663,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762815686364</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1762821996930</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1762821996930</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

@@ -39,7 +39,7 @@ public class ttt {
     public void testing001(){
         String word ="Hello world", substring="world";
         word.contains(substring);
-        System.out.println( word.contains(substring));
+        System.out.println(word.contains(substring));
         String noofword=" hellow world where is world when world will revolve";
         String[] noOfWord=noofword.split(" ");
         int count=0;
@@ -96,12 +96,15 @@ public class ttt {
         }
         System.out.println(Senten.toString().trim());
         //Anagram
-        String arr1="Listen"; String arr2="Silent";
+        String arr1="listen"; String arr2="silent";
         char[] arr11=arr1.toCharArray();
         char[] arr22=arr2.toCharArray();
         Arrays.sort(arr11);
         Arrays.sort(arr22);
-        if(arr11.equals(arr22)){
+        System.out.println(arr11);
+        System.out.println(arr22);
+        if(Arrays.equals(arr11,arr22)){
+
             System.out.println("Anagram");
         }else
             System.out.println("Not Anagram");
@@ -174,9 +177,9 @@ public class ttt {
         }
 //Find the Missing Number {2,3,5,6,7,8};
         int[] numbers={2,3,5,6,7,8};
-        for(int i=1;i<numbers.length-1;i++){
+        for(int i=0;i<numbers.length-1;i++){
             if(numbers[i]+1!=numbers[i+1]){
-                System.out.println("Missing number is: "+numbers[i]+1);
+                System.out.println("Missing number is: "+(numbers[i]+1));
                 break;
             }
         }
@@ -184,23 +187,58 @@ public class ttt {
         int[] num={1,5,6,4,1,5};
         List nu=new ArrayList();
         Set<Integer> duplicates=new TreeSet<>();
-        for(int i=0;i<num.length-1;i++){
+        for(int i=0;i<num.length;i++){
            if(!nu.contains(num[i])){
                nu.add(num[i]);
-               continue;
+
            }else
                duplicates.add(num[i]);
 
         }
         System.out.println(duplicates);
 // Merge Two Sorted Arrays
+        int[] a1={1,2,3};
+        int[] a2={4,5,6};
+        List<Integer> sortedArray=new ArrayList<>();
+        for(int i=0;i<a1.length;i++){
+            sortedArray.add(a1[i]);
+        }
+        for(int i=0;i<a2.length;i++){
+            sortedArray.add(a2[i]);
+        }
+        System.out.println(sortedArray);
 //Draw star pyramid using java
+        int row=6;
+        for(int i=1;i<=row;i++){
+            for(int j=i+1;j<row;j++){
+                System.out.print(" ");
+            }
+            for(int k=1;k<(i*2)-1;k++){
+                System.out.print("*");
+            }
+            System.out.println(" ");
+        }
+        int numb=6;
+        for(int i=1;i<=numb;i++){
+            for(int j=i+1;j<numb;j++){
+                System.out.print(" ");
+            }
+            for(int k=1;k<(i*2);k++){
+                System.out.print("*");
+            }
+            System.out.println(" ");
+        }
+
 //Java Array Problem Using Two For Loops  //find the pair whose sum is 10
+        int[] a3={3,4,5,6,7,8,9,2,1};
+        int pairsum=10;
+        for(int i=0;i<a3.length;i++){
+            for(int j=i+1;j<a3.length;j++){
+                if(a3[i]+a3[j]==10){
+                    System.out.println("{"+a3[i]+","+a3[j]+"}");
+                }
 
-
-
-
+            }
+        }
     }
-
-
 }

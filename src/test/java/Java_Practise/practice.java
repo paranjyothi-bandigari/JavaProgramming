@@ -136,6 +136,7 @@ for(int j=i+1;j<d.length;j++){
         String arra1="Listen";
         String arra2="Silent";
 
+
         char[] s1=arra1.toCharArray();
         char[] s2=arra2.toCharArray();
         if(arra1.length()==arra2.length()){

@@ -241,4 +241,112 @@ public class ttt {
             }
         }
     }
+    @Test
+    public void test003() {
+        //check string contains digits
+        String sc="name";
+        String dig="43567";
+        System.out.println(sc.concat(dig));
+//check string contains special characters
+        String spl="@#$%^Y";
+        System.out.println(sc.concat(spl));
+//concat 2 strings
+        String fName="Eesha";
+        String lName="Koppala ";
+        System.out.println(lName.concat(fName));
+//count capital and small letters
+        String CapitalSmall="PrintLN Cap Small";
+        int UpperCaseCount=0;
+        int LowerCaseCount=0;
+        for(int i=0;i<CapitalSmall.length();i++){
+        char c=CapitalSmall.charAt(i);
+        if(Character.isUpperCase(c)){
+            UpperCaseCount++;
+        } else if (Character.isLowerCase(c)) {
+            LowerCaseCount++;
+        }else
+            System.out.println("Not Upper Not Lower case" +c);
+        }
+        System.out.println("Upper case count is: "+UpperCaseCount);
+        System.out.println("Lower case count is: "+LowerCaseCount);
+//countcharactersDigitsSepecial chars
+        String CountCDS="PrintLN$%&*980 Cap@#!45 Small6!#"; //alp=15, d=6, s=9
+        int charCount=0;
+        int digits=0;
+        int special=0;
+        int scount=0;
+        for(int i=0;i<CountCDS.length();i++){
+            char c=CountCDS.charAt(i);
+            if(Character.isAlphabetic(c)){
+                charCount++;
+            } else if (Character.isDigit(c)) {
+                digits++;
+            }else if(Character.isSpaceChar(c)){
+                special++;
+            }else
+                scount++;
+        }
+        System.out.println("Alphebet count is "+charCount);
+        System.out.println("digits count is "+digits);
+        System.out.println("special count is "+scount);
+        System.out.println("space count is "+special);
+//count consonets vowels
+        String CV="Orange"; //v=3, c=3
+        int vowelCount=0;
+        int consonentsCount=0;
+        for(int i=0;i<CV.length();i++){
+            if(CV.charAt(i)=='A'||CV.charAt(i)=='E'||CV.charAt(i)=='I'||CV.charAt(i)=='O'||CV.charAt(i)=='U'||
+                    CV.charAt(i)=='a'||CV.charAt(i)=='e'||CV.charAt(i)=='i'||CV.charAt(i)=='o'||CV.charAt(i)=='u'){
+                vowelCount++;
+            }else
+                consonentsCount++;
+        }
+        System.out.println("Vowels count is : "+vowelCount);
+        System.out.println("Consonents count is : "+consonentsCount);
+//count wordsin string
+        String wordsCount="my name is Java";
+        String[] WordsCount=wordsCount.split(" ");
+        int wordcount=0;
+        for(int i=0;i<WordsCount.length;i++){
+            wordcount++;
+        }
+        System.out.println("Words count in a sentence is : "+wordcount);
+//factorial of num
+        int num=5;
+        int fact=1;
+        for(int i=1;i<=num;i++){
+            fact=fact*i;
+        }
+        System.out.println(fact);
+//find last unique char
+        String uniqueCharFind="daddy";
+        char uc;
+        for(int i=0;i<uniqueCharFind.length();i++){
+
+        }
+//first letter of each word
+        String FLOEW="";
+        String[] wordsCountt=wordsCount.split(" ");
+        for(int i=0;i<wordsCountt.length;i++){
+
+        }
+//first non repeated character
+//fizzbuzz
+//highest occurance of char
+//occuranceof given char
+//palandrome numb and palandrome string
+//percentage of vowels and consonents
+//print duplicate characters with count
+//remove all leading zeros
+//remove characters from string
+//remove duplicate characters from string
+//remove duplicates elemets char
+//remove special chars from string
+//remove white spaces from string
+//replace charactersin String
+//reverse words in string
+//rev string and sort string
+//swap first and last char of string
+// count occurance of each character string
+    }
 }

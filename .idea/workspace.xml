@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f27df139-dd01-4a24-923f-3be607a4f539" name="Changes" comment="new files added">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/second1to1Session.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Java_Practise/practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/practice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Java_Practise/ttt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/ttt.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -132,6 +132,7 @@
     "Application.pairElements.executor": "Run",
     "Application.revList.executor": "Run",
     "Application.reverseStringwithWords.executor": "Run",
+    "Application.second1to1Session.executor": "Run",
     "Application.secondLowestnumber.executor": "Run",
     "Application.secondSmallestElementInArray.executor": "Run",
     "Application.secondSmallestElementInArrayWithoutSorting.executor": "Run",
@@ -145,6 +146,7 @@
     "Application.swap2NumbersWithoutThird.executor": "Run",
     "Application.test.executor": "Run",
     "Application.test001.executor": "Run",
+    "Application.testDemo.executor": "Run",
     "Application.testPractise.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -169,18 +171,19 @@
     "TestNG.subString.subStringOccurance.executor": "Run",
     "TestNG.subString.subdomain.executor": "Run",
     "TestNG.ttt.test002.executor": "Run",
+    "TestNG.ttt.test003.executor": "Run",
     "TestNG.ttt.testing001.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.ttt.test002">
-    <configuration name="RevWordInSentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Imp22Java.RevWordInSentence" />
+  <component name="RunManager" selected="Application.second1to1Session">
+    <configuration name="second1to1Session" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Practise.second1to1Session" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaProgramming.Imp22Java.*" />
+          <option name="PATTERN" value="Java_Practise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,24 +209,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="practice.strings2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="JavaProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_Practise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Java_Practise" />
-      <option name="MAIN_CLASS_NAME" value="Java_Practise.practice" />
-      <option name="METHOD_NAME" value="strings2" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ttt.test002" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaProgramming" />
       <extension name="coverage">
@@ -235,6 +220,24 @@
       <option name="PACKAGE_NAME" value="Java_Practise" />
       <option name="MAIN_CLASS_NAME" value="Java_Practise.ttt" />
       <option name="METHOD_NAME" value="test002" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ttt.test003" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_Practise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Java_Practise" />
+      <option name="MAIN_CLASS_NAME" value="Java_Practise.ttt" />
+      <option name="METHOD_NAME" value="test003" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -262,11 +265,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.second1to1Session" />
+        <item itemvalue="TestNG.ttt.test003" />
         <item itemvalue="TestNG.ttt.test002" />
         <item itemvalue="TestNG.ttt.testing001" />
         <item itemvalue="TestNG.practice.newArray" />
-        <item itemvalue="Application.RevWordInSentence" />
-        <item itemvalue="TestNG.practice.strings2" />
       </list>
     </recent_temporary>
   </component>
@@ -278,14 +281,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753131299283</updated>
-    </task>
-    <task id="LOCAL-00053" summary="new files added">
-      <option name="closed" value="true" />
-      <created>1759867047367</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1759867047367</updated>
     </task>
     <task id="LOCAL-00054" summary="new files added">
       <option name="closed" value="true" />
@@ -671,7 +666,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762821996930</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1762986709491</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1762986709491</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

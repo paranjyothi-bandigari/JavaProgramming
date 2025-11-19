@@ -9,13 +9,16 @@ public class second1to1Session {
         String newinputt= input.replaceAll("(?i)t","o");
         System.out.println(newinputt);
         String[] fruits={"mango","Apple","orange"};
-        String[] vowelsLetters={"A","E","I","O","U"};
+        String vowelsLetters="aeiou";
         for(String fruit:fruits){
-for(String vo:vowelsLetters){
-            if(fruit.toUpperCase().startsWith(vo)){
+
+    char fLetter=Character.toLowerCase(fruit.charAt(0));
+            if(vowelsLetters.indexOf(fLetter)!=-1){
                 System.out.println(fruit+" Started with Vowel");
-            }
-        }}
+        }
+            else System.out.println(fruit+" not Started  with Vowel");
+
+        }
         String[] newinput=input.split("t");
      for(int i=0;i< newinput.length;i++){
          System.out.println(newinput[i]);

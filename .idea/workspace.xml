@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f27df139-dd01-4a24-923f-3be607a4f539" name="Changes" comment="new files added">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tttt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Java_Practise/second1to1Session.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/second1to1Session.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,6 +147,7 @@
     "Application.test001.executor": "Run",
     "Application.testDemo.executor": "Run",
     "Application.testPractise.executor": "Run",
+    "Application.tttt.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "TestNG.arraysPractice.duplicateElementsInArray.executor": "Run",
@@ -176,7 +177,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.second1to1Session">
+  <component name="RunManager" selected="Application.tttt">
     <configuration name="second1to1Session" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java_Practise.second1to1Session" />
       <module name="JavaProgramming" />
@@ -190,20 +191,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="practice.newArray" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="tttt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tttt" />
       <module name="JavaProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_Practise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Java_Practise" />
-      <option name="MAIN_CLASS_NAME" value="Java_Practise.practice" />
-      <option name="METHOD_NAME" value="newArray" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -264,11 +254,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.tttt" />
         <item itemvalue="Application.second1to1Session" />
         <item itemvalue="TestNG.ttt.test003" />
         <item itemvalue="TestNG.ttt.test002" />
         <item itemvalue="TestNG.ttt.testing001" />
-        <item itemvalue="TestNG.practice.newArray" />
       </list>
     </recent_temporary>
   </component>
@@ -280,14 +270,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753131299283</updated>
-    </task>
-    <task id="LOCAL-00055" summary="new files added">
-      <option name="closed" value="true" />
-      <created>1759867624569</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1759867624570</updated>
     </task>
     <task id="LOCAL-00056" summary="new files added">
       <option name="closed" value="true" />
@@ -673,7 +655,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763417462084</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1763595832596</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1763595832596</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

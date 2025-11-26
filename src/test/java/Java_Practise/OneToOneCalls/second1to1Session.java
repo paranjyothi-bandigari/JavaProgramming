@@ -1,4 +1,4 @@
-package Java_Practise;
+package Java_Practise.OneToOneCalls;
 
 public class second1to1Session {
     public static void main(String[] args) {

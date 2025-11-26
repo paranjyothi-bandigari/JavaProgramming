@@ -11,8 +11,11 @@ public class tttt {
         String[] fruits={"mango","Apple","orange"};//print a friuit that starts with aeiou
         String check="aeiou";
         for(String fruit:fruits){
-         char fl= fruit.charAt(0);
-         //if(Character(fl).contains(check)){}
+         char fl= Character.toLowerCase(fruit.charAt(0));
+         if(check.indexOf(fl)!=-1){
+             System.out.println(fruit+" Started with Vowel");
+         }
+         else System.out.println(fruit+" not Started  with Vowel");
         }
         //1. Write a Java method to check if a given substring exists within a string.
   String s1= "Hello world" ;
@@ -122,15 +125,16 @@ public class tttt {
         }
         System.out.println(mergedList);
 //Draw star pyramid using java
-//        int n=5;
-//        for(int i=1;i<=n;i++){
-//            for(int j=i+1;j<n;j++){
-//                System.out.print("*");
-//            }
-//            for(int k=1;k<(i*2)-1;k++){
-//                System.out.println(" ");
-//            }
-//        }
+        int n=6;
+        for(int i=1;i<=n;i++){
+            for(int j=i+1;j<n;j++){
+                System.out.print(" ");
+            }
+            for(int k=1;k<(i*2)-1;k++){
+                System.out.print("*");
+            }
+            System.out.println(" ");
+        }
 //Java Array Problem Using Two For Loops  //find the pair whose sum is 10
 //Anagram
 //Array in Assending order
@@ -149,11 +153,37 @@ public class tttt {
             if(a1[i]>highestnum){
                 highestnum=a1[i];
             }
-            System.out.println("&&&&&&&&");
-            System.out.println(highestnum+" is the highest Number");
         }
+        System.out.println("&&&&&&&&");
+        System.out.println(highestnum+" is the highest Number");
 //Secondhighest number
+        int secondnum=Integer.MIN_VALUE;
+        for(int i=0;i<a1.length;i++){
+            if(a1[i]>secondnum && a1[i]!=highestnum){
+                secondnum=a1[i];
+            }
+        }
+        System.out.println(secondnum+" is the second Number");
 //second lowest number
+        int secondlownum=Integer.MAX_VALUE;
+        for(int i=0;i<a1.length;i++){
+            if(a1[i]<smallNum){
+                smallNum=a1[i];
+            }
+        }
+        System.out.println("&&&&&&&&");
+        System.out.println(smallNum+" is the small Number");
+        for(int i=0;i<a1.length;i++){
+            if(a1[i]<secondlownum && a1[i]!=smallNum){
+                secondlownum=a1[i];
+            }
+        }
+        System.out.println(secondlownum+" is the second small Number");
 //sum of array
+        int sum=0;
+        for(int i=0;i<a1.length;i++){
+            sum=sum+a1[i];
+        }
+        System.out.println(sum+ " : is the sum");
     }
 }

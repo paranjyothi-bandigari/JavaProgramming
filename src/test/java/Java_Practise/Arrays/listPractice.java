@@ -1,8 +1,6 @@
 package Java_Practise.Arrays;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 public class listPractice {
     public static void main(String[] args) {
@@ -46,8 +44,23 @@ List<cities> cityTempName=new ArrayList<>();
         System.out.println(cityTempName.get(1).getCityName()+" : "+cityTempName.get(1).getCityTemp());
         System.out.println(cityTempName.get(2).getCityName()+" : "+cityTempName.get(2).getCityTemp());
 
+//Find 2nd max
+List<Integer> num= Arrays.asList(2,3,4,5,3,4,5,7);
+int fmax=Integer.MIN_VALUE;
+int smax=Integer.MIN_VALUE;
+for(int numb:num){
+    if(numb>fmax){
+        fmax=numb;
+    }else
+        continue;
 
+} System.out.println(fmax);
+        for(int numb:num){
+            if(numb>smax && numb!=fmax){
+                smax=numb;
+            }else
+                continue;
 
-
+        }System.out.println(smax);
     }
 }

@@ -62,5 +62,11 @@ for(int numb:num){
                 continue;
 
         }System.out.println(smax);
+
+        List<Integer> listWithDuplicates = new ArrayList<>(Arrays.asList(1, 2, 2, 3, 4, 4, 5));
+        Set<Integer> set = new LinkedHashSet<>(listWithDuplicates);
+        List<Integer> listWithoutDuplicates = new ArrayList<>(set);
+        System.out.println(set+" list with duplicates");
+        System.out.println(listWithoutDuplicates+ " list without Duplicates");
     }
 }

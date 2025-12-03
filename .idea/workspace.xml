@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f27df139-dd01-4a24-923f-3be607a4f539" name="Changes" comment="new files added">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/OneToOneCalls/second1to1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Java_Practise/Arrays/listPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/Arrays/listPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Java_Practise/OneToOneCalls/second1to1Session.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/OneToOneCalls/first1to1Session.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tttt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tttt.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,12 +181,12 @@
   }
 }]]></component>
   <component name="RunManager" selected="Application.listPractice">
-    <configuration name="listPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Practise.Arrays.listPractice" />
+    <configuration name="first1to1Session" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Practise.OneToOneCalls.first1to1Session" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Practise.Arrays.*" />
+          <option name="PATTERN" value="Java_Practise.OneToOneCalls.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,12 +194,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="second1to1Session" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Practise.OneToOneCalls.second1to1Session" />
+    <configuration name="listPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Practise.Arrays.listPractice" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Practise.OneToOneCalls.*" />
+          <option name="PATTERN" value="Java_Practise.Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -249,7 +251,7 @@
         <item itemvalue="TestNG.practice.arrays" />
         <item itemvalue="Application.stringMethods" />
         <item itemvalue="Application.tttt" />
-        <item itemvalue="Application.second1to1Session" />
+        <item itemvalue="Application.first1to1Session" />
       </list>
     </recent_temporary>
   </component>
@@ -261,22 +263,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753131299283</updated>
-    </task>
-    <task id="LOCAL-00059" summary="new files added">
-      <option name="closed" value="true" />
-      <created>1759874846645</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1759874846645</updated>
-    </task>
-    <task id="LOCAL-00060" summary="new files added">
-      <option name="closed" value="true" />
-      <created>1759878270393</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1759878270393</updated>
     </task>
     <task id="LOCAL-00061" summary="new files added">
       <option name="closed" value="true" />
@@ -654,7 +640,23 @@
       <option name="project" value="LOCAL" />
       <updated>1764290350312</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1764299510901</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1764299510901</updated>
+    </task>
+    <task id="LOCAL-00109" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1764303323355</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1764303323356</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

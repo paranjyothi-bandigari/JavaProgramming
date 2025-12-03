@@ -1,6 +1,6 @@
 package Java_Practise.OneToOneCalls;
 
-public class second1to1Session {
+public class first1to1Session {
     public static void main(String[] args) {
         String input="Testing"; // replace T ,t with o
        String ni=input.replace('T','o').replace('t','o');

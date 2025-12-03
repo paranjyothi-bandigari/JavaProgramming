@@ -79,7 +79,7 @@ public class tttt {
         String Worde=" My name is World";
         String[] Word=Worde.split(" ");
         String revWord="";
-        StringBuilder sb1=new StringBuilder();
+        //StringBuilder sb1=new StringBuilder();
         for(String words:Word){
             StringBuilder sbword=new StringBuilder(words).reverse().append(" ");
            revWord=revWord+sbword.toString();

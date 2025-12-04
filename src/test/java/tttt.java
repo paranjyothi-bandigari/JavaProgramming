@@ -64,6 +64,7 @@ String strrr="I am a SDET"; //o/p: TEDS a ma I
         String[] fruits = {"mango", "Apple", "orange"};//print a friuit that starts with aeiou
        for(String f:fruits){
            f.matches("^[AEIOUaeiou].*");
+           System.out.println(f);
        }
 // 1. Write a Java method to check if a given substring exists within a string.
         String string= "Hello world", substring="Hello";
@@ -255,10 +256,58 @@ for(int i=s.length()-1;i>=0;i--){
 //rotatebyN
 //************************
 //check string contains digits
+        String dstring="twsfw577";
+        if(dstring.matches(".*\\d.*")){
+            System.out.println(dstring);
+        }
 //check string contains special characters
+          String dSpecial="dgffhgj$%^&";
+        if(!dSpecial.matches("[A-Za-z0-9 ]*")){
+            System.out.println(dSpecial);
+        }
+        if(dSpecial.matches(".*[@#$%^&*!()].*")){
+            System.out.println(dSpecial);
+        }
+        if(dSpecial.matches(".*\\W.*")){
+            System.out.println(dSpecial);
+        }
 //concat 2 strings
+        String s11="qwer";
+        String s22="hhj";
+        System.out.println(s11.concat(s22));
 //count capital and small letters
+        String CSLetters="sdfGGVJkjh";
+        char[] csLetters=CSLetters.toCharArray();
+        int capital=0;
+        int small=0;
+
+        for(int i=0;i<csLetters.length-1;i++){
+            if(Character.isUpperCase(csLetters[i])){
+capital++;
+            }else
+                small++;
+        }
+        System.out.println(" Capital count is : "+capital);
+        System.out.println(" Small count is : "+small);
+
 //countcharactersDigitsSepecial chars
+        String CDSLetters="sdfGGVJ%$#@kjh244";
+        char[] cdl=CDSLetters.toCharArray();
+        int sc=0;
+        int d=0;
+        int l=0;
+        for(char cDL:cdl){
+            if(Character.isDigit(cDL)){
+                d++;
+            }else if(Character.isAlphabetic(cDL)){
+                l++;
+            }
+            else
+                sc++;
+        }
+        System.out.println("digit count : "+d);
+        System.out.println("letter count : "+l);
+        System.out.println("specialChar count : "+sc);
 //count consonets vowels
 //count occurance of each character string
 //count wordsin string

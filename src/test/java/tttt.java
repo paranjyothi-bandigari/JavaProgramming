@@ -4,6 +4,25 @@ import java.util.*;
 
 public class tttt {
     public static void main(String[] args) {
+        String str="A AN*N A*N";
+        String[] splitStr=str.split("[ ,*]"); //[ ,*] = it will split with space and * both
+        for(String s:splitStr){
+            System.out.println(s);
+        }
+        //reverse a word using 2  pointer approch
+        String TPA="anagramm";
+        char[] tPA=TPA.toCharArray();
+       int first=0;
+       int last=tPA.length-1;
+       while(first<last){
+           char temp=tPA[first];
+           tPA[first]=tPA[last];
+           tPA[last]=temp;
+           first++;
+           last--;
+       }
+        System.out.println(tPA);
+
         String input = "Testing"; // replace T.t with o
         String newinput=input.replaceAll("(?i)t","o");
         System.out.println(newinput);

@@ -1,44 +1,190 @@
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import org.openqa.selenium.json.JsonOutput;
+
+import java.util.*;
 
 public class tttt {
     public static void main(String[] args) {
         String input = "Testing"; // replace T.t with o
+        String newinput=input.replaceAll("(?i)t","o");
+        System.out.println(newinput);
 
         String[] fruits = {"mango", "Apple", "orange"};//print a friuit that starts with aeiou
+// 1. Write a Java method to check if a given substring exists within a string.
+        String string= "Hello world", substring="Hello";
+        System.out.println(string.contains(substring));
 
-        //1. Write a Java method to check if a given substring exists within a string. string "Hello world" substring="Hello".
+
 //2. Write a Java method to count the number of times a substring occurs in a given string
-//3. Extracting a Subdomain from a URL: String url = "https://subdomain.example.com";
-//4. Extracting a File Extension:String filename = "document.pdf";
+        String ocSubString="my name is name is name is name my name is name good name";
+        String[] ocsubs=ocSubString.split(" ");
+        String ocss="name";
+        int count=0;
+        for(String s:ocsubs){
+            if(ocss.equalsIgnoreCase(s)){
+                count++;
+            }
+        }
+
+        System.out.println(count);
+//3. Extracting a Subdomain from a URL:
+        String url = "https://subdomain.example.com";
+        int findex=url.indexOf("://")+3;
+        int lindex=url.indexOf(".",findex);
+        System.out.println(url.substring(findex,lindex));
+//4. Extracting a File Extension:String
+        String filename = "document.pdf";
+        int beginingindex=filename.lastIndexOf(".")+1;
+        System.out.println(filename.substring(beginingindex));
 //5. Reverse A string in 5 ways. a.Using StringBuilder or StringBuffer b.Using a for Loop c.Using Character Array d.Using Java 8 Streams e.Using Recursion
-//6.check if a String is a palindrome?
+String s="name";
+String r="";
+for(int i=s.length()-1;i>=0;i--){
+    r=r+s.charAt(i);
+}
+        System.out.println(r);
+
+//6.check if a String is a palindrome? madam==madam
+        String p="madam";
+        //String re="";
+        StringBuilder re=new StringBuilder(p).reverse();
+        System.out.println(re);
+        if(p.length()==re.length()){
+        if(p.equalsIgnoreCase(re.toString())){
+            System.out.println(re+ " : Palandrome : "+p);
+        }}
 //7. remove whitespace from the beginning and end of a String?
+        String Wspace="    name  ";
+        System.out.println(Wspace.trim());
 //8.  Explain how you would handle string comparisons in test automation assertions.
 //Answer: Use the assertEquals method from a testing framework like JUnit or TestNG to compare expected and actual string values.
 //9.: Describe a scenario where string manipulation might be necessary in test automation.
 //Answer: String manipulation is necessary when dealing with dynamic data. For example, extracting specific parts of a URL to verify its correctness or formatting dates and times for input fields.
 //10.ReverseWordsInSentence
+        String Word="My name is name";
+        String[] word=Word.split(" ");
+        String revSent="";
+        for(String sent:word ){
+            StringBuilder revWord=new StringBuilder(sent).reverse().append(" ");
+            revSent=revSent+revWord.toString();
+        }
+        System.out.println(revSent.trim());
 //Concatenating strings using the + operator inside a loop can lead to performance issues because each concatenation creates a new string object. Instead, using StringBuilder or StringBuffer is recommended for efficient string manipulation.
 //************************
-//factorial, febonacci, is prime, rev a number, rev string, rev words in sentence, sub string, swap2 numbers without third
 //Reverse an Array
+        int num[]={9,8,7,6,5};
+        for(int i=num.length-1;i>=0;i--){
+            System.out.println(num[i]);
+        }
 //Find the Missing Number {2,3,5,6,7,8};
+        int[] mn={2,3,5,6,7,8};
+        for(int i=0;i<mn.length;i++){
+            if(mn[i]+1!=mn[i+1]){
+                System.out.println("missing Number is "+(mn[i]+1));
+                break;
+            }
+            else
+                System.out.println("no missing num");
+        }
 //Find Duplicate Elements  int[] num={1,5,6,4,1,5};
+        int[] numb={1,5,6,4,1,5};
+        List<Integer> numbe=new ArrayList<>();
+        Set<Integer> duplicates=new HashSet<>();
+        for(int i=0;i<numb.length;i++){
+            if(numbe.contains(numb[i])){
+                duplicates.add(numb[i]);
+            }else
+                numbe.add(numb[i]);
+        }
+        System.out.println(" duplicates"+duplicates);
 // Merge Two Sorted Arrays
+        int[] n1={1,2,3,4};
+        int[] n2={5,6,7,8};
+        List<Integer> n1n2=new ArrayList<>();
+        for(int i=0;i<n1.length;i++){
+            n1n2.add(n1[i]);
+        }
+        for(int i=0;i<n2.length;i++){
+            n1n2.add(n2[i]);
+        }
+        System.out.println(n1n2);
 //Draw star pyramid using java
+//        int n=5;
+//        for(int i=1;i<=n;i++){
+//            System.out.print("*");
+//            for(int j=i+1;j<n;j++){
+//                System.out.print("");
+//            }
+//
+//            for(int k=1;k<(i*2)-1;k++){
+//                System.out.println(" ");
+//            }
+//        }
 //Java Array Problem Using Two For Loops  //find the pair whose sum is 10
+        int[] tl={0,1,2,3,4,5,6,7,8,9};
+        int sum=10;
+        for(int i=0;i<tl.length-1;i++){
+            for(int j=i+1;j<tl.length;j++){
+                if(tl[i]+tl[j]==sum){
+                    System.out.println("{"+tl[i]+","+tl[j]+"}");
+                }
+            }
+        }
 //Anagram
 //Array in Assending order
 //Even or odd
+        for(int i=0;i<numb.length;i++){
+            if(numb[i]%2==0){
+                System.out.println(numb[i]+" : is even");
+            }else
+                System.out.println(numb[i]+" : is odd");
+        }
 //first highest number
+        int[] hshs={1,2,3,6,8,0};
+        int fHighest=Integer.MIN_VALUE;
+        int sfHighest=Integer.MIN_VALUE;
+        for(int i=0;i<hshs.length;i++){
+            if(hshs[i]>fHighest){
+                fHighest=hshs[i];
+            }
+        }
+        System.out.println("First Highest num is: "+fHighest);
 //Secondhighest number
+        for(int i=0;i<hshs.length;i++){
+            if(hshs[i]>fHighest){
+                fHighest=hshs[i];
+            }
+        }
+        for(int i=0;i<hshs.length;i++){
+            if(hshs[i]>sfHighest && hshs[i]!=fHighest){
+                sfHighest=hshs[i];
+            }
+        }
+        System.out.println("Second Highest num is: "+sfHighest);
 //second lowest number
+        int fSmall=Integer.MAX_VALUE;
+        int sfSmall=Integer.MAX_VALUE;
+        for(int i=0;i<hshs.length;i++){
+            if(hshs[i]<fSmall){
+                fSmall=hshs[i];
+            }
+        }
+        System.out.println("First Smallest num is: "+fSmall);
+        for(int i=0;i<hshs.length;i++){
+            if(hshs[i]<sfSmall && hshs[i]!=fSmall){
+                sfSmall=hshs[i];
+            }
+        }
+        System.out.println("Sexons Smallest num is: "+sfSmall);
 //sum of array
-        //==============================
+        sum=0;
+        for(int i=0;i<hshs.length;i++){
+           sum=sum+hshs[i];
+            }
+        System.out.println(sum+" : is sum og all numbers in ");
 
+
+        //==============================
+//factorial, febonacci, is prime, rev a number, rev string, rev words in sentence, sub string, swap2 numbers without third
 //Anagram
 //CountVowels
 //elementStartDecrease

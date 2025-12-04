@@ -19,6 +19,15 @@ public class first1to1Session {
             else System.out.println(fruit+" not Started  with Vowel");
 
         }
+        String[] fruit = {"mango", "Apple", "orange"};//print a friuit that starts with aeiou and print count
+        int count=0;
+        for(String f:fruit){
+            if(f.matches("^[AEIOUaeiou].*")){
+                count++;
+                System.out.println(f);
+            }
+        }
+        System.out.println(count);
         String[] newinput=input.split("t");
      for(int i=0;i< newinput.length;i++){
          System.out.println(newinput[i]);

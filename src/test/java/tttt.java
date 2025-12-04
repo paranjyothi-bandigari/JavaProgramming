@@ -62,6 +62,9 @@ String strrr="I am a SDET"; //o/p: TEDS a ma I
         System.out.println(newinput);
 
         String[] fruits = {"mango", "Apple", "orange"};//print a friuit that starts with aeiou
+       for(String f:fruits){
+           f.matches("^[AEIOUaeiou].*");
+       }
 // 1. Write a Java method to check if a given substring exists within a string.
         String string= "Hello world", substring="Hello";
         System.out.println(string.contains(substring));

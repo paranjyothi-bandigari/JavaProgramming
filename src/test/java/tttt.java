@@ -1,5 +1,6 @@
 import org.openqa.selenium.json.JsonOutput;
 
+import java.sql.SQLOutput;
 import java.util.*;
 
 public class tttt {
@@ -22,6 +23,39 @@ public class tttt {
            last--;
        }
         System.out.println(tPA);
+       String st="tsetTRe"; //o/p:tsettre
+        System.out.println(st.toLowerCase().trim());
+        System.out.println(st.replace("TR","AB"));
+        System.out.println(st.substring(1,4));//print set
+
+        String strr="AmazonAzonma";
+        //count number of times Amazon word occures in this ,
+        // use collection class= string methods with list or map
+        String exp="Amazon";
+
+String strrr="I am a SDET"; //o/p: TEDS a ma I
+        String[] strrrc=strrr.split(" ");
+        String revOfStrr="";
+        String rr="";
+        for(int i=strrr.length()-1;i>=0;i--){
+            rr=rr+strrr.charAt(i);
+        }
+        System.out.println(rr);
+        //using for i
+        StringBuilder sb=new StringBuilder();
+        for(int i=strrrc.length-1;i>=0;i--){
+            sb=new StringBuilder(strrrc[i]).reverse().append(" ");
+            revOfStrr=revOfStrr+sb;
+        }
+        System.out.println(revOfStrr.trim());
+        // advanced fopr loop
+        String rev="";
+        StringBuilder output=new StringBuilder();
+        for(String stra:strrrc){
+             rev=new StringBuilder(stra).reverse().toString();
+             output.append(rev).append(" ");
+        }
+        System.out.println(output);
 
         String input = "Testing"; // replace T.t with o
         String newinput=input.replaceAll("(?i)t","o");

@@ -314,7 +314,26 @@ capital++;
 //factorial of num
 //find last unique char
 //first letter of each word
+        String Worddd="My name is PJ";
+        String fWord="";
+        String[] Wordddd=Worddd.split(" ");
+        for(String c:Wordddd){
+            char ssb=new StringBuilder(c).charAt(0);
+            fWord=fWord+ssb;
+        }
+        System.out.println("First character of each word in sentence is : "+fWord);
 //first non repeated character
+        String nonRepChar="madam";
+        for(int i=0;i<nonRepChar.length()-1;i++){
+            for(int j=i+1;j<nonRepChar.length();j++){
+                if(nonRepChar.charAt(i)==nonRepChar.charAt(j)){
+                   continue;
+                }
+                else
+                    System.out.println();
+            }
+        }
+
 //fizzbuzz
 //highest occurance of char
 //occuranceof given char

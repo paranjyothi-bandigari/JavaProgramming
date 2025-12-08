@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f27df139-dd01-4a24-923f-3be607a4f539" name="Changes" comment="new files added">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/myRegexPatternMatching.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Java_Practise/OneToOneCalls/first1to1Session.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/OneToOneCalls/firstOnetoOneSession.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Java_Practise/OneToOneCalls/second1to1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/OneToOneCalls/secondOnetoOne.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,6 +130,7 @@
     "Application.firststrSubsequenceOfsecond.executor": "Run",
     "Application.listPractice.executor": "Run",
     "Application.maxProductArrayOfposnegInteger.executor": "Run",
+    "Application.myRegexPatternMatching.executor": "Run",
     "Application.newJavaProgram.executor": "Run",
     "Application.pairElements.executor": "Run",
     "Application.revList.executor": "Run",
@@ -182,7 +182,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.arrayPractice">
+  <component name="RunManager" selected="Application.myRegexPatternMatching">
     <configuration name="arrayPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java_Practise.OneToOneCalls.arrayPractice" />
       <module name="JavaProgramming" />
@@ -209,12 +209,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="listPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Practise.Arrays.listPractice" />
+    <configuration name="myRegexPatternMatching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Practise.myRegexPatternMatching" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Practise.Arrays.*" />
+          <option name="PATTERN" value="Java_Practise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -244,11 +244,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.myRegexPatternMatching" />
         <item itemvalue="Application.arrayPractice" />
         <item itemvalue="Application.secondOnetoOne" />
         <item itemvalue="Application.tttt" />
         <item itemvalue="Application.firstOnetoOneSession" />
-        <item itemvalue="Application.listPractice" />
       </list>
     </recent_temporary>
   </component>
@@ -260,14 +260,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753131299283</updated>
-    </task>
-    <task id="LOCAL-00070" summary="new files added">
-      <option name="closed" value="true" />
-      <created>1760041906189</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1760041906189</updated>
     </task>
     <task id="LOCAL-00071" summary="new files added">
       <option name="closed" value="true" />
@@ -653,7 +645,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764911596645</updated>
     </task>
-    <option name="localTasksCounter" value="119" />
+    <task id="LOCAL-00119" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1765230913094</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1765230913095</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

@@ -1,5 +1,7 @@
 package Java_Practise;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -32,8 +34,28 @@ public class myRegexPatternMatching {
 //        Matcher matcher=pattern.matcher(input);
 //        System.out.println(matcher.find());
         //System.out.println(Pattern.compile("Java").matcher(input).find());
+String nameWithDOB="John was born on 12-05-1990 and marry on 23/11/1983";
+Pattern pattern=Pattern.compile("\\d{2}[-/]\\d{2}[-/]\\d{4}");
+Matcher matcher=pattern.matcher(nameWithDOB);
+List<String> dates=new ArrayList<>();
+while(matcher.find()){
+    dates.add(matcher.group());
+}
+        System.out.println(dates);
+String str="Hello there, I am Swetha and I work in Automation";
+String[] str1=str.split(" ");
+        Pattern pattern1=Pattern.compile("^[A-Z][a-z]*");
+
+for(String strr:str1){
+    if(pattern1.matcher(strr).find()){
+        System.out.println(strr);
+    }
+}
+
 
     }
+
+
     public static boolean isPresent(String input,String search){
        return Pattern.compile(search).matcher(input).find();
     }

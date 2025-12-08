@@ -1,6 +1,6 @@
 package Java_Practise.OneToOneCalls;
 
-public class second1to1 {
+public class secondOnetoOne {
     public static void main(String[] args) {
         String s1="I Am a Tester"; //out: I Am
         String[] vowelStart=s1.split(" ");

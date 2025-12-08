@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f27df139-dd01-4a24-923f-3be607a4f539" name="Changes" comment="new files added">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/OneToOneCalls/arrayPractice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Java_Practise/OneToOneCalls/second1to1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/OneToOneCalls/second1to1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tttt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tttt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Java_Practise/OneToOneCalls/first1to1Session.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/OneToOneCalls/firstOnetoOneSession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Java_Practise/OneToOneCalls/second1to1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/OneToOneCalls/secondOnetoOne.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,8 +196,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="first1to1Session" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Practise.OneToOneCalls.first1to1Session" />
+    <configuration name="firstOnetoOneSession" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Practise.OneToOneCalls.firstOnetoOneSession" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -223,8 +222,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="second1to1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Practise.OneToOneCalls.second1to1" />
+    <configuration name="secondOnetoOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Practise.OneToOneCalls.secondOnetoOne" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -246,9 +245,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.arrayPractice" />
-        <item itemvalue="Application.second1to1" />
+        <item itemvalue="Application.secondOnetoOne" />
         <item itemvalue="Application.tttt" />
-        <item itemvalue="Application.first1to1Session" />
+        <item itemvalue="Application.firstOnetoOneSession" />
         <item itemvalue="Application.listPractice" />
       </list>
     </recent_temporary>
@@ -261,14 +260,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753131299283</updated>
-    </task>
-    <task id="LOCAL-00069" summary="new files added">
-      <option name="closed" value="true" />
-      <created>1760040454756</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1760040454756</updated>
     </task>
     <task id="LOCAL-00070" summary="new files added">
       <option name="closed" value="true" />
@@ -654,7 +645,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764885799657</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1764911596645</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1764911596645</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

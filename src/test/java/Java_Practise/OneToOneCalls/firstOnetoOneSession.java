@@ -3,7 +3,7 @@ package Java_Practise.OneToOneCalls;
 import java.util.ArrayList;
 import java.util.List;
 
-public class first1to1Session {
+public class firstOnetoOneSession {
     public static void main(String[] args) {
         String input="Testing"; // replace T ,t with o
        String ni=input.replace('T','o').replace('t','o');

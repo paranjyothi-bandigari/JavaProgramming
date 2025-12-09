@@ -54,7 +54,7 @@ for(String strr:str1){
         //validate IPv4 address b/w o-255
         String IPv4="244.244.244.244";
 //        Pattern pattern2=Pattern.compile("\\d{0,3}[.]\\d{0,3}[.]\\d{0,3}[.]\\d{0,3}");
-        Pattern pattern2=Pattern.compile("\\d[0-2]\\d[0-4]\\d[0-4].\\d[0-2]\\d[0-4]\\d[0-4].\\d[0-2]\\d[0-4]\\d[0-4].\\d[0-2]\\d[0-4]\\d[0-4]");
+        Pattern pattern2=Pattern.compile("\\d[0-2]\\d[0-4]\\d[0-4][.]\\d[0-2]\\d[0-4]\\d[0-4][.]\\d[0-2]\\d[0-4]\\d[0-4][.]\\d[0-2]\\d[0-4]\\d[0-4]");
         Matcher matcher2=pattern.matcher(IPv4);
         System.out.println(matcher2.find()+"$$$$$$$$$$");
 

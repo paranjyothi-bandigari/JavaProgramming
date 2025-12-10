@@ -9,14 +9,14 @@ public class myRegexPatternMatching {
     public static void main(String[] args) {
         String input="Java is a Fun";
         System.out.println(isPresent(input,"Fun"));
-        System.out.println(isPresent(input,"Fu.")); //. is 1 character
+        System.out.println(isPresent(input,"Fu.")); //. is any character
         System.out.println(isPresent(input,"i*")); // 0 or more
         System.out.println(isPresent(input,"a+")); // 1 or more
-        System.out.println(isPresent(input,"Fu?"));
+        System.out.println(isPresent(input,"Fu?")); // 0 or 1
         System.out.println(isPresent(input,"Fun$")); //$ ends
         System.out.println(isPresent(input,"^Java")); //^ starts
         System.out.println(isPresent("J2","J\\d")); //\\d for digit
-        System.out.println(isPresent("J2 ","\\w\\d\\s")); //\\w for letter \\s for space
+        System.out.println(isPresent("J2 ","\\w\\d\\s")); //\\w any word character \\s for space
         System.out.println(isPresent("J2 ","[A-Z]\\d\\s")); // [A-Z] for any character in between A to Z
         System.out.println(isPresent("gJ4 ","[a-z][A-Z]\\d\\s"));
         System.out.println(isPresent("ogJ4 ","[aeiou][a-z][A-Z]\\d\\s"));
@@ -61,30 +61,33 @@ for(String strr:str1){
         System.out.println(isPresent("93","\\d[0-9]"));
 //1. Check if a string contains digits
         String inputdigts = "My phone number is 12345";
+        Pattern p=Pattern.compile(".*\\d+.*");
+        Matcher m=p.matcher(inputdigts);
+        System.out.println(m.find()+" : Digit found in inputDigit String");
 
 //2. Validate email address
 
         String email = "test@example.com";
-
+        Pattern emailp=Pattern.compile("^[\\w.-]+[@].[\\w.-]+[.][A-Za-z]{2,6}$");
+        Matcher emailm=emailp.matcher(email);
+        System.out.println(emailm.find()+" email pattern matched");
 
 
 // 3. Extract numbers from a string
-
-
         String inputnum = "Order123, Invoice456";
 
+
 //4. Replace all whitespaces
-
-
         String messy = "Java   is \t awesome!";
-
-
+        String cleaned=messy.replaceAll("\\s+","");
+        System.out.println(messy+ " : is messy");
+        System.out.println(cleaned+" : is clean code");
 
 // 5. Validate phone number (e.g., US format)
-
-
         String phone = "123-456-7890";
-
+        Pattern pp=Pattern.compile("^\\d{3}-\\d{3}-\\d{4}");
+        Matcher mm=pp.matcher(phone);
+        System.out.println(mm.find() +" : Pattern matched");
 
 
 

@@ -80,7 +80,7 @@ public class Mappp {
 
 
         String messy = "Java   is \t awesome!";
-        Pattern pattern2= Pattern.compile(".*\\t+.*");
+        Pattern pattern2= Pattern.compile(".*\\s+.*");
         Matcher matcher2=pattern2.matcher(inputdigts);
         if(matcher2.find()){
             messy.replaceAll("\\t","");

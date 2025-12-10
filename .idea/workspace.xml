@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f27df139-dd01-4a24-923f-3be607a4f539" name="Changes" comment="new files added">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/Maps/MapPractice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Java_Practise/myRegexPatternMatching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/myRegexPatternMatching.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Java_Practise/Maps/MapPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/Maps/MapPractice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +82,7 @@
     "Application.KeySet.executor": "Run",
     "Application.MapHashmap.executor": "Run",
     "Application.MapLoop.executor": "Run",
+    "Application.MapPractice.executor": "Run",
     "Application.Map_EvenValues.executor": "Run",
     "Application.Map_ValueUpdate.executor": "Run",
     "Application.Maps_ConditionValue.executor": "Run",
@@ -183,13 +183,13 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.myRegexPatternMatching">
-    <configuration name="arrayPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Practise.OneToOneCalls.arrayPractice" />
+  <component name="RunManager" selected="Application.MapPractice">
+    <configuration name="MapPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Practise.Maps.MapPractice" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Practise.OneToOneCalls.*" />
+          <option name="PATTERN" value="Java_Practise.Maps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,8 +197,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="firstOnetoOneSession" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Practise.OneToOneCalls.firstOnetoOneSession" />
+    <configuration name="arrayPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Practise.OneToOneCalls.arrayPractice" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -245,11 +245,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MapPractice" />
         <item itemvalue="Application.myRegexPatternMatching" />
         <item itemvalue="Application.arrayPractice" />
         <item itemvalue="Application.secondOnetoOne" />
         <item itemvalue="Application.tttt" />
-        <item itemvalue="Application.firstOnetoOneSession" />
       </list>
     </recent_temporary>
   </component>
@@ -261,14 +261,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753131299283</updated>
-    </task>
-    <task id="LOCAL-00074" summary="new files added">
-      <option name="closed" value="true" />
-      <created>1760111702791</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1760111702792</updated>
     </task>
     <task id="LOCAL-00075" summary="new files added">
       <option name="closed" value="true" />
@@ -654,7 +646,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765235584649</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1765302585879</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1765302585879</updated>
+    </task>
+    <option name="localTasksCounter" value="124" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

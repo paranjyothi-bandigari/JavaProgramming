@@ -75,7 +75,11 @@ for(String strr:str1){
 
 // 3. Extract numbers from a string
         String inputnum = "Order123, Invoice456";
-
+        Pattern nump=Pattern.compile("\\d+");
+        Matcher numm=nump.matcher(inputnum);
+        while (numm.find()){
+            System.out.println(numm.group() + " ");
+        }
 
 //4. Replace all whitespaces
         String messy = "Java   is \t awesome!";

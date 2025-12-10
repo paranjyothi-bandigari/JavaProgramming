@@ -2,6 +2,8 @@ package Java_Practise.Maps;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class Mappp {
     public static void main(String[] args) {
@@ -56,6 +58,9 @@ public class Mappp {
 
         //1. Check if a string contains digits
         String inputdigts = "My phone number is 12345";
+        Pattern pattern= Pattern.compile(".*\\d+");
+        Matcher matcher=pattern.matcher(inputdigts);
+        System.out.println(matcher.find());
 
 //2. Validate email address
 
@@ -67,11 +72,20 @@ public class Mappp {
 
 
         String inputnum = "Order123, Invoice456";
+        Pattern pattern1= Pattern.compile(".*\\d+.*");
+        Matcher matcher1=pattern1.matcher(inputdigts);
+        System.out.println(matcher1.find());
 
 //4. Replace all whitespaces
 
 
         String messy = "Java   is \t awesome!";
+        Pattern pattern2= Pattern.compile(".*\\t+.*");
+        Matcher matcher2=pattern2.matcher(inputdigts);
+        if(matcher2.find()){
+            messy.replaceAll("\\t","");
+        }
+        System.out.println(messy);
 
 
 

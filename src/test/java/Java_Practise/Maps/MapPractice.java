@@ -1,9 +1,6 @@
 package Java_Practise.Maps;
 
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-import java.util.Map;
-import java.util.TreeMap;
+import java.util.*;
 
 public class MapPractice {
     public static void main(String[] args) {
@@ -51,31 +48,87 @@ public class MapPractice {
         // Explain the difference between HashMap and TreeMap.
         // difference between HashMap and Hashtable
         // How do you handle null keys and values in a HashMap
-        // How would you merge two HashMaps in Java
         // Explain how TreeMap maintains order.
         // How does a HashMap work in Java
          // Explain about looping in Map with EntrySet
 
 
         //Write a program to count the frequency of characters in a string using HashMap.
-//String str = "automation";
+        String str = "automation";
+      Map<Character,Integer> freqMap=new HashMap<>();
+      for(char c:str.toCharArray()){
+          freqMap.put(c,freqMap.getOrDefault(c,0)+1);
+      }
+        System.out.println(freqMap);
+
+        //How would you sort a HashMap by its values?
+        Map<String,Integer> mapSort=new HashMap<>();
+        mapSort.put("A",10);
+        mapSort.put("C",20);
+        mapSort.put("B",30);
+        List<Map.Entry<String,Integer>> list=new ArrayList<>(map.entrySet());
+        list.sort(Map.Entry.comparingByValue());
+        Map<String,Integer> sortedmap=new LinkedHashMap<>();
+        for(Map.Entry<String,Integer> entry:list){
+            sortedmap.put(entry.getKey(), entry.getValue());
+        }
+        System.out.println(sortedmap);
 
         // Find missing numbers in below given array :
         //arr[]={1,3,5,7,9,8,4}; given size=9; o/p should be = 2,6
 
-        //How would you sort a HashMap by its values?
 
         // Java Program to Find Occurrences of Elements in an Array
+        int[] numbers = {1, 2, 2, 3, 4, 4, 4, 5};
 
-        //Example: Input: s = "abcabcbb"  Output: 3 Explanation: The answer is "abc", with a length of 3
+Map<Integer,Integer> occuranceOfNum=new HashMap<>();
+for(int number:numbers){
+    if(occuranceOfNum.containsKey(number)){
+        occuranceOfNum.put(number,occuranceOfNum.get(number)+1);
+    }else{
+        occuranceOfNum.put(number,1);
+    }
+}
+for (Map.Entry<Integer,Integer> entry:occuranceOfNum.entrySet()){
+    System.out.println(entry.getKey()+" : "+entry.getValue());
+}
+        // How would you merge two HashMaps in Java
+        Map<String, Integer> m1=new HashMap<>();
+        m1.put("apple",1);
+        m1.put("banana",2);
+        Map<String, Integer> m2=new HashMap<>();
+        m2.put("apple",1);
+        m2.put("mango",3);
+
+        m1.putAll(m2); //m2 map is added to m1 map
+        System.out.println(m1);
 
         // Problem: Find the Longest Substring Without Repeating Characters
         //Example: Input: s = "abcabcbb"  Output: 3 Explanation: The answer is "abc", with a length of 3
+//String input="abcabcbb"; //sliding window problem
 
 
         // Updating Values Using entrySet()
-
+        Map<String, Integer> m3=new HashMap<>();
+        m3.put("apple",1);
+        m3.put("banana",2);
+        m3.put("mango",3);
+        for(Map.Entry<String,Integer> entry:m3.entrySet()){
+            if(entry.getKey()=="banana"){
+                entry.setValue(5);
+            }
+            System.out.println(entry);
+        }
         // Write a Java program that counts the occurrences of each word in a given sentence using a HashMap
-        // String Sent="java is fun and java is powerful"
+        String Sent="java is fun and java is powerful";
+        String[] words=Sent.split(" ");
+        Map<String,Integer> wordMap=new HashMap<>();
+        for(String word:words){
+            wordMap.put(word, wordMap.getOrDefault(word,0)+1);
+        }
+        for(Map.Entry<String,Integer> entry: wordMap.entrySet()){
+            System.out.println(entry.getKey()+" -> "+entry.getValue());
+        }
+
     }
 }

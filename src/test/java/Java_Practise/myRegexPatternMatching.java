@@ -9,15 +9,15 @@ public class myRegexPatternMatching {
     public static void main(String[] args) {
         String input="Java is a Fun";
         System.out.println(isPresent(input,"Fun"));
-        System.out.println(isPresent(input,"Fu."));
-        System.out.println(isPresent(input,"i*"));
-        System.out.println(isPresent(input,"a+"));
+        System.out.println(isPresent(input,"Fu.")); //. is 1 character
+        System.out.println(isPresent(input,"i*")); // 0 or more
+        System.out.println(isPresent(input,"a+")); // 1 or more
         System.out.println(isPresent(input,"Fu?"));
-        System.out.println(isPresent(input,"Fun$"));
-        System.out.println(isPresent(input,"^Java"));
-        System.out.println(isPresent("J2","J\\d"));
-        System.out.println(isPresent("J2 ","\\w\\d\\s"));
-        System.out.println(isPresent("J2 ","[A-Z]\\d\\s"));
+        System.out.println(isPresent(input,"Fun$")); //$ ends
+        System.out.println(isPresent(input,"^Java")); //^ starts
+        System.out.println(isPresent("J2","J\\d")); //\\d for digit
+        System.out.println(isPresent("J2 ","\\w\\d\\s")); //\\w for letter \\s for space
+        System.out.println(isPresent("J2 ","[A-Z]\\d\\s")); // [A-Z] for any character in between A to Z
         System.out.println(isPresent("gJ4 ","[a-z][A-Z]\\d\\s"));
         System.out.println(isPresent("ogJ4 ","[aeiou][a-z][A-Z]\\d\\s"));
         System.out.println(isPresent("OgJ4 ","[AEIOUaeiou][a-z][A-Z]\\d\\s"));
@@ -54,7 +54,7 @@ for(String strr:str1){
         //validate IPv4 address b/w o-255
         String IPv4="244.244.244.244";
 //        Pattern pattern2=Pattern.compile("\\d{0,3}[.]\\d{0,3}[.]\\d{0,3}[.]\\d{0,3}");
-        Pattern pattern2=Pattern.compile("\\d[0-2]\\d[0-4]\\d[0-4][.]\\d[0-2]\\d[0-4]\\d[0-4][.]\\d[0-2]\\d[0-4]\\d[0-4][.]\\d[0-2]\\d[0-4]\\d[0-4]");
+        Pattern pattern2=Pattern.compile("\\d[0-2]{0,1}\\d[0-4]{0,2}[.]\\d[0-2]{0,1}\\d[0-4]{0,2}[.]\\d[0-2]{0,1}\\d[0-4]{0,2}[.]\\d[0-2]{0,1}\\d[0-4]{0,2}");
         Matcher matcher2=pattern.matcher(IPv4);
         System.out.println(matcher2.find()+"$$$$$$$$$$");
 

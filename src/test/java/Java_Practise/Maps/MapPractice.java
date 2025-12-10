@@ -55,10 +55,14 @@ public class MapPractice {
 
         //Write a program to count the frequency of characters in a string using HashMap.
         String str = "automation";
+        char[] strC=str.toCharArray();
       Map<Character,Integer> freqMap=new HashMap<>();
-      for(char c:str.toCharArray()){
+      for(char c:strC){
           freqMap.put(c,freqMap.getOrDefault(c,0)+1);
       }
+//      for(char c:str.toCharArray()){
+//          freqMap.put(c,freqMap.getOrDefault(c,0)+1);
+//      }
         System.out.println(freqMap);
 
         //How would you sort a HashMap by its values?

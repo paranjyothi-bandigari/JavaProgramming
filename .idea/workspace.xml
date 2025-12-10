@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f27df139-dd01-4a24-923f-3be607a4f539" name="Changes" comment="new files added">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/Maps/Mappp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Java_Practise/Maps/MapPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/Maps/MapPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Java_Practise/myRegexPatternMatching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/myRegexPatternMatching.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +185,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MapPractice">
+  <component name="RunManager" selected="Application.myRegexPatternMatching">
     <configuration name="MapPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java_Practise.Maps.MapPractice" />
       <module name="JavaProgramming" />
@@ -245,8 +247,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MapPractice" />
         <item itemvalue="Application.myRegexPatternMatching" />
+        <item itemvalue="Application.MapPractice" />
         <item itemvalue="Application.arrayPractice" />
         <item itemvalue="Application.secondOnetoOne" />
         <item itemvalue="Application.tttt" />
@@ -261,14 +263,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753131299283</updated>
-    </task>
-    <task id="LOCAL-00077" summary="new files added">
-      <option name="closed" value="true" />
-      <created>1760994274276</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1760994274276</updated>
     </task>
     <task id="LOCAL-00078" summary="new files added">
       <option name="closed" value="true" />
@@ -654,7 +648,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765325176980</updated>
     </task>
-    <option name="localTasksCounter" value="126" />
+    <task id="LOCAL-00126" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1765348052714</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1765348052715</updated>
+    </task>
+    <option name="localTasksCounter" value="127" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

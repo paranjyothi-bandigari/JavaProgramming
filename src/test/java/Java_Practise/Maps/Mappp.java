@@ -1,6 +1,8 @@
 package Java_Practise.Maps;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -49,42 +51,43 @@ public class Mappp {
         String Sent="java is fun and java is powerful";
 
 
-        String nameWithDOB="John was born on 12-05-1990 and marry on 23/11/1983"; //patternmatch -[12-05-1990, 23/11/1983]
-
         String strCap="Hello there, I am Swetha and I work in Automation"; //Hello I Swetha I Automation
+
+
+        String nameWithDOB="John was born on 12-05-1990 and marry on 23/11/1983"; //patternmatch -[12-05-1990, 23/11/1983]
+        System.out.println(IsMatching(nameWithDOB,".*\\d{2}[-/]\\d{2}[-/]\\d{4}"));
+        System.out.println("Date pattern Matching");
+
 
         //validate IPv4 address b/w o-255
         String IPv4="244.244.244.244";
 
         //1. Check if a string contains digits
         String inputdigts = "My phone number is 12345";
+        System.out.println(IsMatching(inputdigts,".*\\d+.*"));
 
 
 //2. Validate email address
 
         String email = "test@example.com";
-
+        System.out.println(IsMatching(email,"^[\\w]+[@][\\w]+[.][A-za-z]{2,6}$"));
 
 
 // 3. Extract numbers from a string
 
-
         String inputnum = "Order123, Invoice456";
-        Pattern pattern1= Pattern.compile(".*\\d+.*");
-        Matcher matcher1=pattern1.matcher(inputdigts);
-        System.out.println(matcher1.find());
+        //List<String> digList=new ArrayList<>();
+        Pattern pattern=Pattern.compile("\\d+");
+        Matcher matcher=pattern.matcher(inputnum);
+       while(matcher.find()){
+           System.out.println((matcher.group()));
+       }
+
 
 //4. Replace all whitespaces
-
-
         String messy = "Java   is \t awesome!";
-        Pattern pattern2= Pattern.compile(".*\\s+.*");
-        Matcher matcher2=pattern2.matcher(inputdigts);
-        if(matcher2.find()){
-            messy.replaceAll("\\t","");
-        }
-        System.out.println(messy);
-
+  String newMessy=messy.replaceAll("\\s","");
+        System.out.println(newMessy);
 
 
 // 5. Validate phone number (e.g., US format)
@@ -92,8 +95,13 @@ public class Mappp {
 
         String phone = "123-456-7890";
 
+        System.out.println(IsMatching(phone,"^\\d{3}-\\d{3}-\\d{4}$"));
 
-
+//pattern case insenitive
+        String caseInsens="Java";
+        Pattern pattern1=Pattern.compile("^[j]",Pattern.CASE_INSENSITIVE);
+        Matcher mat=pattern1.matcher(caseInsens);
+        System.out.println(mat.find());
 
 //        Bonus: Pattern Flags
 //        You can make patterns case-insensitive:
@@ -110,5 +118,9 @@ public class Mappp {
 //                Replace all HTML tags with an empty string (basic HTML cleanup).
 
 
+    }
+    public static boolean IsMatching(String input,String search){
+
+        return Pattern.compile(search).matcher(input).find();
     }
 }

@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f27df139-dd01-4a24-923f-3be607a4f539" name="Changes" comment="new files added">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Java_Practise/Maps/Mappp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/Maps/Mappp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -183,7 +184,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.myRegexPatternMatching">
+  <component name="RunManager" selected="Application.Mappp">
     <configuration name="MapPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java_Practise.Maps.MapPractice" />
       <module name="JavaProgramming" />
@@ -251,8 +252,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.myRegexPatternMatching" />
         <item itemvalue="Application.Mappp" />
+        <item itemvalue="Application.myRegexPatternMatching" />
         <item itemvalue="Application.MapPractice" />
         <item itemvalue="Application.arrayPractice" />
         <item itemvalue="Application.secondOnetoOne" />
@@ -267,14 +268,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753131299283</updated>
-    </task>
-    <task id="LOCAL-00082" summary="new files added">
-      <option name="closed" value="true" />
-      <created>1761682126090</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1761682126091</updated>
     </task>
     <task id="LOCAL-00083" summary="new files added">
       <option name="closed" value="true" />
@@ -660,7 +653,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765398433321</updated>
     </task>
-    <option name="localTasksCounter" value="131" />
+    <task id="LOCAL-00131" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1765428709411</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1765428709412</updated>
+    </task>
+    <option name="localTasksCounter" value="132" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

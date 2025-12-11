@@ -58,9 +58,7 @@ public class Mappp {
 
         //1. Check if a string contains digits
         String inputdigts = "My phone number is 12345";
-        Pattern pattern= Pattern.compile(".*\\d+");
-        Matcher matcher=pattern.matcher(inputdigts);
-        System.out.println(matcher.find());
+
 
 //2. Validate email address
 

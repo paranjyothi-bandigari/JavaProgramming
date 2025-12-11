@@ -13,37 +13,41 @@ public class MapPractice {
         Studentmarks.put("Hindi",85);
         Studentmarks.put("Science",96);
         Studentmarks.put("Social",92);
-
-
-        for(Map.Entry<String,Integer> entry:Studentmarks.entrySet()){
-            System.out.println(entry.getKey());
-            System.out.println(entry.getValue());
+        for(Map.Entry<String,Integer> entry: Studentmarks.entrySet()){
+            System.out.println(entry.getKey() +" : is the key");
+            System.out.println(entry.getValue() +" : is the value");
         }
+
         System.out.println("=== HashMap ===");
         Map<String, Integer> hashMap = new HashMap<>();
         hashMap.put("Banana", 3);
         hashMap.put("Apple", 5);
         hashMap.put("Mango", 2);
-        printMap(hashMap); // Order is unpredictable
+        //printMap(hashMap); // Order is unpredictable
+        for(Map.Entry<String,Integer> entry:hashMap.entrySet()){
+            if(entry.getKey().contains("Apple")){
+                System.out.println(entry.getValue()+" is the Apple value ");
+            }
+        }
 
         System.out.println("=== LinkedHashMap ===");
         Map<String, Integer> linkedHashMap = new LinkedHashMap<>();
         linkedHashMap.put("Banana", 3);
         linkedHashMap.put("Apple", 5);
         linkedHashMap.put("Mango", 2);
-        printMap(linkedHashMap); // Maintains insertion order
+        //printMap(linkedHashMap); // Maintains insertion order
 
         System.out.println("\n=== TreeMap ===");
         Map<String, Integer> treeMap = new TreeMap<>();
         treeMap.put("Banana", 3);
         treeMap.put("Apple", 5);
         treeMap.put("Mango", 2);
-        printMap(treeMap); // Sorted by keys (alphabetically)
+        //printMap(treeMap); // Sorted by keys (alphabetically)
     }
 
     private static void printMap(Map<String, Integer> map) {
         for (Map.Entry<String, Integer> entry : map.entrySet()) {
-            System.out.println(entry.getKey() + " => " + entry.getValue());
+           // System.out.println(entry.getKey() + " => " + entry.getValue());
         }
         // Explain the difference between HashMap and TreeMap.
         // difference between HashMap and Hashtable
@@ -55,15 +59,26 @@ public class MapPractice {
 
         //Write a program to count the frequency of characters in a string using HashMap.
         String str = "automation";
-        char[] strC=str.toCharArray();
-      Map<Character,Integer> freqMap=new HashMap<>();
-      for(char c:strC){
-          freqMap.put(c,freqMap.getOrDefault(c,0)+1);
-      }
-//      for(char c:str.toCharArray()){
+        char[] aStr=str.toCharArray();
+        Map<Character,Integer> strMap=new TreeMap<>();
+        for(char c:aStr){
+            strMap.put(c,strMap.getOrDefault(c,0)+1);
+        }
+       for(Map.Entry<Character,Integer> entry:strMap.entrySet()){
+           System.out.println(entry.getKey()+" : "+entry.getValue());
+       }
+
+
+
+//        char[] strC=str.toCharArray();
+//      Map<Character,Integer> freqMap=new HashMap<>();
+//      for(char c:strC){
 //          freqMap.put(c,freqMap.getOrDefault(c,0)+1);
 //      }
-        System.out.println(freqMap);
+////      for(char c:str.toCharArray()){
+////          freqMap.put(c,freqMap.getOrDefault(c,0)+1);
+////      }
+//        System.out.println(freqMap);
 
         //How would you sort a HashMap by its values?
         Map<String,Integer> mapSort=new HashMap<>();

@@ -103,6 +103,8 @@ public class Mappp {
 
         //validate IPv4 address b/w o-255
         String IPv4="244.244.244.244";
+        String n="\\d[012]\\d[01234]\\d[01234]";
+        System.out.println(IsMatching(IPv4,"n\\.n\\.n\\.n"));
 
         //1. Check if a string contains digits
         String inputdigts = "My phone number is 12345";

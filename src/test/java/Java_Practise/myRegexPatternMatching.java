@@ -29,7 +29,7 @@ public class myRegexPatternMatching {
         System.out.println("*****************");
 
         System.out.println(isPresent("My phone number is 476",".*\\d+.*"));
-        System.out.println(isPresent("test@example.com",""));
+        System.out.println(isPresent("test@example.com","^[\\w]+[@][\\w]+[.][A-Za-z]{2,6}$"));
 //        Pattern pattern= Pattern.compile("java");
 //        Matcher matcher=pattern.matcher(input);
 //        System.out.println(matcher.find());

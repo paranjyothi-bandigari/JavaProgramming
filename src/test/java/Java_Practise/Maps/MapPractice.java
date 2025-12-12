@@ -43,18 +43,15 @@ public class MapPractice {
         treeMap.put("Apple", 5);
         treeMap.put("Mango", 2);
         //printMap(treeMap); // Sorted by keys (alphabetically)
-    }
 
-    private static void printMap(Map<String, Integer> map) {
-        for (Map.Entry<String, Integer> entry : map.entrySet()) {
-           // System.out.println(entry.getKey() + " => " + entry.getValue());
-        }
-        // Explain the difference between HashMap and TreeMap.
-        // difference between HashMap and Hashtable
-        // How do you handle null keys and values in a HashMap
-        // Explain how TreeMap maintains order.
-        // How does a HashMap work in Java
-         // Explain about looping in Map with EntrySet
+
+
+            // Explain the difference between HashMap and TreeMap.
+            // difference between HashMap and Hashtable
+            // How do you handle null keys and values in a HashMap
+            // Explain how TreeMap maintains order.
+            // How does a HashMap work in Java
+            // Explain about looping in Map with EntrySet
 
 
         //Write a program to count the frequency of characters in a string using HashMap.
@@ -70,28 +67,27 @@ public class MapPractice {
 
 
 
-//        char[] strC=str.toCharArray();
-//      Map<Character,Integer> freqMap=new HashMap<>();
-//      for(char c:strC){
-//          freqMap.put(c,freqMap.getOrDefault(c,0)+1);
-//      }
-////      for(char c:str.toCharArray()){
-////          freqMap.put(c,freqMap.getOrDefault(c,0)+1);
-////      }
-//        System.out.println(freqMap);
-
         //How would you sort a HashMap by its values?
         Map<String,Integer> mapSort=new HashMap<>();
         mapSort.put("A",10);
         mapSort.put("C",20);
         mapSort.put("B",30);
-        List<Map.Entry<String,Integer>> list=new ArrayList<>(map.entrySet());
-        list.sort(Map.Entry.comparingByValue());
-        Map<String,Integer> sortedmap=new LinkedHashMap<>();
-        for(Map.Entry<String,Integer> entry:list){
-            sortedmap.put(entry.getKey(), entry.getValue());
-        }
-        System.out.println(sortedmap);
+        List<Map.Entry<String,Integer>> list=new ArrayList<>(mapSort.entrySet());
+list.sort(Map.Entry.comparingByValue());
+Map<String,Integer> sortedMap=new LinkedHashMap<>();
+for(Map.Entry<String,Integer> entry:list){
+    sortedMap.put(entry.getKey(),entry.getValue());
+}
+        System.out.println(sortedMap);
+
+
+        //List<Map.Entry<String,Integer>> list=new ArrayList<>(mapSort.entrySet());
+//        list.sort(Map.Entry.comparingByValue());
+//        Map<String,Integer> sortedmap=new LinkedHashMap<>();
+//        for(Map.Entry<String,Integer> entry:list){
+//            sortedmap.put(entry.getKey(), entry.getValue());
+//        }
+//        System.out.println(sortedmap);
 
         // Find missing numbers in below given array :
         //arr[]={1,3,5,7,9,8,4}; given size=9; o/p should be = 2,6
@@ -99,18 +95,18 @@ public class MapPractice {
 
         // Java Program to Find Occurrences of Elements in an Array
         int[] numbers = {1, 2, 2, 3, 4, 4, 4, 5};
-
-Map<Integer,Integer> occuranceOfNum=new HashMap<>();
-for(int number:numbers){
-    if(occuranceOfNum.containsKey(number)){
-        occuranceOfNum.put(number,occuranceOfNum.get(number)+1);
+Map<Integer,Integer> numMap=new TreeMap<>();
+for(int n:numbers){
+    if(numMap.containsKey(n)){
+        numMap.put(n,numMap.get(n)+1);
     }else{
-        occuranceOfNum.put(number,1);
+        numMap.put(n,1);
     }
 }
-for (Map.Entry<Integer,Integer> entry:occuranceOfNum.entrySet()){
-    System.out.println(entry.getKey()+" : "+entry.getValue());
-}
+     for(Map.Entry<Integer,Integer> enter: numMap.entrySet()){
+         System.out.println(enter.getKey()+" is "+enter.getValue()+" time");
+     }
+
         // How would you merge two HashMaps in Java
         Map<String, Integer> m1=new HashMap<>();
         m1.put("apple",1);
@@ -132,22 +128,21 @@ for (Map.Entry<Integer,Integer> entry:occuranceOfNum.entrySet()){
         m3.put("apple",1);
         m3.put("banana",2);
         m3.put("mango",3);
-        for(Map.Entry<String,Integer> entry:m3.entrySet()){
-            if(entry.getKey()=="banana"){
-                entry.setValue(5);
-            }
-            System.out.println(entry);
-        }
+for(Map.Entry<String,Integer> entry: m3.entrySet()){
+    if(entry.getKey().contains("apple")){
+        entry.setValue(10);
+    }
+}
+        System.out.println(m3);
+
         // Write a Java program that counts the occurrences of each word in a given sentence using a HashMap
         String Sent="java is fun and java is powerful";
-        String[] words=Sent.split(" ");
-        Map<String,Integer> wordMap=new HashMap<>();
-        for(String word:words){
-            wordMap.put(word, wordMap.getOrDefault(word,0)+1);
-        }
-        for(Map.Entry<String,Integer> entry: wordMap.entrySet()){
-            System.out.println(entry.getKey()+" -> "+entry.getValue());
-        }
+        String[] sent=Sent.split(" ");
+Map<String,Integer> sentMap=new TreeMap<>();
+for(String s:sent){
+    sentMap.put(s,sentMap.getOrDefault(s,0)+1);
+}
+        System.out.println(sentMap);
 
     }
 }

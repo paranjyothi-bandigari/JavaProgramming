@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f27df139-dd01-4a24-923f-3be607a4f539" name="Changes" comment="new files added">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/OneToOneCalls/thirdOneToOne.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Java_Practise/Maps/Mappp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/Maps/Mappp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Java_Practise/OneToOneCalls/thirdOneToOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/OneToOneCalls/thirdOneToOne.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,6 +154,7 @@
     "Application.test001.executor": "Run",
     "Application.testDemo.executor": "Run",
     "Application.testPractise.executor": "Run",
+    "Application.thirdOneToOne.executor": "Run",
     "Application.tttt.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -185,7 +185,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.myRegexPatternMatching">
+  <component name="RunManager" selected="Application.thirdOneToOne">
     <configuration name="MapPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java_Practise.Maps.MapPractice" />
       <module name="JavaProgramming" />
@@ -238,8 +238,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="secondOnetoOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Practise.OneToOneCalls.secondOnetoOne" />
+    <configuration name="thirdOneToOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java_Practise.OneToOneCalls.thirdOneToOne" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -253,11 +253,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.thirdOneToOne" />
         <item itemvalue="Application.myRegexPatternMatching" />
         <item itemvalue="Application.MapPractice" />
         <item itemvalue="Application.Mappp" />
         <item itemvalue="Application.arrayPractice" />
-        <item itemvalue="Application.secondOnetoOne" />
       </list>
     </recent_temporary>
   </component>
@@ -269,14 +269,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753131299283</updated>
-    </task>
-    <task id="LOCAL-00087" summary="new files added">
-      <option name="closed" value="true" />
-      <created>1761924694760</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1761924694760</updated>
     </task>
     <task id="LOCAL-00088" summary="new files added">
       <option name="closed" value="true" />
@@ -662,7 +654,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765498559097</updated>
     </task>
-    <option name="localTasksCounter" value="136" />
+    <task id="LOCAL-00136" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1765513320218</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1765513320219</updated>
+    </task>
+    <option name="localTasksCounter" value="137" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

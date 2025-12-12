@@ -1,10 +1,6 @@
 package Java_Practise.Maps;
 
-import org.apache.commons.compress.utils.OsgiUtils;
-
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -114,7 +110,7 @@ public class Mappp {
 //2. Validate email address
 
         String email = "test@example.com";
-        System.out.println(IsMatching(email,"^[\\w]+[@][\\w]+[.][A-za-z]{2,6}$"));
+        System.out.println(IsMatching(email,"^[\\w]+[@][\\w]+[.][A-Za-z]{2,6}$"));
 
 
 // 3. Extract numbers from a string
@@ -163,7 +159,7 @@ public class Mappp {
 
 
     }
-    public static boolean IsMatching(String input,String search){
+    private static boolean IsMatching(String input,String search){
 
         return Pattern.compile(search).matcher(input).find();
     }

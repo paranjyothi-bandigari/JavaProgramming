@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f27df139-dd01-4a24-923f-3be607a4f539" name="Changes" comment="new files added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JavaProgramming/Imp22Java/elementStartDecrease.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Imp22Java/elementStartDecrease.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JavaProgramming/Imp22Java/rotatebyN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Imp22Java/rotatebyN.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Java_Practise/TopTwentyPrograms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/TopTwentyPrograms.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -137,6 +139,7 @@
     "Application.pairElements.executor": "Run",
     "Application.revList.executor": "Run",
     "Application.reverseStringwithWords.executor": "Run",
+    "Application.rotatebyN.executor": "Run",
     "Application.second1to1.executor": "Run",
     "Application.second1to1Session.executor": "Run",
     "Application.secondLowestnumber.executor": "Run",
@@ -159,12 +162,18 @@
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "TestNG.TopTwentyPrograms.anagramProgram.executor": "Run",
+    "TestNG.TopTwentyPrograms.commonIntwoArrays.executor": "Run",
+    "TestNG.TopTwentyPrograms.countPair.executor": "Run",
     "TestNG.TopTwentyPrograms.countVowels.executor": "Run",
+    "TestNG.TopTwentyPrograms.elementStartDecrease.executor": "Run",
+    "TestNG.TopTwentyPrograms.maxProductArrayOfposnegInteger.executor": "Run",
     "TestNG.TopTwentyPrograms.mergeTwoSortedArray.executor": "Run",
     "TestNG.TopTwentyPrograms.palindromeExample.executor": "Run",
+    "TestNG.TopTwentyPrograms.rearrangePosNegNumber.executor": "Run",
     "TestNG.TopTwentyPrograms.revWordInSentence.executor": "Run",
     "TestNG.TopTwentyPrograms.secondSmallestElementInArray.executor": "Run",
     "TestNG.TopTwentyPrograms.secondlargestinArray.executor": "Run",
+    "TestNG.TopTwentyPrograms.segreggatearray.executor": "Run",
     "TestNG.arraysPractice.duplicateElementsInArray.executor": "Run",
     "TestNG.arraysPractice.missingNumberInArray.executor": "Run",
     "TestNG.arraysPractice.revArray.executor": "Run",
@@ -192,8 +201,34 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.TopTwentyPrograms.revWordInSentence">
-    <configuration name="TopTwentyPrograms.anagramProgram" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TopTwentyPrograms.maxProductArrayOfposnegInteger">
+    <configuration name="elementStartDecrease" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Imp22Java.elementStartDecrease" />
+      <module name="JavaProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaProgramming.Imp22Java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="maxProductArrayOfposnegInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Imp22Java.maxProductArrayOfposnegInteger" />
+      <module name="JavaProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaProgramming.Imp22Java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TopTwentyPrograms.countPair" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -203,7 +238,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="Java_Practise" />
       <option name="MAIN_CLASS_NAME" value="Java_Practise.TopTwentyPrograms" />
-      <option name="METHOD_NAME" value="anagramProgram" />
+      <option name="METHOD_NAME" value="countPair" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -211,7 +246,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TopTwentyPrograms.countVowels" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TopTwentyPrograms.elementStartDecrease" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -221,7 +256,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="Java_Practise" />
       <option name="MAIN_CLASS_NAME" value="Java_Practise.TopTwentyPrograms" />
-      <option name="METHOD_NAME" value="countVowels" />
+      <option name="METHOD_NAME" value="elementStartDecrease" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -229,7 +264,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TopTwentyPrograms.mergeTwoSortedArray" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TopTwentyPrograms.maxProductArrayOfposnegInteger" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -239,43 +274,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="Java_Practise" />
       <option name="MAIN_CLASS_NAME" value="Java_Practise.TopTwentyPrograms" />
-      <option name="METHOD_NAME" value="mergeTwoSortedArray" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TopTwentyPrograms.palindromeExample" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="JavaProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_Practise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Java_Practise" />
-      <option name="MAIN_CLASS_NAME" value="Java_Practise.TopTwentyPrograms" />
-      <option name="METHOD_NAME" value="palindromeExample" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TopTwentyPrograms.revWordInSentence" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="JavaProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_Practise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Java_Practise" />
-      <option name="MAIN_CLASS_NAME" value="Java_Practise.TopTwentyPrograms" />
-      <option name="METHOD_NAME" value="revWordInSentence" />
+      <option name="METHOD_NAME" value="maxProductArrayOfposnegInteger" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -285,11 +284,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TopTwentyPrograms.revWordInSentence" />
-        <item itemvalue="TestNG.TopTwentyPrograms.anagramProgram" />
-        <item itemvalue="TestNG.TopTwentyPrograms.countVowels" />
-        <item itemvalue="TestNG.TopTwentyPrograms.palindromeExample" />
-        <item itemvalue="TestNG.TopTwentyPrograms.mergeTwoSortedArray" />
+        <item itemvalue="TestNG.TopTwentyPrograms.maxProductArrayOfposnegInteger" />
+        <item itemvalue="Application.maxProductArrayOfposnegInteger" />
+        <item itemvalue="TestNG.TopTwentyPrograms.elementStartDecrease" />
+        <item itemvalue="Application.elementStartDecrease" />
+        <item itemvalue="TestNG.TopTwentyPrograms.countPair" />
       </list>
     </recent_temporary>
   </component>
@@ -301,14 +300,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753131299283</updated>
-    </task>
-    <task id="LOCAL-00091" summary="new files added">
-      <option name="closed" value="true" />
-      <created>1762300109266</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1762300109267</updated>
     </task>
     <task id="LOCAL-00092" summary="new files added">
       <option name="closed" value="true" />
@@ -694,7 +685,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766169571255</updated>
     </task>
-    <option name="localTasksCounter" value="140" />
+    <task id="LOCAL-00140" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1766436629082</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1766436629083</updated>
+    </task>
+    <option name="localTasksCounter" value="141" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

@@ -2,9 +2,7 @@ package Java_Practise;
 
 import org.testng.annotations.Test;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -32,14 +30,33 @@ if(annagram1.length==annagram2.length){
 
 @Test
 public void commonIntwoArrays(){
-
+int[] arr1={1,2,3,4,7};
+int[] arr2={3,5,7,9};
+List<Integer> noncommon=new ArrayList<>();
+    Set<Integer> common=new HashSet<>();
+    for(int i=0;i<arr1.length;i++){
+        noncommon.add(arr1[i]);
+    }
+    for(int j=0;j<arr2.length;j++){
+        if(noncommon.contains(arr2[j])){
+            common.add(arr2[j]);
+        }else{
+            noncommon.add(arr1[j]);
+        }
+    }
+    System.out.println(common);
 
 }
 
 @Test
 public void countPair(){
-
-
+    //For an array of length n,
+    //👉 Number of pairs = n × (n - 1) / 2
+    int[] arr= {1,2,3,4,5,6};
+    int count=0;
+    int n=arr.length;
+    count=n*(n-1)/2;
+    System.out.println(count);
 }
 
 @Test
@@ -58,7 +75,15 @@ for(int i:CountV.toCharArray()){
 
 @Test
 public void elementStartDecrease(){
-
+    int[] arrnum={0,1,2,3,2,1,0};
+    int descNum=0;
+    for(int i=0;i<arrnum.length-1;i++){
+        if (arrnum[i]>arrnum[i+1]) {
+          descNum=i;
+          break;
+        }
+    }
+    System.out.println(descNum+" : is the Index of DescNumber");
 
 }
 
@@ -88,8 +113,19 @@ public void firststrSubsequenceOfsecond(){
 
 @Test
 public void maxProductArrayOfposnegInteger(){
-
-
+    Integer[] arr= {1,2,6,8,9};
+    int a=arr[0],b=arr[1],c=arr[2];
+    for(int i=0;i<arr.length;i++){
+        for(int j=i+1;j<arr.length;j++){
+            for(int k=j+1;k<arr.length;k++){
+                if(arr[i]*arr[j]*arr[k]>a*b*c){
+                    a=arr[i];
+                    b=arr[j];
+                    c=arr[k];
+                }
+            }
+        }
+    }System.out.println(a+","+b+","+c+" Product is : "+a*b*c);
 }
 
 @Test
@@ -109,32 +145,42 @@ int[] a2={5,6,7};
 
 @Test
 public void pairElements(){
-
-
+    int[] arr = {1, 5, 7, -1, 5};
+    int targetSum = 6;
+    for(int i=0;i<arr.length-1;i++){
+        for(int j=i+1;j<arr.length;j++){
+            if(arr[i]+arr[j]==targetSum){
+                System.out.println("{"+arr[i]+","+arr[j]+"="+targetSum+"}");
+            }
+        }
+    }
 }
 
 @Test
 public void palindromeExample(){ // rev of wor is same as given word then its palandrome
-       //A man a plan a canal Panama
 String palandromeString="A man a plan a canal Panama";
 String a=palandromeString.toLowerCase().replaceAll(" ","");
 String rev="";
-for(int i=a.length()-1;i>=0;i--){
+        for(int i=a.length()-1;i>=0;i--){
     rev=rev+a.charAt(i);
 }
-    System.out.println(rev);
-    System.out.println(a);
-if(a.equals(rev)){
+            System.out.println(rev);
+            System.out.println(a);
+        if(a.equals(rev)){
     System.out.println("Palandrome");
-}else{
-    System.out.println("Not Palandrome");
+}
+        else{
+            System.out.println("Not Palandrome");
 }
 }
 
 @Test
 public void rearrangePosNegNumber(){
-
-
+    int[] arr = {-1, 2, -3, 4, 5, 6, -7, 8, 9};
+    Arrays.sort(arr);
+    for(int n=0;n<arr.length;n++){
+    System.out.println(arr[n]);
+    }
 }
 
 @Test
@@ -158,7 +204,8 @@ for(String w:word){
 
 @Test
 public void rotatebyN(){
-
+int[] num={1,2,3,4,5,6,7,8,9};
+int rotateby=5;
 
 }
 
@@ -210,8 +257,21 @@ public void secondSmallestElementInArrayWithoutSorting(){
 
 @Test
 public void segreggatearray(){
-
-
+       //using List
+//    int arr[] = new int[]{ 0, 1, 0, 1, 1, 1 };
+//    List<Integer> segregated=new ArrayList<>();
+//    int zeroCount=0;
+//    for(int i=0;i<arr.length;i++){
+//        if(arr[i]==0){
+//           segregated.add(arr[i]);
+//        }
+//    }
+//    for(int i=0;i<arr.length;i++){
+//        if(arr[i]==1){
+//            segregated.add(arr[i]);
+//        }
+//    }
+//    System.out.println(segregated);
 }
 
 @Test

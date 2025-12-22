@@ -8,7 +8,7 @@ public class maxProductArrayOfposnegInteger {
             for(int j=i+1; j<arr.length;j++){
             for(int k=j+1;k<arr.length;k++){
 
-                if(arr[i]*arr[j]*arr[k]>a*b*b){
+                if(arr[i]*arr[j]*arr[k]>a*b*c){
                     a=arr[i];
                     b=arr[j];
                     c=arr[k];

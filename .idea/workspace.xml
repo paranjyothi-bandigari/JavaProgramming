@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f27df139-dd01-4a24-923f-3be607a4f539" name="Changes" comment="new files added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Java_Practise/TopTwentyPrograms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/TopTwentyPrograms.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,6 +158,13 @@
     "Application.tttt.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.TopTwentyPrograms.anagramProgram.executor": "Run",
+    "TestNG.TopTwentyPrograms.countVowels.executor": "Run",
+    "TestNG.TopTwentyPrograms.mergeTwoSortedArray.executor": "Run",
+    "TestNG.TopTwentyPrograms.palindromeExample.executor": "Run",
+    "TestNG.TopTwentyPrograms.revWordInSentence.executor": "Run",
+    "TestNG.TopTwentyPrograms.secondSmallestElementInArray.executor": "Run",
+    "TestNG.TopTwentyPrograms.secondlargestinArray.executor": "Run",
     "TestNG.arraysPractice.duplicateElementsInArray.executor": "Run",
     "TestNG.arraysPractice.missingNumberInArray.executor": "Run",
     "TestNG.arraysPractice.revArray.executor": "Run",
@@ -184,48 +192,8 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.thirdOneToOne">
-    <configuration name="MapPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Practise.Maps.MapPractice" />
-      <module name="JavaProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_Practise.Maps.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Mappp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Practise.Maps.Mappp" />
-      <module name="JavaProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_Practise.Maps.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="arrayPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Practise.OneToOneCalls.arrayPractice" />
-      <module name="JavaProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_Practise.OneToOneCalls.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="myRegexPatternMatching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Practise.myRegexPatternMatching" />
+  <component name="RunManager" selected="TestNG.TopTwentyPrograms.revWordInSentence">
+    <configuration name="TopTwentyPrograms.anagramProgram" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -233,30 +201,95 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Java_Practise" />
+      <option name="MAIN_CLASS_NAME" value="Java_Practise.TopTwentyPrograms" />
+      <option name="METHOD_NAME" value="anagramProgram" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="thirdOneToOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Practise.OneToOneCalls.thirdOneToOne" />
+    <configuration name="TopTwentyPrograms.countVowels" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Practise.OneToOneCalls.*" />
+          <option name="PATTERN" value="Java_Practise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Java_Practise" />
+      <option name="MAIN_CLASS_NAME" value="Java_Practise.TopTwentyPrograms" />
+      <option name="METHOD_NAME" value="countVowels" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TopTwentyPrograms.mergeTwoSortedArray" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_Practise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Java_Practise" />
+      <option name="MAIN_CLASS_NAME" value="Java_Practise.TopTwentyPrograms" />
+      <option name="METHOD_NAME" value="mergeTwoSortedArray" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TopTwentyPrograms.palindromeExample" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_Practise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Java_Practise" />
+      <option name="MAIN_CLASS_NAME" value="Java_Practise.TopTwentyPrograms" />
+      <option name="METHOD_NAME" value="palindromeExample" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TopTwentyPrograms.revWordInSentence" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_Practise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Java_Practise" />
+      <option name="MAIN_CLASS_NAME" value="Java_Practise.TopTwentyPrograms" />
+      <option name="METHOD_NAME" value="revWordInSentence" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.thirdOneToOne" />
-        <item itemvalue="Application.myRegexPatternMatching" />
-        <item itemvalue="Application.MapPractice" />
-        <item itemvalue="Application.Mappp" />
-        <item itemvalue="Application.arrayPractice" />
+        <item itemvalue="TestNG.TopTwentyPrograms.revWordInSentence" />
+        <item itemvalue="TestNG.TopTwentyPrograms.anagramProgram" />
+        <item itemvalue="TestNG.TopTwentyPrograms.countVowels" />
+        <item itemvalue="TestNG.TopTwentyPrograms.palindromeExample" />
+        <item itemvalue="TestNG.TopTwentyPrograms.mergeTwoSortedArray" />
       </list>
     </recent_temporary>
   </component>
@@ -268,14 +301,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753131299283</updated>
-    </task>
-    <task id="LOCAL-00090" summary="new files added">
-      <option name="closed" value="true" />
-      <created>1762206433206</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1762206433206</updated>
     </task>
     <task id="LOCAL-00091" summary="new files added">
       <option name="closed" value="true" />
@@ -661,7 +686,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765601037018</updated>
     </task>
-    <option name="localTasksCounter" value="139" />
+    <task id="LOCAL-00139" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1766169571252</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1766169571255</updated>
+    </task>
+    <option name="localTasksCounter" value="140" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

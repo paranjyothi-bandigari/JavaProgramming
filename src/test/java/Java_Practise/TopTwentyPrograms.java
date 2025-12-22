@@ -204,8 +204,18 @@ for(String w:word){
 
 @Test
 public void rotatebyN(){
-int[] num={1,2,3,4,5,6,7,8,9};
-int rotateby=5;
+int[] num={1, 2, 3, 4, 5, 6, 7, 8};
+int rotateby=4;
+for(int i=0;i<rotateby;i++){
+    for(int j=num.length-1;j>0;j--){
+        int temp=num[j];
+        num[j]=num[j-1];
+        num[j-1]=temp;
+    }
+}
+for (int i = 0; i < num.length; i++) {
+        System.out.println(num[i]);
+    }
 
 }
 
@@ -234,6 +244,7 @@ public void secondSmallestElementInArray() {
     Arrays.sort(slargest);
     System.out.println(slargest[1]);
 }
+
 @Test
 public void secondSmallestElementInArrayWithoutSorting(){
     int[] slargest={2,4,7,9,6};
@@ -253,7 +264,6 @@ public void secondSmallestElementInArrayWithoutSorting(){
     System.out.println(secSmall+" : Second Smallest Number");
 
 }
-
 
 @Test
 public void segreggatearray(){

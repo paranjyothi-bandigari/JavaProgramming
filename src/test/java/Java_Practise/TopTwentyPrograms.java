@@ -95,13 +95,33 @@ public void expressionEvaluationRED(){
 
 @Test
 public void firstandLastOccurance(){
-
+    int arr[] = {1, 2, 2, 2, 2, 1, 4, 7 ,8 ,8 };
+    int x = 1;
+for(int i=0;i<arr.length;i++){
+    if(arr[i]==x){
+        System.out.println(arr[i]+" : is the first occurance of 1");
+        break;
+    }
+}
+    for(int i=arr.length-1;i>=0;i--){
+        if(arr[i]==x){
+            System.out.println(arr[i]+" : is the last occurance of 1");
+            break;
+        }
+    }
 
 }
 
 @Test
 public void firstRepeatingElementInArray(){
-
+    int arr[] = {10, 5, 3, 4, 3, 5, 6};
+    for(int i=0;i<arr.length-1;i++){
+        for(int j=i+1;j<arr.length;j++){
+            if(arr[i]==arr[j]){
+                System.out.println(arr[i]+" : is the duplicate element");
+            }
+        }
+    }
 
 }
 
@@ -270,7 +290,6 @@ public void segreggatearray(){
        //using List
 //    int arr[] = new int[]{ 0, 1, 0, 1, 1, 1 };
 //    List<Integer> segregated=new ArrayList<>();
-//    int zeroCount=0;
 //    for(int i=0;i<arr.length;i++){
 //        if(arr[i]==0){
 //           segregated.add(arr[i]);
@@ -286,8 +305,21 @@ public void segreggatearray(){
 
 @Test
 public void sumUntilSingleDigit(){
-
-
+//public static int addDigits(int num){
+//        if(num<10)
+//            return num;
+//        int sum=0;
+//        while(num>0){
+//            int temp=num%10;
+//            sum=sum+temp;
+//            num=num/10;
+//        }
+//        return addDigits(sum);
+//    }
+//
+//    public static void main(String[] args) {
+//        System.out.println(addDigits(246));
+//    }
 }
 
 

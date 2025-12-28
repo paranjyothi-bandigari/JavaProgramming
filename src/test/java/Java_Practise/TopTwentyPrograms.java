@@ -65,7 +65,7 @@ String CountV="PARANJYOTHI";
     Pattern p=Pattern.compile("[AEIOUaeiou]");
     Matcher m=p.matcher(CountV);
    int count=0;
-for(int i:CountV.toCharArray()){
+for(char i:CountV.toCharArray()){
     if(m.find()){
         count++;
         //System.out.println(m.group());
@@ -127,6 +127,9 @@ public void firstRepeatingElementInArray(){
 
 @Test
 public void firststrSubsequenceOfsecond(){
+String subseq="Beat";
+String sub="tea";
+
 
 
 }
@@ -205,6 +208,18 @@ public void rearrangePosNegNumber(){
 
 @Test
 public void removeConsecutiveDuplicate(){
+String consig="aabbcdd"; //abcd
+   //List<String> c=new ArrayList<>();
+   StringBuilder res=new StringBuilder();
+   res.append(consig.charAt(0));
+   for(int i=1;i<consig.length();i++){
+
+       if(consig.charAt(i)!=consig.charAt(i-1)){
+          res.append(consig.charAt(i));
+       }
+   }
+    System.out.println(res);
+
 
 
 }
@@ -213,7 +228,7 @@ public void removeConsecutiveDuplicate(){
 public void revWordInSentence(){
 String Word="My Name iS paran";
 String[] word=Word.split(" ");
-StringBuilder sb=new StringBuilder();
+StringBuilder sb;
   String  revWordInSentence="";
 for(String w:word){
    sb= new StringBuilder(w).reverse().append(" ");
@@ -260,7 +275,7 @@ for(int i:slargest){
 
 @Test
 public void secondSmallestElementInArray() {
-    int[] slargest={2,4,7,9,6};
+    int[] slargest={2,1,4,7,9,6};
     Arrays.sort(slargest);
     System.out.println(slargest[1]);
 }

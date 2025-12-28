@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f27df139-dd01-4a24-923f-3be607a4f539" name="Changes" comment="new files added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JavaProgramming/Imp22Java/RemoveConsecutiveDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Imp22Java/RemoveConsecutiveDuplicate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JavaProgramming/Imp22Java/SumUntilSingleDigit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Imp22Java/SumUntilSingleDigit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Java_Practise/TopTwentyPrograms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/TopTwentyPrograms.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -173,6 +171,7 @@
     "TestNG.TopTwentyPrograms.mergeTwoSortedArray.executor": "Run",
     "TestNG.TopTwentyPrograms.palindromeExample.executor": "Run",
     "TestNG.TopTwentyPrograms.rearrangePosNegNumber.executor": "Run",
+    "TestNG.TopTwentyPrograms.removeConsecutiveDuplicate.executor": "Run",
     "TestNG.TopTwentyPrograms.revWordInSentence.executor": "Run",
     "TestNG.TopTwentyPrograms.rotatebyN.executor": "Run",
     "TestNG.TopTwentyPrograms.secondSmallestElementInArray.executor": "Run",
@@ -206,34 +205,8 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.RemoveConsecutiveDuplicate">
-    <configuration name="RemoveConsecutiveDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Imp22Java.RemoveConsecutiveDuplicate" />
-      <module name="JavaProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaProgramming.Imp22Java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SumUntilSingleDigit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Imp22Java.SumUntilSingleDigit" />
-      <module name="JavaProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaProgramming.Imp22Java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TopTwentyPrograms.firstRepeatingElementInArray" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TopTwentyPrograms.removeConsecutiveDuplicate">
+    <configuration name="TopTwentyPrograms.countVowels" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -243,7 +216,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="Java_Practise" />
       <option name="MAIN_CLASS_NAME" value="Java_Practise.TopTwentyPrograms" />
-      <option name="METHOD_NAME" value="firstRepeatingElementInArray" />
+      <option name="METHOD_NAME" value="countVowels" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -251,7 +224,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TopTwentyPrograms.firstandLastOccurance" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TopTwentyPrograms.palindromeExample" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -261,7 +234,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="Java_Practise" />
       <option name="MAIN_CLASS_NAME" value="Java_Practise.TopTwentyPrograms" />
-      <option name="METHOD_NAME" value="firstandLastOccurance" />
+      <option name="METHOD_NAME" value="palindromeExample" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -269,7 +242,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TopTwentyPrograms.sumUntilSingleDigit" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TopTwentyPrograms.removeConsecutiveDuplicate" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -279,7 +252,43 @@
       </extension>
       <option name="PACKAGE_NAME" value="Java_Practise" />
       <option name="MAIN_CLASS_NAME" value="Java_Practise.TopTwentyPrograms" />
-      <option name="METHOD_NAME" value="sumUntilSingleDigit" />
+      <option name="METHOD_NAME" value="removeConsecutiveDuplicate" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TopTwentyPrograms.rotatebyN" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_Practise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Java_Practise" />
+      <option name="MAIN_CLASS_NAME" value="Java_Practise.TopTwentyPrograms" />
+      <option name="METHOD_NAME" value="rotatebyN" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TopTwentyPrograms.secondSmallestElementInArray" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_Practise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Java_Practise" />
+      <option name="MAIN_CLASS_NAME" value="Java_Practise.TopTwentyPrograms" />
+      <option name="METHOD_NAME" value="secondSmallestElementInArray" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -289,11 +298,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RemoveConsecutiveDuplicate" />
-        <item itemvalue="Application.SumUntilSingleDigit" />
-        <item itemvalue="TestNG.TopTwentyPrograms.sumUntilSingleDigit" />
-        <item itemvalue="TestNG.TopTwentyPrograms.firstRepeatingElementInArray" />
-        <item itemvalue="TestNG.TopTwentyPrograms.firstandLastOccurance" />
+        <item itemvalue="TestNG.TopTwentyPrograms.removeConsecutiveDuplicate" />
+        <item itemvalue="TestNG.TopTwentyPrograms.secondSmallestElementInArray" />
+        <item itemvalue="TestNG.TopTwentyPrograms.rotatebyN" />
+        <item itemvalue="TestNG.TopTwentyPrograms.palindromeExample" />
+        <item itemvalue="TestNG.TopTwentyPrograms.countVowels" />
       </list>
     </recent_temporary>
   </component>
@@ -305,14 +314,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753131299283</updated>
-    </task>
-    <task id="LOCAL-00094" summary="new files added">
-      <option name="closed" value="true" />
-      <created>1762468700133</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1762468700137</updated>
     </task>
     <task id="LOCAL-00095" summary="new files added">
       <option name="closed" value="true" />
@@ -698,7 +699,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766444936690</updated>
     </task>
-    <option name="localTasksCounter" value="143" />
+    <task id="LOCAL-00143" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1766532964626</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1766532964626</updated>
+    </task>
+    <option name="localTasksCounter" value="144" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

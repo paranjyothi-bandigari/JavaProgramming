@@ -131,6 +131,21 @@ public class TopTwentyPrograms {
         String subseq = "Beat";
         String sub = "tea";
 
+        boolean isSubsequence = isSubsequenceIgnoreCase(subseq, sub);
+        System.out.println(subseq + " is subsequence of " + sub + " ? " + isSubsequence);
+    }
+
+    private boolean isSubsequenceIgnoreCase(String a, String b) {
+        String s1 = a.toLowerCase();
+        String s2 = b.toLowerCase();
+        int i = 0, j = 0;
+        while (i < s1.length() && j < s2.length()) {
+            if (s1.charAt(i) == s2.charAt(j)) {
+                i++;
+            }
+            j++;
+        }
+        return i == s1.length();
     }
 
     @Test

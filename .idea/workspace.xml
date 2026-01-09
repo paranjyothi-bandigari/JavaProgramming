@@ -167,6 +167,7 @@
     "TestNG.TopTwentyPrograms.elementStartDecrease.executor": "Run",
     "TestNG.TopTwentyPrograms.firstRepeatingElementInArray.executor": "Run",
     "TestNG.TopTwentyPrograms.firstandLastOccurance.executor": "Run",
+    "TestNG.TopTwentyPrograms.firststrSubsequenceOfsecond.executor": "Run",
     "TestNG.TopTwentyPrograms.maxProductArrayOfposnegInteger.executor": "Run",
     "TestNG.TopTwentyPrograms.mergeTwoSortedArray.executor": "Run",
     "TestNG.TopTwentyPrograms.palindromeExample.executor": "Run",
@@ -202,11 +203,12 @@
     "TestNG.ttt.test003.executor": "Run",
     "TestNG.ttt.testing001.executor": "Run",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.TopTwentyPrograms.removeConsecutiveDuplicate">
-    <configuration name="TopTwentyPrograms.countVowels" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TopTwentyPrograms.firststrSubsequenceOfsecond">
+    <configuration name="TopTwentyPrograms.firststrSubsequenceOfsecond" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -216,7 +218,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="Java_Practise" />
       <option name="MAIN_CLASS_NAME" value="Java_Practise.TopTwentyPrograms" />
-      <option name="METHOD_NAME" value="countVowels" />
+      <option name="METHOD_NAME" value="firststrSubsequenceOfsecond" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -298,11 +300,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TopTwentyPrograms.firststrSubsequenceOfsecond" />
         <item itemvalue="TestNG.TopTwentyPrograms.removeConsecutiveDuplicate" />
         <item itemvalue="TestNG.TopTwentyPrograms.secondSmallestElementInArray" />
         <item itemvalue="TestNG.TopTwentyPrograms.rotatebyN" />
         <item itemvalue="TestNG.TopTwentyPrograms.palindromeExample" />
-        <item itemvalue="TestNG.TopTwentyPrograms.countVowels" />
       </list>
     </recent_temporary>
   </component>
@@ -314,22 +316,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753131299283</updated>
-    </task>
-    <task id="LOCAL-00096" summary="new files added">
-      <option name="closed" value="true" />
-      <created>1762535120200</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1762535120200</updated>
-    </task>
-    <task id="LOCAL-00097" summary="new files added">
-      <option name="closed" value="true" />
-      <created>1762543856953</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1762543856953</updated>
     </task>
     <task id="LOCAL-00098" summary="new files added">
       <option name="closed" value="true" />
@@ -707,7 +693,23 @@
       <option name="project" value="LOCAL" />
       <updated>1766899885908</updated>
     </task>
-    <option name="localTasksCounter" value="145" />
+    <task id="LOCAL-00145" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1767412205067</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1767412205068</updated>
+    </task>
+    <task id="LOCAL-00146" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1767657813997</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1767657813998</updated>
+    </task>
+    <option name="localTasksCounter" value="147" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -723,5 +725,13 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>

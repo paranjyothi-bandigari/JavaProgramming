@@ -123,7 +123,6 @@ public class TopTwentyPrograms {
                 }
             }
         }
-
     }
 
     @Test

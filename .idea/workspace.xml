@@ -160,6 +160,7 @@
     "Application.tttt.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.TopTwentyPrograms.anagramProgram.executor": "Run",
     "TestNG.TopTwentyPrograms.commonIntwoArrays.executor": "Run",
     "TestNG.TopTwentyPrograms.countPair.executor": "Run",
@@ -316,22 +317,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753131299283</updated>
-    </task>
-    <task id="LOCAL-00098" summary="new files added">
-      <option name="closed" value="true" />
-      <created>1762553201191</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1762553201193</updated>
-    </task>
-    <task id="LOCAL-00099" summary="new files added">
-      <option name="closed" value="true" />
-      <created>1762553546390</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1762553546390</updated>
     </task>
     <task id="LOCAL-00100" summary="new files added">
       <option name="closed" value="true" />
@@ -709,7 +694,23 @@
       <option name="project" value="LOCAL" />
       <updated>1767657813998</updated>
     </task>
-    <option name="localTasksCounter" value="147" />
+    <task id="LOCAL-00147" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1767930468925</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1767930468925</updated>
+    </task>
+    <task id="LOCAL-00148" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1768600505828</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1768600505829</updated>
+    </task>
+    <option name="localTasksCounter" value="149" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

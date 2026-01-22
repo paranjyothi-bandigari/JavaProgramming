@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f27df139-dd01-4a24-923f-3be607a4f539" name="Changes" comment="new files added">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/tutu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Java_Practise/tutu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/tutu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,12 +203,15 @@
     "TestNG.ttt.test002.executor": "Run",
     "TestNG.ttt.test003.executor": "Run",
     "TestNG.ttt.testing001.executor": "Run",
+    "TestNG.tutu.anagramProgram.executor": "Run",
+    "TestNG.tutu.countPair.executor": "Run",
+    "TestNG.tutu.palindromeExample.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.TopTwentyPrograms.firststrSubsequenceOfsecond">
+  <component name="RunManager" selected="TestNG.tutu.palindromeExample">
     <configuration name="TopTwentyPrograms.firststrSubsequenceOfsecond" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaProgramming" />
       <extension name="coverage">
@@ -220,24 +223,6 @@
       <option name="PACKAGE_NAME" value="Java_Practise" />
       <option name="MAIN_CLASS_NAME" value="Java_Practise.TopTwentyPrograms" />
       <option name="METHOD_NAME" value="firststrSubsequenceOfsecond" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TopTwentyPrograms.palindromeExample" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="JavaProgramming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java_Practise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Java_Practise" />
-      <option name="MAIN_CLASS_NAME" value="Java_Practise.TopTwentyPrograms" />
-      <option name="METHOD_NAME" value="palindromeExample" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -263,7 +248,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TopTwentyPrograms.rotatebyN" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="tutu.anagramProgram" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -272,8 +257,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Java_Practise" />
-      <option name="MAIN_CLASS_NAME" value="Java_Practise.TopTwentyPrograms" />
-      <option name="METHOD_NAME" value="rotatebyN" />
+      <option name="MAIN_CLASS_NAME" value="Java_Practise.tutu" />
+      <option name="METHOD_NAME" value="anagramProgram" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -281,7 +266,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TopTwentyPrograms.secondSmallestElementInArray" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="tutu.countPair" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
@@ -290,8 +275,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Java_Practise" />
-      <option name="MAIN_CLASS_NAME" value="Java_Practise.TopTwentyPrograms" />
-      <option name="METHOD_NAME" value="secondSmallestElementInArray" />
+      <option name="MAIN_CLASS_NAME" value="Java_Practise.tutu" />
+      <option name="METHOD_NAME" value="countPair" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tutu.palindromeExample" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaProgramming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java_Practise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Java_Practise" />
+      <option name="MAIN_CLASS_NAME" value="Java_Practise.tutu" />
+      <option name="METHOD_NAME" value="palindromeExample" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -301,11 +304,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.tutu.palindromeExample" />
+        <item itemvalue="TestNG.tutu.countPair" />
+        <item itemvalue="TestNG.tutu.anagramProgram" />
         <item itemvalue="TestNG.TopTwentyPrograms.firststrSubsequenceOfsecond" />
         <item itemvalue="TestNG.TopTwentyPrograms.removeConsecutiveDuplicate" />
-        <item itemvalue="TestNG.TopTwentyPrograms.secondSmallestElementInArray" />
-        <item itemvalue="TestNG.TopTwentyPrograms.rotatebyN" />
-        <item itemvalue="TestNG.TopTwentyPrograms.palindromeExample" />
       </list>
     </recent_temporary>
   </component>
@@ -317,14 +320,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753131299283</updated>
-    </task>
-    <task id="LOCAL-00101" summary="new files added">
-      <option name="closed" value="true" />
-      <created>1762821996930</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1762821996930</updated>
     </task>
     <task id="LOCAL-00102" summary="new files added">
       <option name="closed" value="true" />
@@ -710,7 +705,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768932141277</updated>
     </task>
-    <option name="localTasksCounter" value="150" />
+    <task id="LOCAL-00150" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1769122716561</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1769122716561</updated>
+    </task>
+    <option name="localTasksCounter" value="151" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

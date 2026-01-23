@@ -223,7 +223,6 @@ public class TopTwentyPrograms {
     @Test
     public void removeConsecutiveDuplicate() {
         String consig = "aabbcdd"; //abcd
-        //List<String> c=new ArrayList<>();
         StringBuilder res = new StringBuilder();
         res.append(consig.charAt(0));
         for (int i = 1; i < consig.length(); i++) {

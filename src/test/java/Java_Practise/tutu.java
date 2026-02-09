@@ -308,6 +308,7 @@ for(int i=0;i<name.length()-1;i++){
         }
 
        // @Test
+
         //public void sumUntilSingleDigit() {
 public static int addDigits(int num){
                 if(num<10){

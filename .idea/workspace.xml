@@ -5,14 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f27df139-dd01-4a24-923f-3be607a4f539" name="Changes" comment="new files added">
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/testClass009.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Java_Practise/TopTwentyPrograms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/TopTwentyPrograms.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JavaProgramming/Arrays/Anagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Arrays/Anagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JavaProgramming/Arrays/ArrayInReverseOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaProgramming/Arrays/ArrayInReverseOrder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Java_Practise/tutu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Java_Practise/tutu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_/Users/nagarjunakoppala/IdeaProjects/JavaProgramming" value="30CUxpKSWA2moESyIICVLpmVVzr" />
+    </persistenceIdMap>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -47,195 +55,196 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Anagram.executor": "Run",
-    "Application.ArrayInReverseOrder.executor": "Run",
-    "Application.ArraySearch.executor": "Run",
-    "Application.AssendingOrderOfArray.executor": "Run",
-    "Application.CheckStringContainDigits.executor": "Run",
-    "Application.CheckStringContainSpecialCharacter.executor": "Run",
-    "Application.CommonInTwoArrays.executor": "Run",
-    "Application.ConcatTwoStrings.executor": "Run",
-    "Application.CopyStringtoAnother.executor": "Run",
-    "Application.CountCapitalSmallLetters.executor": "Run",
-    "Application.CountPair.executor": "Run",
-    "Application.CountVowels.executor": "Run",
-    "Application.CountWordsInString.executor": "Run",
-    "Application.DuplicateElementsInArray.executor": "Run",
-    "Application.EmailIDMatching.executor": "Run",
-    "Application.EvenOrOdd.executor": "Run",
-    "Application.EvenorOdd.executor": "Run",
-    "Application.Factorial.executor": "Run",
-    "Application.FactorialOfNumber.executor": "Run",
-    "Application.Fibonacci.executor": "Run",
-    "Application.FindLastuniqueCharacter.executor": "Run",
-    "Application.FirstHighestNumberInArray.executor": "Run",
-    "Application.FirstLetterOfEachWord.executor": "Run",
-    "Application.FirstNonRepeatedCharacter.executor": "Run",
-    "Application.FirstandLastOccurance.executor": "Run",
-    "Application.FizzBuzz.executor": "Run",
-    "Application.HighestOccuranceOfCharacter.executor": "Run",
-    "Application.IntList.executor": "Run",
-    "Application.IntList2.executor": "Run",
-    "Application.IntList3.executor": "Run",
-    "Application.IsPrime.executor": "Run",
-    "Application.KeySet.executor": "Run",
-    "Application.MapHashmap.executor": "Run",
-    "Application.MapLoop.executor": "Run",
-    "Application.MapPractice.executor": "Run",
-    "Application.Map_EvenValues.executor": "Run",
-    "Application.Map_ValueUpdate.executor": "Run",
-    "Application.Mappp.executor": "Run",
-    "Application.Maps_ConditionValue.executor": "Run",
-    "Application.MergeTwoSortedArray.executor": "Run",
-    "Application.OccuranceofGivenCharacter.executor": "Run",
-    "Application.Palandrome.executor": "Run",
-    "Application.PalandromeString.executor": "Run",
-    "Application.PalindromeExample.executor": "Run",
-    "Application.PercentageOfVowelsConsonents.executor": "Run",
-    "Application.PrintDuplicateCharacters.executor": "Run",
-    "Application.PrintduplicateCharacterswithCount.executor": "Run",
-    "Application.RearrangePosNegNumber.executor": "Run",
-    "Application.RegexwithMethod.executor": "Run",
-    "Application.RemoveCharacterfromString.executor": "Run",
-    "Application.RemoveConsecutiveDuplicate.executor": "Run",
-    "Application.RemoveDuplicateCharactersFromString.executor": "Run",
-    "Application.RemoveDuplicateElementsChar.executor": "Run",
-    "Application.RemoveSpecialCharactersfromString.executor": "Run",
-    "Application.RemoveWhiteSpacesFromString.executor": "Run",
-    "Application.RemoveallLeadingZeros.executor": "Run",
-    "Application.ReplaceCharacterInString.executor": "Run",
-    "Application.RevString.executor": "Run",
-    "Application.RevWordInSentence.executor": "Run",
-    "Application.ReverseANumber.executor": "Run",
-    "Application.ReverseOfString.executor": "Run",
-    "Application.ReverseString.executor": "Run",
-    "Application.ReverseWordsInString.executor": "Run",
-    "Application.ReverseWordsinSentense.executor": "Run",
-    "Application.SecondHighestNumberInArray.executor": "Run",
-    "Application.Sortstring.executor": "Run",
-    "Application.StringContainDigit.executor": "Run",
-    "Application.StringPatternMatch.executor": "Run",
-    "Application.Stringmatch.executor": "Run",
-    "Application.SumOfArrayElements.executor": "Run",
-    "Application.SumUntilSingleDigit.executor": "Run",
-    "Application.SwapFirstandLastCharOfString.executor": "Run",
-    "Application.ValueSet.executor": "Run",
-    "Application.VowelsConsonents.executor": "Run",
-    "Application.arrayPractice.executor": "Run",
-    "Application.countCharactersDigitsSpecialChars.executor": "Run",
-    "Application.countConsonentsVowels.executor": "Run",
-    "Application.countOccuranceOfEachCharacterInString.executor": "Run",
-    "Application.duplicateelementsinArray.executor": "Run",
-    "Application.elementStartDecrease.executor": "Run",
-    "Application.first1to1Session.executor": "Run",
-    "Application.firstRepeatingElementInArray.executor": "Run",
-    "Application.firststrSubsequenceOfsecond.executor": "Run",
-    "Application.listPractice.executor": "Run",
-    "Application.maxProductArrayOfposnegInteger.executor": "Run",
-    "Application.myRegexPatternMatching.executor": "Run",
-    "Application.newJavaProgram.executor": "Run",
-    "Application.pairElements.executor": "Run",
-    "Application.revList.executor": "Run",
-    "Application.reverseStringwithWords.executor": "Run",
-    "Application.rotatebyN.executor": "Run",
-    "Application.second1to1.executor": "Run",
-    "Application.second1to1Session.executor": "Run",
-    "Application.secondLowestnumber.executor": "Run",
-    "Application.secondSmallestElementInArray.executor": "Run",
-    "Application.secondSmallestElementInArrayWithoutSorting.executor": "Run",
-    "Application.secondlargestinArray.executor": "Run",
-    "Application.segreggatearray.executor": "Run",
-    "Application.stringBuilder_stringBuffer.executor": "Run",
-    "Application.stringImmutable.executor": "Run",
-    "Application.stringMethods.executor": "Run",
-    "Application.stringsPractice.executor": "Run",
-    "Application.subString.executor": "Run",
-    "Application.swap2NumbersWithoutThird.executor": "Run",
-    "Application.test.executor": "Run",
-    "Application.test001.executor": "Run",
-    "Application.testDemo.executor": "Run",
-    "Application.testPractise.executor": "Run",
-    "Application.thirdOneToOne.executor": "Run",
-    "Application.tttt.executor": "Run",
-    "Application.tutu.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.TopTwentyPrograms.anagramProgram.executor": "Run",
-    "TestNG.TopTwentyPrograms.commonIntwoArrays.executor": "Run",
-    "TestNG.TopTwentyPrograms.countPair.executor": "Run",
-    "TestNG.TopTwentyPrograms.countVowels.executor": "Run",
-    "TestNG.TopTwentyPrograms.elementStartDecrease.executor": "Run",
-    "TestNG.TopTwentyPrograms.firstRepeatingElementInArray.executor": "Run",
-    "TestNG.TopTwentyPrograms.firstandLastOccurance.executor": "Run",
-    "TestNG.TopTwentyPrograms.firststrSubsequenceOfsecond.executor": "Run",
-    "TestNG.TopTwentyPrograms.maxProductArrayOfposnegInteger.executor": "Run",
-    "TestNG.TopTwentyPrograms.mergeTwoSortedArray.executor": "Run",
-    "TestNG.TopTwentyPrograms.palindromeExample.executor": "Run",
-    "TestNG.TopTwentyPrograms.rearrangePosNegNumber.executor": "Run",
-    "TestNG.TopTwentyPrograms.removeConsecutiveDuplicate.executor": "Run",
-    "TestNG.TopTwentyPrograms.revWordInSentence.executor": "Run",
-    "TestNG.TopTwentyPrograms.rotatebyN.executor": "Run",
-    "TestNG.TopTwentyPrograms.secondSmallestElementInArray.executor": "Run",
-    "TestNG.TopTwentyPrograms.secondlargestinArray.executor": "Run",
-    "TestNG.TopTwentyPrograms.segreggatearray.executor": "Run",
-    "TestNG.TopTwentyPrograms.sumUntilSingleDigit.executor": "Run",
-    "TestNG.arraysPractice.duplicateElementsInArray.executor": "Run",
-    "TestNG.arraysPractice.missingNumberInArray.executor": "Run",
-    "TestNG.arraysPractice.revArray.executor": "Run",
-    "TestNG.arraysPractice.sortedArray.executor": "Run",
-    "TestNG.arraysPractice.starPyramid.executor": "Debug",
-    "TestNG.practice.arrays.executor": "Run",
-    "TestNG.practice.executor": "Run",
-    "TestNG.practice.newArray.executor": "Run",
-    "TestNG.practice.newArray1.executor": "Run",
-    "TestNG.practice.strings.executor": "Run",
-    "TestNG.practice.strings1.executor": "Run",
-    "TestNG.practice.strings2.executor": "Run",
-    "TestNG.subString.ReverseWordSent.executor": "Run",
-    "TestNG.subString.assertthat.executor": "Run",
-    "TestNG.subString.executor": "Run",
-    "TestNG.subString.palandrome.executor": "Run",
-    "TestNG.subString.revString.executor": "Run",
-    "TestNG.subString.subString.executor": "Run",
-    "TestNG.subString.subStringOccurance.executor": "Run",
-    "TestNG.subString.subdomain.executor": "Run",
-    "TestNG.ttt.test002.executor": "Run",
-    "TestNG.ttt.test003.executor": "Run",
-    "TestNG.ttt.testing001.executor": "Run",
-    "TestNG.tutu.anagramProgram.executor": "Run",
-    "TestNG.tutu.commonIntwoArrays.executor": "Run",
-    "TestNG.tutu.countPair.executor": "Run",
-    "TestNG.tutu.countVowels.executor": "Run",
-    "TestNG.tutu.elementStartDecrease.executor": "Run",
-    "TestNG.tutu.firstRepeatingElementInArray.executor": "Run",
-    "TestNG.tutu.firstandLastOccurance.executor": "Run",
-    "TestNG.tutu.maxProductArrayOfposnegInteger.executor": "Run",
-    "TestNG.tutu.mergeTwoSortedArray.executor": "Run",
-    "TestNG.tutu.pairElements.executor": "Run",
-    "TestNG.tutu.palindromeExample.executor": "Run",
-    "TestNG.tutu.rearrangePosNegNumber.executor": "Run",
-    "TestNG.tutu.removeConsecutiveDuplicate.executor": "Run",
-    "TestNG.tutu.revWordInSentence.executor": "Run",
-    "TestNG.tutu.rotatebyN.executor": "Run",
-    "TestNG.tutu.secondSmallestElementInArray.executor": "Run",
-    "TestNG.tutu.secondSmallestElementInArrayWithoutSorting.executor": "Run",
-    "TestNG.tutu.secondlargestinArray.executor": "Debug",
-    "TestNG.tutu.segreggatearray.executor": "Run",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Anagram.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayInReverseOrder.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArraySearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AssendingOrderOfArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CheckStringContainDigits.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CheckStringContainSpecialCharacter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CommonInTwoArrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConcatTwoStrings.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CopyStringtoAnother.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountCapitalSmallLetters.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountPair.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountVowels.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountWordsInString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DuplicateElementsInArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EmailIDMatching.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EvenOrOdd.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EvenorOdd.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Factorial.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FactorialOfNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Fibonacci.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindLastuniqueCharacter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FirstHighestNumberInArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FirstLetterOfEachWord.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FirstNonRepeatedCharacter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FirstandLastOccurance.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FizzBuzz.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HighestOccuranceOfCharacter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IntList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IntList2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IntList3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IsPrime.executor&quot;: &quot;Run&quot;,
+    &quot;Application.KeySet.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MapHashmap.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MapLoop.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MapPractice.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Map_EvenValues.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Map_ValueUpdate.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Mappp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Maps_ConditionValue.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeTwoSortedArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OccuranceofGivenCharacter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Palandrome.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PalandromeString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PalindromeExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PercentageOfVowelsConsonents.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrintDuplicateCharacters.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrintduplicateCharacterswithCount.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RearrangePosNegNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RegexwithMethod.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveCharacterfromString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveConsecutiveDuplicate.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveDuplicateCharactersFromString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveDuplicateElementsChar.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveSpecialCharactersfromString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveWhiteSpacesFromString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveallLeadingZeros.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReplaceCharacterInString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RevString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RevWordInSentence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseANumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseOfString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseWordsInString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseWordsinSentense.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SecondHighestNumberInArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sortstring.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringContainDigit.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringPatternMatch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Stringmatch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumOfArrayElements.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumUntilSingleDigit.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SwapFirstandLastCharOfString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ValueSet.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VowelsConsonents.executor&quot;: &quot;Run&quot;,
+    &quot;Application.arrayPractice.executor&quot;: &quot;Run&quot;,
+    &quot;Application.countCharactersDigitsSpecialChars.executor&quot;: &quot;Run&quot;,
+    &quot;Application.countConsonentsVowels.executor&quot;: &quot;Run&quot;,
+    &quot;Application.countOccuranceOfEachCharacterInString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.duplicateelementsinArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.elementStartDecrease.executor&quot;: &quot;Run&quot;,
+    &quot;Application.first1to1Session.executor&quot;: &quot;Run&quot;,
+    &quot;Application.firstRepeatingElementInArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.firststrSubsequenceOfsecond.executor&quot;: &quot;Run&quot;,
+    &quot;Application.listPractice.executor&quot;: &quot;Run&quot;,
+    &quot;Application.maxProductArrayOfposnegInteger.executor&quot;: &quot;Run&quot;,
+    &quot;Application.myRegexPatternMatching.executor&quot;: &quot;Run&quot;,
+    &quot;Application.newJavaProgram.executor&quot;: &quot;Run&quot;,
+    &quot;Application.pairElements.executor&quot;: &quot;Run&quot;,
+    &quot;Application.revList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.reverseStringwithWords.executor&quot;: &quot;Run&quot;,
+    &quot;Application.rotatebyN.executor&quot;: &quot;Run&quot;,
+    &quot;Application.second1to1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.second1to1Session.executor&quot;: &quot;Run&quot;,
+    &quot;Application.secondLowestnumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.secondSmallestElementInArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.secondSmallestElementInArrayWithoutSorting.executor&quot;: &quot;Run&quot;,
+    &quot;Application.secondlargestinArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.segreggatearray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.stringBuilder_stringBuffer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.stringImmutable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.stringMethods.executor&quot;: &quot;Run&quot;,
+    &quot;Application.stringsPractice.executor&quot;: &quot;Run&quot;,
+    &quot;Application.subString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.swap2NumbersWithoutThird.executor&quot;: &quot;Run&quot;,
+    &quot;Application.test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.test001.executor&quot;: &quot;Run&quot;,
+    &quot;Application.testClass009.executor&quot;: &quot;Run&quot;,
+    &quot;Application.testDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.testPractise.executor&quot;: &quot;Run&quot;,
+    &quot;Application.thirdOneToOne.executor&quot;: &quot;Run&quot;,
+    &quot;Application.tttt.executor&quot;: &quot;Run&quot;,
+    &quot;Application.tutu.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.TopTwentyPrograms.anagramProgram.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TopTwentyPrograms.commonIntwoArrays.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TopTwentyPrograms.countPair.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TopTwentyPrograms.countVowels.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TopTwentyPrograms.elementStartDecrease.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TopTwentyPrograms.firstRepeatingElementInArray.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TopTwentyPrograms.firstandLastOccurance.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TopTwentyPrograms.firststrSubsequenceOfsecond.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TopTwentyPrograms.maxProductArrayOfposnegInteger.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TopTwentyPrograms.mergeTwoSortedArray.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TopTwentyPrograms.palindromeExample.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TopTwentyPrograms.rearrangePosNegNumber.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TopTwentyPrograms.removeConsecutiveDuplicate.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TopTwentyPrograms.revWordInSentence.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TopTwentyPrograms.rotatebyN.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TopTwentyPrograms.secondSmallestElementInArray.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TopTwentyPrograms.secondlargestinArray.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TopTwentyPrograms.segreggatearray.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TopTwentyPrograms.sumUntilSingleDigit.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.arraysPractice.duplicateElementsInArray.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.arraysPractice.missingNumberInArray.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.arraysPractice.revArray.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.arraysPractice.sortedArray.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.arraysPractice.starPyramid.executor&quot;: &quot;Debug&quot;,
+    &quot;TestNG.practice.arrays.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.practice.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.practice.newArray.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.practice.newArray1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.practice.strings.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.practice.strings1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.practice.strings2.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.subString.ReverseWordSent.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.subString.assertthat.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.subString.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.subString.palandrome.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.subString.revString.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.subString.subString.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.subString.subStringOccurance.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.subString.subdomain.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ttt.test002.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ttt.test003.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ttt.testing001.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.tutu.anagramProgram.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.tutu.commonIntwoArrays.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.tutu.countPair.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.tutu.countVowels.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.tutu.elementStartDecrease.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.tutu.firstRepeatingElementInArray.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.tutu.firstandLastOccurance.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.tutu.maxProductArrayOfposnegInteger.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.tutu.mergeTwoSortedArray.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.tutu.pairElements.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.tutu.palindromeExample.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.tutu.rearrangePosNegNumber.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.tutu.removeConsecutiveDuplicate.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.tutu.revWordInSentence.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.tutu.rotatebyN.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.tutu.secondSmallestElementInArray.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.tutu.secondSmallestElementInArrayWithoutSorting.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.tutu.secondlargestinArray.executor&quot;: &quot;Debug&quot;,
+    &quot;TestNG.tutu.segreggatearray.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.tutu">
-    <configuration name="tutu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Practise.tutu" />
+}</component>
+  <component name="RunManager" selected="Application.duplicateelementsinArray">
+    <configuration name="ArrayInReverseOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Arrays.ArrayInReverseOrder" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Practise.*" />
+          <option name="PATTERN" value="JavaProgramming.Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -243,85 +252,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tutu.commonIntwoArrays" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DuplicateElementsInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Arrays.DuplicateElementsInArray" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Practise.*" />
+          <option name="PATTERN" value="JavaProgramming.Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Java_Practise" />
-      <option name="MAIN_CLASS_NAME" value="Java_Practise.tutu" />
-      <option name="METHOD_NAME" value="commonIntwoArrays" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tutu.elementStartDecrease" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FirstHighestNumberInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Arrays.FirstHighestNumberInArray" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Practise.*" />
+          <option name="PATTERN" value="JavaProgramming.Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Java_Practise" />
-      <option name="MAIN_CLASS_NAME" value="Java_Practise.tutu" />
-      <option name="METHOD_NAME" value="elementStartDecrease" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tutu.firstandLastOccurance" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Map_EvenValues" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Collections.Map_EvenValues" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Practise.*" />
+          <option name="PATTERN" value="JavaProgramming.Collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Java_Practise" />
-      <option name="MAIN_CLASS_NAME" value="Java_Practise.tutu" />
-      <option name="METHOD_NAME" value="firstandLastOccurance" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tutu.maxProductArrayOfposnegInteger" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="duplicateelementsinArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaProgramming.Imp.duplicateelementsinArray" />
       <module name="JavaProgramming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Practise.*" />
+          <option name="PATTERN" value="JavaProgramming.Imp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Java_Practise" />
-      <option name="MAIN_CLASS_NAME" value="Java_Practise.tutu" />
-      <option name="METHOD_NAME" value="maxProductArrayOfposnegInteger" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.tutu" />
-        <item itemvalue="TestNG.tutu.firstandLastOccurance" />
-        <item itemvalue="TestNG.tutu.elementStartDecrease" />
-        <item itemvalue="TestNG.tutu.commonIntwoArrays" />
-        <item itemvalue="TestNG.tutu.maxProductArrayOfposnegInteger" />
+        <item itemvalue="Application.duplicateelementsinArray" />
+        <item itemvalue="Application.Map_EvenValues" />
+        <item itemvalue="Application.FirstHighestNumberInArray" />
+        <item itemvalue="Application.DuplicateElementsInArray" />
+        <item itemvalue="Application.ArrayInReverseOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -333,22 +322,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753131299283</updated>
-    </task>
-    <task id="LOCAL-00103" summary="new files added">
-      <option name="closed" value="true" />
-      <created>1763417462084</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1763417462084</updated>
-    </task>
-    <task id="LOCAL-00104" summary="new files added">
-      <option name="closed" value="true" />
-      <created>1763595832596</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1763595832596</updated>
     </task>
     <task id="LOCAL-00105" summary="new files added">
       <option name="closed" value="true" />
@@ -726,7 +699,23 @@
       <option name="project" value="LOCAL" />
       <updated>1769124600581</updated>
     </task>
-    <option name="localTasksCounter" value="152" />
+    <task id="LOCAL-00152" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1769140228152</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1769140228153</updated>
+    </task>
+    <task id="LOCAL-00153" summary="new files added">
+      <option name="closed" value="true" />
+      <created>1769189999853</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1769189999853</updated>
+    </task>
+    <option name="localTasksCounter" value="154" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
